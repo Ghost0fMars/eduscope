@@ -1,0 +1,6 @@
+{
+  "name": "Cartographie Scolaire Aix-Marseille ASH",
+  "description": "Visualisation et pilotage académique en temps réel des établissements, effectifs et dispositifs ASH pour l'Académie d'Aix-Marseille. Outil stratégique pour ERSEH et CPC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

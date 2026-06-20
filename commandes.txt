@@ -1,0 +1,2 @@
+Pour régénérer à chaque mise à jour des JSON
+npx tsx scripts/importData.ts

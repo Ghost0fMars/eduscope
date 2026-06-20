@@ -1,0 +1,101 @@
+[
+  {
+    "etablissement": "Étiquettes de lignes",
+    "effectif3eme": 3,
+    "effectif4eme": 4,
+    "effectif5eme": 5,
+    "effectif6eme": 6,
+    "totalEffectif": null,
+    "format6eme": null,
+    "effectif6emeReel": null,
+    "placesRestantes6eme": null
+  },
+  {
+    "etablissement": "ARC de Meyran",
+    "effectif3eme": 24,
+    "effectif4eme": 24,
+    "effectif5eme": 23,
+    "effectif6eme": 20,
+    "totalEffectif": 91,
+    "format6eme": 24,
+    "effectif6emeReel": 20,
+    "placesRestantes6eme": 4
+  },
+  {
+    "etablissement": "CHÂTEAU Forbin",
+    "effectif3eme": 16,
+    "effectif4eme": 14,
+    "effectif5eme": 14,
+    "effectif6eme": 8,
+    "totalEffectif": 52,
+    "format6eme": 16,
+    "effectif6emeReel": 8,
+    "placesRestantes6eme": 8
+  },
+  {
+    "etablissement": "D.MILHAUD",
+    "effectif3eme": 26,
+    "effectif4eme": 22,
+    "effectif5eme": 15,
+    "effectif6eme": 18,
+    "totalEffectif": 81,
+    "format6eme": 24,
+    "effectif6emeReel": 18,
+    "placesRestantes6eme": 6
+  },
+  {
+    "etablissement": "GLANUM",
+    "effectif3eme": 16,
+    "effectif4eme": 15,
+    "effectif5eme": 16,
+    "effectif6eme": 16,
+    "totalEffectif": 63,
+    "format6eme": 16,
+    "effectif6emeReel": 16,
+    "placesRestantes6eme": 0
+  },
+  {
+    "etablissement": "L. MICHEL",
+    "effectif3eme": 19,
+    "effectif4eme": 21,
+    "effectif5eme": 15,
+    "effectif6eme": 14,
+    "totalEffectif": 69,
+    "format6eme": 32,
+    "effectif6emeReel": 24,
+    "placesRestantes6eme": 8
+  },
+  {
+    "etablissement": "Les CAILLOLS",
+    "effectif3eme": 15,
+    "effectif4eme": 9,
+    "effectif5eme": 12,
+    "effectif6eme": 13,
+    "totalEffectif": 49,
+    "format6eme": 24,
+    "effectif6emeReel": 14,
+    "placesRestantes6eme": 10
+  },
+  {
+    "etablissement": "MONT SAUVY",
+    "effectif3eme": 16,
+    "effectif4eme": 16,
+    "effectif5eme": 16,
+    "effectif6eme": 16,
+    "totalEffectif": 64,
+    "format6eme": 16,
+    "effectif6emeReel": 13,
+    "placesRestantes6eme": 3
+  },
+  {
+    "etablissement": "S. MENU",
+    "effectif3eme": 14,
+    "effectif4eme": 8,
+    "effectif5eme": 3,
+    "effectif6eme": 13,
+    "totalEffectif": 38,
+    "format6eme": 16,
+    "effectif6emeReel": 16,
+    "placesRestantes6eme": 0
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "genere_le": "2026-06-19",
+  "mis_a_jour_le": "2026-06-19",
+  "source": "Base de données EduScope — DSDEN 13",
+  "note_rgpd": "Cette application ne stocke aucune donnée nominative ou individuelle concernant des élèves. Les fichiers d'affectations et de commissions pseudonymisés ont été retirés du projet le 19/06/2026. Seuls des agrégats par établissement (type de dispositif, capacité, effectif global) et des données professionnelles publiques (établissements, ERSEH, directeurs) sont conservés.",
+  "fichiers": [
+    {
+      "fichier": "erseh.json",
+      "description": "Annuaire ERSEH (depuis Liste ERSEH.xlsx)",
+      "nombreEnregistrements": 75
+    },
+    {
+      "fichier": "etablissements.json",
+      "description": "Référentiel établissements académie Aix-Marseille",
+      "nombreEnregistrements": 386
+    },
+    {
+      "fichier": "segpa_etablissements.json",
+      "description": "Référentiel SEGPA seules",
+      "nombreEnregistrements": 44
+    },
+    {
+      "fichier": "directeurs_segpa.json",
+      "description": "Contacts directeurs SEGPA (DACS)",
+      "nombreEnregistrements": 45
+    },
+    {
+      "fichier": "capacites_ulis_ecole.json",
+      "description": "Capacités et places vacantes ULIS École par dispositif (agrégats uniquement)",
+      "nombreEnregistrements": 147
+    },
+    {
+      "fichier": "capacites_segpa.json",
+      "description": "Capacités SEGPA par établissement et niveau (agrégats uniquement)",
+      "nombreEnregistrements": 9
+    },
+    {
+      "fichier": "referents_complets.json",
+      "description": "Annuaire référents ERSEH complet (avec secteur ASH)",
+      "nombreEnregistrements": 74
+    }
+  ],
+  "fichiers_retires": [
+    {
+      "fichier": "affectations_ulis_ecole.json",
+      "raison": "Données nominatives élèves (pseudonymisées) — retiré pour protection des données"
+    },
+    {
+      "fichier": "affectations_segpa.json",
+      "raison": "Données nominatives élèves (pseudonymisées) — retiré pour protection des données"
+    },
+    {
+      "fichier": "commissions_ulis.json",
+      "raison": "Données nominatives élèves (pseudonymisées) — retiré pour protection des données"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "departement": "4",
+    "uai": "0040054M",
+    "libelle": "SEGPA CLG GASSENDI",
+    "educationPrioritaire": null,
+    "commune": "DIGNE-LES-BAINS",
+    "zoneRemplacement": "ZR DIGNE-LES-BAINS"
+  },
+  {
+    "departement": "4",
+    "uai": "0040041Y",
+    "libelle": "SEGPA CLG JEAN GIONO 04",
+    "educationPrioritaire": "REP",
+    "commune": "MANOSQUE",
+    "zoneRemplacement": "ZR MANOSQUE"
+  },
+  {
+    "departement": "5",
+    "uai": "0050525U",
+    "libelle": "SEGPA CLG LES GARCINS",
+    "educationPrioritaire": null,
+    "commune": "BRIANCON",
+    "zoneRemplacement": "ZR BRIANCON"
+  },
+  {
+    "departement": "5",
+    "uai": "0050404M",
+    "libelle": "SEGPA CLG MAUZAN",
+    "educationPrioritaire": null,
+    "commune": "GAP",
+    "zoneRemplacement": "ZR GAP"
+  },
+  {
+    "departement": "5",
+    "uai": "0050408S",
+    "libelle": "SEGPA CLG FONTREYNE (DE)",
+    "educationPrioritaire": null,
+    "commune": "GAP",
+    "zoneRemplacement": "ZR GAP"
+  },
+  {
+    "departement": "13",
+    "uai": "0130108X",
+    "libelle": "SEGPA CLG JAS DE BOUFFAN",
+    "educationPrioritaire": "REP",
+    "commune": "AIX-EN-PROVENCE",
+    "zoneRemplacement": "ZR NORD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132216N",
+    "libelle": "SEGPA CLG ARC DE MEYRAN",
+    "educationPrioritaire": null,
+    "commune": "AIX-EN-PROVENCE",
+    "zoneRemplacement": "ZR NORD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132218R",
+    "libelle": "SEGPA CLG ROBERT MOREL",
+    "educationPrioritaire": null,
+    "commune": "ARLES",
+    "zoneRemplacement": "ZR OUEST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132413C",
+    "libelle": "SEGPA CLG LOU GARLABAN",
+    "educationPrioritaire": "REP",
+    "commune": "AUBAGNE",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0131845K",
+    "libelle": "SEGPA CLG FERNAND LEGER",
+    "educationPrioritaire": "REP",
+    "commune": "BERRE-L'ETANG",
+    "zoneRemplacement": "ZR NORD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132567V",
+    "libelle": "SEGPA CLG ALPHONSE DAUDET",
+    "educationPrioritaire": "REP",
+    "commune": "ISTRES",
+    "zoneRemplacement": "ZR OUEST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132787J",
+    "libelle": "SEGPA CLG LES MATAGOTS",
+    "educationPrioritaire": null,
+    "commune": "LA CIOTAT",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132320B",
+    "libelle": "SEGPA CLG EMILIE DE MIRABEAU",
+    "educationPrioritaire": null,
+    "commune": "MARIGNANE",
+    "zoneRemplacement": "ZR NORD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0130023E",
+    "libelle": "SEGPA CLG SYLVAIN MENU",
+    "educationPrioritaire": null,
+    "commune": "MARSEILLE 9E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0134023C",
+    "libelle": "SEGPA CLG LOUISE MICHEL",
+    "educationPrioritaire": "REP",
+    "commune": "MARSEILLE 10E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132490L",
+    "libelle": "SEGPA CLG CHATEAU FORBIN",
+    "educationPrioritaire": null,
+    "commune": "MARSEILLE 11E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132001E",
+    "libelle": "SEGPA CLG CAILLOLS (QUARTIER DES)",
+    "educationPrioritaire": null,
+    "commune": "MARSEILLE 12E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132206C",
+    "libelle": "SEGPA CLG DARIUS MILHAUD",
+    "educationPrioritaire": null,
+    "commune": "MARSEILLE 12E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132784F",
+    "libelle": "SEGPA CLG JACQUES PREVERT",
+    "educationPrioritaire": "REP+",
+    "commune": "MARSEILLE 13E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0131791B",
+    "libelle": "SEGPA CLG EDOUARD MANET",
+    "educationPrioritaire": "REP+",
+    "commune": "MARSEILLE 14E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132563R",
+    "libelle": "SEGPA CLG ALEXANDRE DUMAS",
+    "educationPrioritaire": "REP+",
+    "commune": "MARSEILLE 14E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0131846L",
+    "libelle": "SEGPA CLG ARTHUR RIMBAUD",
+    "educationPrioritaire": "REP+",
+    "commune": "MARSEILLE 15E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0133779M",
+    "libelle": "SEGPA CLG JEAN MOULIN",
+    "educationPrioritaire": "REP+",
+    "commune": "MARSEILLE 15E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0130073J",
+    "libelle": "SEGPA CLG HENRI-BARNIER",
+    "educationPrioritaire": "REP+",
+    "commune": "MARSEILLE 16E",
+    "zoneRemplacement": "ZR SUD-EST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132321C",
+    "libelle": "SEGPA CLG MARCEL PAGNOL",
+    "educationPrioritaire": "REP",
+    "commune": "MARTIGUES",
+    "zoneRemplacement": "ZR OUEST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132570Y",
+    "libelle": "SEGPA CLG MIRAMARIS",
+    "educationPrioritaire": "REP+",
+    "commune": "MIRAMAS",
+    "zoneRemplacement": "ZR OUEST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0133598R",
+    "libelle": "SEGPA CLG MONT SAUVY",
+    "educationPrioritaire": "REP",
+    "commune": "ORGON",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "13",
+    "uai": "0133646T",
+    "libelle": "SEGPA CLG FREDERIC MISTRAL",
+    "educationPrioritaire": "REP+",
+    "commune": "PORT-DE-BOUC",
+    "zoneRemplacement": "ZR OUEST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132731Y",
+    "libelle": "SEGPA CLG MAXIMILIEN ROBESPIERRE",
+    "educationPrioritaire": "REP",
+    "commune": "PORT-SAINT-LOUIS-DU-RHONE",
+    "zoneRemplacement": "ZR OUEST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0133292H",
+    "libelle": "SEGPA CLG GLANUM",
+    "educationPrioritaire": null,
+    "commune": "SAINT-REMY-DE-PROVENCE",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "13",
+    "uai": "0132571Z",
+    "libelle": "SEGPA CLG JOSEPH D ARBAUD",
+    "educationPrioritaire": null,
+    "commune": "SALON-DE-PROVENCE",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "13",
+    "uai": "0133407H",
+    "libelle": "SEGPA CLG RENE CASSIN",
+    "educationPrioritaire": "REP",
+    "commune": "TARASCON",
+    "zoneRemplacement": "ZR OUEST 13"
+  },
+  {
+    "departement": "13",
+    "uai": "0132566U",
+    "libelle": "SEGPA CLG HENRI BOSCO",
+    "educationPrioritaire": null,
+    "commune": "VITROLLES",
+    "zoneRemplacement": "ZR NORD-EST 13"
+  },
+  {
+    "departement": "84",
+    "uai": "0841014W",
+    "libelle": "SEGPA CLG APT",
+    "educationPrioritaire": null,
+    "commune": "APT",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840688S",
+    "libelle": "SEGPA LE LAVARIN (ANN CLG A.MATHIEU)",
+    "educationPrioritaire": "REP+",
+    "commune": "AVIGNON",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840019P",
+    "libelle": "SEGPA CLG ANSELME MATHIEU",
+    "educationPrioritaire": "REP+",
+    "commune": "AVIGNON",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840715W",
+    "libelle": "SEGPA CLG HENRI BOUDON",
+    "educationPrioritaire": null,
+    "commune": "BOLLENE",
+    "zoneRemplacement": "ZR VAUCLUSE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840115U",
+    "libelle": "SEGPA CLG FRANCOIS RASPAIL",
+    "educationPrioritaire": "REP",
+    "commune": "CARPENTRAS",
+    "zoneRemplacement": "ZR VAUCLUSE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840735T",
+    "libelle": "SEGPA CLG PAUL GAUTHIER",
+    "educationPrioritaire": "REP+",
+    "commune": "CAVAILLON",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840689T",
+    "libelle": "SEGPA CLG JULES VERNE",
+    "educationPrioritaire": "REP",
+    "commune": "LE PONTET",
+    "zoneRemplacement": "ZR CENTRE ACADEMIE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840117W",
+    "libelle": "SEGPA CLG JEAN GIONO",
+    "educationPrioritaire": null,
+    "commune": "ORANGE",
+    "zoneRemplacement": "ZR VAUCLUSE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840924Y",
+    "libelle": "SEGPA CLG MARCEL PAGNOL 84",
+    "educationPrioritaire": null,
+    "commune": "PERTUIS",
+    "zoneRemplacement": "ZR NORD-EST 13"
+  },
+  {
+    "departement": "84",
+    "uai": "0840584D",
+    "libelle": "SEGPA CLG DENIS DIDEROT",
+    "educationPrioritaire": null,
+    "commune": "SORGUES",
+    "zoneRemplacement": "ZR VAUCLUSE"
+  },
+  {
+    "departement": "84",
+    "uai": "0840922W",
+    "libelle": "SEGPA CLG VALLIS AERIA",
+    "educationPrioritaire": "REP",
+    "commune": "VALREAS",
+    "zoneRemplacement": "ZR VAUCLUSE"
+  }
+]
