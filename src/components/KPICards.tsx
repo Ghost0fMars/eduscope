@@ -300,13 +300,13 @@ export default function KPICards({ filteredSchools, totalSchoolsCount, isSidebar
       {activeModal === 'dispositifs'  && <Modal title="Répartition des dispositifs"  onClose={() => setActiveModal(null)}>{modalDispositifs}</Modal>}
       {activeModal === 'commissions'  && <Modal title="Dossiers en commission"       onClose={() => setActiveModal(null)}>{modalCommissions}</Modal>}
 
-      <div className={minimized ? 'grid grid-cols-5 gap-2 mb-3' : 'grid grid-cols-1 md:grid-cols-3 gap-4 mb-6'}>
+      <div className={minimized ? 'grid grid-cols-5 gap-2 mb-3' : 'grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mb-4'}>
 
         {/* ── FEATURED: Effectifs ULIS / ASH (spans 2 of 3 columns in full mode) ── */}
         <div
           className={minimized
             ? cardBase
-            : 'bg-white rounded-xl shadow-xs border border-gray-100 p-5 transition-all duration-200 cursor-pointer hover:shadow-md hover:border-brand-200 active:scale-100 select-none md:col-span-2 flex flex-col justify-between'
+            : 'bg-white rounded-xl shadow-xs border border-gray-100 p-4 sm:p-5 transition-all duration-200 cursor-pointer hover:shadow-md hover:border-brand-200 active:scale-100 select-none col-span-2 flex flex-col justify-between'
           }
           onClick={() => setActiveModal('effectifs')}
           id="kpi-pupils"
@@ -346,7 +346,7 @@ export default function KPICards({ filteredSchools, totalSchoolsCount, isSidebar
                   <Users className="w-5 h-5" />
                 </div>
               </div>
-              <div className="flex items-end gap-8">
+              <div className="flex flex-col sm:flex-row sm:items-end gap-3 sm:gap-8">
                 {/* Primary metric */}
                 <div className="shrink-0">
                   <div className="flex items-baseline gap-2">

@@ -9,7 +9,7 @@ import PDFReport from './components/PDFReport';
 import KanbanView from './kanban/KanbanView';
 import AgendaView from './agenda/AgendaView';
 import DatabaseView from './database/DatabaseView';
-import { Printer, LayoutDashboard, Kanban, CalendarDays, Database } from 'lucide-react';
+import { Printer, LayoutDashboard, Kanban, CalendarDays, Database, Filter, X } from 'lucide-react';
 
 function syncSchoolCounts(schools: School[]): School[] {
   return schools.map(s => {
@@ -42,6 +42,7 @@ export default function App() {
   const [activeView, setActiveView] = useState<'dashboard' | 'kanban' | 'agenda' | 'database'>(
     () => (localStorage.getItem('eduscope_activeView') as 'dashboard' | 'kanban' | 'agenda' | 'database') || 'dashboard'
   );
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
 
   const handleSetActiveView = (view: 'dashboard' | 'kanban' | 'agenda' | 'database') => {
     localStorage.setItem('eduscope_activeView', view);
@@ -122,15 +123,15 @@ export default function App() {
     <div className="h-screen bg-slate-50 font-sans flex flex-col antialiased overflow-hidden">
 
       {/* ── Header ── */}
-      <header className="h-14 bg-white border-b border-slate-200 flex items-center justify-between px-6 shrink-0 z-30 shadow-xs">
-        <div className="flex items-center space-x-4">
+      <header className="h-14 bg-white border-b border-slate-200 flex items-center justify-between px-3 sm:px-6 shrink-0 z-30 shadow-xs">
+        <div className="flex items-center space-x-2 sm:space-x-4">
           <div className="w-9 h-9 bg-brand-800 flex items-center justify-center rounded-lg shrink-0">
             <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                 d="M9 20l-5.447-2.724A2 2 0 013 15.488V5.512a2 2 0 011.553-1.954L9 1l6 3 5.447-2.724A2 2 0 0121 3.236v9.964a2 2 0 01-1.553 1.954L15 18l-6 2z" />
             </svg>
           </div>
-          <h1 className="text-sm font-bold uppercase tracking-tight text-slate-900">
+          <h1 className="hidden sm:block text-sm font-bold uppercase tracking-tight text-slate-900">
             EduScope
           </h1>
         </div>
@@ -139,57 +140,65 @@ export default function App() {
         <div className="flex h-9 bg-slate-100 border border-slate-200 rounded-lg p-0.5">
           <button
             onClick={() => handleSetActiveView('dashboard')}
-            className={`flex items-center gap-1.5 px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
               activeView === 'dashboard'
                 ? 'bg-white text-slate-900 shadow-sm border border-slate-200/50 font-black'
                 : 'text-slate-500 hover:text-slate-800'
             }`}
           >
             <LayoutDashboard className="w-3.5 h-3.5" />
-            <span>Tableau de bord</span>
+            <span className="hidden sm:inline">Tableau de bord</span>
           </button>
           <button
             onClick={() => handleSetActiveView('database')}
-            className={`flex items-center gap-1.5 px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
               activeView === 'database'
                 ? 'bg-white text-slate-900 shadow-sm border border-slate-200/50 font-black'
                 : 'text-slate-500 hover:text-slate-800'
             }`}
           >
             <Database className="w-3.5 h-3.5" />
-            <span>Bases de données</span>
+            <span className="hidden sm:inline">Bases de données</span>
           </button>
           <button
             onClick={() => handleSetActiveView('kanban')}
-            className={`flex items-center gap-1.5 px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
               activeView === 'kanban'
                 ? 'bg-white text-slate-900 shadow-sm border border-slate-200/50 font-black'
                 : 'text-slate-500 hover:text-slate-800'
             }`}
           >
             <Kanban className="w-3.5 h-3.5" />
-            <span>Tâches en cours</span>
+            <span className="hidden sm:inline">Tâches en cours</span>
           </button>
           <button
             onClick={() => handleSetActiveView('agenda')}
-            className={`flex items-center gap-1.5 px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-1 sm:gap-1.5 px-2 sm:px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
               activeView === 'agenda'
                 ? 'bg-white text-slate-900 shadow-sm border border-slate-200/50 font-black'
                 : 'text-slate-500 hover:text-slate-800'
             }`}
           >
             <CalendarDays className="w-3.5 h-3.5" />
-            <span>Agenda</span>
+            <span className="hidden sm:inline">Agenda</span>
           </button>
         </div>
 
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-2 sm:space-x-4">
+          {activeView === 'dashboard' && (
+            <button
+              onClick={() => setShowMobileFilters(true)}
+              className="sm:hidden p-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 transition-colors cursor-pointer"
+            >
+              <Filter className="w-4 h-4" />
+            </button>
+          )}
           <button
             onClick={() => setShowReport(true)}
             className="px-3 py-1.5 bg-brand-600 hover:bg-brand-700 text-white rounded-lg text-[11px] font-bold transition-all shadow-xs flex items-center gap-1.5 cursor-pointer"
           >
             <Printer className="w-3.5 h-3.5" />
-            Bilan PDF
+            <span className="hidden sm:inline">Bilan PDF</span>
           </button>
 
           <div className="hidden sm:flex items-center text-xs border-l border-slate-200 pl-4">
@@ -207,8 +216,31 @@ export default function App() {
       {/* ── Main content layout ── */}
       {activeView === 'dashboard' ? (
         <div className="flex-1 flex overflow-hidden">
+
+          {/* Overlay mobile pour les filtres */}
+          {showMobileFilters && (
+            <div
+              className="fixed inset-0 bg-black/40 z-40 sm:hidden"
+              onClick={() => setShowMobileFilters(false)}
+            />
+          )}
+
           {/* Barre latérale gauche: Filtres */}
-          <aside className="w-80 border-r border-slate-200 bg-white flex flex-col p-4 overflow-y-auto shrink-0 z-20 shadow-xs">
+          <aside className={[
+            'border-r border-slate-200 bg-white flex-col p-4 overflow-y-auto shrink-0',
+            showMobileFilters
+              ? 'flex fixed inset-y-0 left-0 w-80 z-50 shadow-2xl'
+              : 'hidden sm:flex sm:w-80 sm:z-20 sm:shadow-xs',
+          ].join(' ')}>
+            <div className="sm:hidden flex items-center justify-between mb-4 pb-3 border-b border-slate-100">
+              <span className="text-sm font-bold text-slate-800">Filtres</span>
+              <button
+                onClick={() => setShowMobileFilters(false)}
+                className="p-1.5 rounded-lg hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition-colors cursor-pointer"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
             <Filters
               searchTerm={searchTerm}
               setSearchTerm={setSearchTerm}
@@ -226,13 +258,13 @@ export default function App() {
           </aside>
 
           {/* Zone centrale: KPIs + Carte */}
-          <main className="flex-1 flex flex-col overflow-hidden relative p-6 gap-6">
+          <main className="flex-1 flex flex-col overflow-y-auto sm:overflow-hidden relative p-3 sm:p-6 gap-3 sm:gap-6">
             <KPICards
               filteredSchools={filteredSchools}
               totalSchoolsCount={schools.length}
               isSidebarOpen={!!selectedSchool}
             />
-            <div className="flex-1 min-h-0 bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs relative">
+            <div className="min-h-[220px] flex-1 sm:min-h-0 bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs relative">
               <AcademyMap
                 filteredSchools={filteredSchools}
                 selectedSchool={selectedSchool}
@@ -241,9 +273,11 @@ export default function App() {
             </div>
           </main>
 
-          {/* Tiroir d'informations de l'école (à droite) */}
-          <div className={`transition-all duration-300 ease-in-out border-l border-slate-200 bg-white z-30 shrink-0 h-full shadow-2xl overflow-hidden ${
-            selectedSchool ? 'w-96 md:w-[420px] opacity-100' : 'w-0 opacity-0 pointer-events-none'
+          {/* Tiroir d'informations de l'école — plein écran sur mobile, panneau latéral sur desktop */}
+          <div className={`transition-all duration-300 ease-in-out border-l border-slate-200 bg-white overflow-hidden ${
+            selectedSchool
+              ? 'fixed inset-0 z-50 sm:relative sm:inset-auto sm:z-30 sm:h-full sm:shrink-0 sm:shadow-2xl sm:w-96 md:w-[420px] opacity-100'
+              : 'hidden sm:block sm:w-0 sm:opacity-0 sm:pointer-events-none sm:h-full sm:z-30'
           }`}>
             {selectedSchool && (
               <SchoolDrawer
