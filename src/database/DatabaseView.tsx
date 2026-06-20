@@ -2,7 +2,7 @@ import { useState, useMemo, useRef } from 'react';
 import {
   Building2, Users, User, Landmark, GraduationCap,
   Search, Pencil, Plus, X, Save, ChevronUp, ChevronDown, Trash2,
-  Upload, FileDown, CheckCircle2, AlertCircle
+  Upload, FileDown, CheckCircle2, AlertCircle, Menu
 } from 'lucide-react';
 import { School, AshStudent } from '../data/schoolsData';
 import { ErsehReferent, ersehData as initialErsehData } from '../data/ersehData';
@@ -384,6 +384,7 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
   const [deletingEleve, setDeletingEleve] = useState<{ student: AshStudent; school: School } | null>(null);
 
   const [importResult, setImportResult] = useState<{ ok: boolean; msg: string } | null>(null);
+  const [showSidebar, setShowSidebar] = useState(false);
   const csvInputRef = useRef<HTMLInputElement>(null);
 
   const importErsehCsv = (text: string) => {
@@ -469,6 +470,7 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
     setSearch('');
     setSortField(cat === 'erseh' ? 'nom' : 'name');
     setSortDir('asc');
+    setShowSidebar(false);
   };
 
   const q = search.toLowerCase().trim();
@@ -575,8 +577,30 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
   return (
     <div className="flex flex-1 h-full overflow-hidden">
 
+      {/* Overlay mobile pour la sidebar */}
+      {showSidebar && (
+        <div
+          className="fixed inset-0 bg-black/40 z-40 sm:hidden"
+          onClick={() => setShowSidebar(false)}
+        />
+      )}
+
       {/* ── Left sidebar ── */}
-      <aside className="w-52 bg-white border-r border-slate-200 flex flex-col shrink-0 py-4">
+      <aside className={[
+        'bg-white border-r border-slate-200 flex-col shrink-0 py-4',
+        showSidebar
+          ? 'flex fixed inset-y-0 left-0 w-52 z-50 shadow-2xl'
+          : 'hidden sm:flex sm:w-52',
+      ].join(' ')}>
+        <div className="sm:hidden flex items-center justify-between px-4 mb-4 pb-3 border-b border-slate-100">
+          <span className="text-xs font-bold text-slate-800">Tables</span>
+          <button
+            onClick={() => setShowSidebar(false)}
+            className="p-1.5 rounded-lg hover:bg-slate-100 text-slate-400 hover:text-slate-700 transition-colors cursor-pointer"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
         <p className="px-4 text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-3">Données</p>
         {CATEGORIES.map(cat => (
           <button
@@ -605,8 +629,23 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
       <div className="flex-1 flex flex-col overflow-hidden bg-slate-50">
 
         {/* Toolbar */}
-        <div className="bg-white border-b border-slate-200 px-6 py-3 flex items-center gap-3 shrink-0">
-          <div className="relative flex-1 max-w-sm">
+        <div className="bg-white border-b border-slate-200 px-3 sm:px-6 py-3 flex items-center gap-2 sm:gap-3 shrink-0">
+          {/* Hamburger — mobile uniquement */}
+          <button
+            onClick={() => setShowSidebar(true)}
+            className="sm:hidden p-2 rounded-lg hover:bg-slate-100 text-slate-600 transition-colors cursor-pointer shrink-0"
+            title="Choisir la table"
+          >
+            <Menu className="w-4 h-4" />
+          </button>
+
+          {/* Nom de la catégorie active — mobile uniquement */}
+          <span className="sm:hidden flex items-center gap-1.5 text-xs font-bold text-brand-700 shrink-0">
+            <span className="text-brand-500">{CATEGORIES.find(c => c.id === category)?.icon}</span>
+            {CATEGORIES.find(c => c.id === category)?.label}
+          </span>
+
+          <div className="relative flex-1 sm:max-w-sm">
             <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
             <input
               value={search}
@@ -620,10 +659,10 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
               </button>
             )}
           </div>
-          <span className="text-[11px] text-slate-400 font-medium">
+          <span className="hidden sm:block text-[11px] text-slate-400 font-medium shrink-0">
             {filteredCount[category]} / {totalCount[category]}
           </span>
-          <div className="flex-1" />
+          <div className="hidden sm:block flex-1" />
 
           <input type="file" accept=".csv,.txt" ref={csvInputRef} className="hidden" onChange={handleCsvFile} />
 
@@ -651,19 +690,20 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
                 );
               }
             }}
-            className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
+            className="flex items-center gap-1.5 px-2.5 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
             title="Télécharger un modèle CSV"
           >
             <FileDown className="w-3.5 h-3.5" />
-            Modèle
+            <span className="hidden sm:inline">Modèle</span>
           </button>
 
           <button
             onClick={() => csvInputRef.current?.click()}
-            className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
+            className="flex items-center gap-1.5 px-2.5 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
+            title="Importer CSV"
           >
             <Upload className="w-3.5 h-3.5" />
-            Importer CSV
+            <span className="hidden sm:inline">Importer CSV</span>
           </button>
 
           <button
@@ -672,10 +712,10 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
               else if (category === 'eleves') setAddingEleve(true);
               else setEditingSchool(blankSchool());
             }}
-            className="flex items-center gap-1.5 px-3 py-1.5 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-lg cursor-pointer"
+            className="flex items-center gap-1.5 px-2.5 py-1.5 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-lg cursor-pointer"
           >
             <Plus className="w-3.5 h-3.5" />
-            Ajouter
+            <span className="hidden sm:inline">Ajouter</span>
           </button>
         </div>
 
@@ -694,7 +734,7 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
         )}
 
         {/* Table area */}
-        <div className="flex-1 overflow-auto px-6 py-4">
+        <div className="flex-1 overflow-auto px-3 sm:px-6 py-3 sm:py-4">
 
           {/* ── Établissements ── */}
           {category === 'schools' && (
