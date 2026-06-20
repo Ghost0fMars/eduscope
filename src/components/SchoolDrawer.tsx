@@ -1,22 +1,8 @@
 import { useState, useEffect } from 'react';
-import { School, DEVICE_LABELS } from '../data/schoolsData';
-import { X, School as SchoolIcon, Save, ShieldAlert, Mail, ChevronRight, User, Car, Clock, FileText, Calendar, Phone } from 'lucide-react';
+import { School, AshStudent, DEVICE_LABELS } from '../data/schoolsData';
+import { X, School as SchoolIcon, Save, ShieldAlert, Mail, ChevronRight, User, Car, Clock, FileText, Calendar, Phone, Pencil } from 'lucide-react';
+import { SchoolModal } from './SchoolModal';
 
-// Normalisation des e-mails académiques : prenom.nom@ac-aix-marseille.fr
-function getReferentEmail(name: string): string {
-  if (!name || name === 'nan' || name === 'Non renseigné') return '';
-  const cleanName = name.split('(')[0].trim();
-  const parts = cleanName.split(/\s+/).filter(Boolean);
-  if (parts.length >= 2) {
-    const lastName = parts[0].toLowerCase();
-    const firstName = parts[1].toLowerCase();
-    const removeAccents = (str: string) =>
-      str.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9.-]/g, "");
-    return `${removeAccents(firstName)}.${removeAccents(lastName)}@ac-aix-marseille.fr`;
-  }
-  const fallback = name.toLowerCase().replace(/\s+/g, '.').normalize("NFD").replace(/[̀-ͯ]/g, "");
-  return `${fallback}@ac-aix-marseille.fr`;
-}
 
 interface SchoolDrawerProps {
   school: School;
@@ -147,12 +133,104 @@ function Row({ icon, label, value }: { icon: React.ReactNode; label: string; val
   );
 }
 
+const PPS_COLOR: Record<AshStudent['ppsStatus'], string> = {
+  'À jour': 'bg-emerald-50 text-emerald-700 border-emerald-200',
+  'Révision demandée': 'bg-amber-50 text-amber-700 border-amber-200',
+  'Ébauche en attente': 'bg-slate-100 text-slate-600 border-slate-200',
+};
+
+const inp = 'w-full px-2.5 py-1.5 text-xs border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white text-slate-800';
+
+function EleveModal({ student, onSave, onClose }: {
+  student: AshStudent;
+  onSave: (s: AshStudent) => void;
+  onClose: () => void;
+}) {
+  const [form, setForm] = useState<AshStudent>({ ...student });
+  const set = <K extends keyof AshStudent>(key: K, value: AshStudent[K]) =>
+    setForm(prev => ({ ...prev, [key]: value }));
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm" onClick={onClose}>
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md mx-4 overflow-hidden flex flex-col max-h-[90vh]" onClick={e => e.stopPropagation()}>
+        <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100 shrink-0">
+          <h2 className="text-sm font-bold text-slate-900">
+            {form.prenom || form.nom ? `${form.prenom ?? ''} ${form.nom ?? ''}`.trim() : 'Fiche élève'}
+          </h2>
+          <button onClick={onClose} className="text-slate-400 hover:text-slate-700 cursor-pointer"><X className="w-4 h-4" /></button>
+        </div>
+
+        <div className="overflow-y-auto flex-1 px-5 py-4 space-y-4">
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Nom</label>
+              <input value={form.nom ?? ''} onChange={e => set('nom', e.target.value || undefined)} className={inp} placeholder="Nom de famille" />
+            </div>
+            <div>
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Prénom</label>
+              <input value={form.prenom ?? ''} onChange={e => set('prenom', e.target.value || undefined)} className={inp} placeholder="Prénom" />
+            </div>
+            <div className="col-span-2">
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Date de naissance</label>
+              <input type="date" value={form.dateNaissance ?? ''} onChange={e => set('dateNaissance', e.target.value || undefined)} className={inp} />
+            </div>
+          </div>
+
+          <div className="border-t border-slate-100 pt-4 grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Niveau</label>
+              <input value={form.level} onChange={e => set('level', e.target.value)} className={inp} placeholder="Ex : CM2, 6e…" list="eleve-modal-levels" />
+              <datalist id="eleve-modal-levels">
+                {['PS','MS','GS','CP','CE1','CE2','CM1','CM2','6e','5e','4e','3e','2nde','1re','Tle'].map(l => <option key={l} value={l} />)}
+              </datalist>
+            </div>
+            <div>
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Type AESH</label>
+              <select value={form.aeshType} onChange={e => set('aeshType', e.target.value as AshStudent['aeshType'])} className={inp}>
+                <option value="Aucune">Aucune</option>
+                <option value="Individuelle (AESH-I)">Individuelle (AESH-I)</option>
+                <option value="Mutualisée (AESH-M)">Mutualisée (AESH-M)</option>
+              </select>
+            </div>
+            <div className="col-span-2">
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Statut PPS</label>
+              <select value={form.ppsStatus} onChange={e => set('ppsStatus', e.target.value as AshStudent['ppsStatus'])} className={inp}>
+                <option value="À jour">À jour</option>
+                <option value="Révision demandée">Révision demandée</option>
+                <option value="Ébauche en attente">Ébauche en attente</option>
+              </select>
+            </div>
+            <div className="col-span-2">
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-wider mb-1">Notes</label>
+              <input value={form.notes} onChange={e => set('notes', e.target.value)} className={inp} placeholder="Optionnel" />
+            </div>
+          </div>
+        </div>
+
+        <div className="px-5 py-4 border-t border-slate-100 flex justify-end gap-2 shrink-0">
+          <button onClick={onClose} className="px-4 py-2 text-xs font-bold text-slate-600 hover:bg-slate-100 rounded-lg cursor-pointer">Annuler</button>
+          <button
+            onClick={() => { onSave(form); onClose(); }}
+            className="px-4 py-2 text-xs font-bold bg-brand-600 hover:bg-brand-700 text-white rounded-lg flex items-center gap-1.5 cursor-pointer"
+          >
+            <Save className="w-3.5 h-3.5" /> Enregistrer
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
 export default function SchoolDrawer({ school, onClose, onUpdateSchool }: SchoolDrawerProps) {
   const [baseChecked, setBaseChecked] = useState(school.ashDevice.baseChecked);
   const [valChecked, setValChecked] = useState(school.ashDevice.valChecked);
   const [comments, setComments] = useState(school.ashDevice.comments);
   const [successMsg, setSuccessMsg] = useState('');
   const [selectedStudent, setSelectedStudent] = useState<MockStudentCase | null>(null);
+  const [editingSchool, setEditingSchool] = useState<School | null>(null);
+  const [editingEleve, setEditingEleve] = useState<AshStudent | null>(null);
 
   // Synchronize component states when selected school changes
   useEffect(() => {
@@ -183,13 +261,32 @@ export default function SchoolDrawer({ school, onClose, onUpdateSchool }: School
   return (
     <>
     {selectedStudent && <StudentModal student={selectedStudent} onClose={() => setSelectedStudent(null)} />}
+    {editingEleve && (
+      <EleveModal
+        student={editingEleve}
+        onSave={updated => {
+          const newStudents = (school.ashStudents ?? []).map(s => s.id === updated.id ? updated : s);
+          onUpdateSchool({ ...school, ashStudents: newStudents, studentsCount: { ...school.studentsCount, total: newStudents.length }, ashDevice: { ...school.ashDevice, assignedStudents: newStudents.length } });
+          setEditingEleve(null);
+        }}
+        onClose={() => setEditingEleve(null)}
+      />
+    )}
+    {editingSchool && (
+      <SchoolModal
+        school={editingSchool}
+        onSave={s => { onUpdateSchool(s); setEditingSchool(null); }}
+        onClose={() => setEditingSchool(null)}
+      />
+    )}
+
     <div className="bg-white overflow-hidden flex flex-col h-full" id={`school-pane-${school.rne}`}>
       {/* DRAWER HEADER */}
       <div className="p-4 border-b border-slate-200 bg-slate-50 flex justify-between items-start shrink-0">
         <div className="flex-1 min-w-0 pr-2">
           <div className="flex items-center justify-between mb-1.5">
             <span className="px-2 py-0.5 bg-slate-100 text-slate-600 text-[10px] font-bold rounded-md uppercase border border-slate-200">
-              {school.type}
+              {({ elementaire: 'Primaire', college: 'Collège', lycee: 'Lycée', maternelle: 'Maternelle' } as Record<string, string>)[school.type] ?? school.type}
             </span>
             <span className="text-[10px] font-mono text-slate-400 font-bold">RNE: {school.rne}</span>
           </div>
@@ -199,13 +296,22 @@ export default function SchoolDrawer({ school, onClose, onUpdateSchool }: School
             <span className="font-semibold">{school.city}</span>
           </p>
         </div>
-        <button
-          onClick={onClose}
-          className="p-1 px-2.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 font-bold text-xs transition-transform cursor-pointer shadow-xs border border-slate-200 shrink-0 ml-2"
-          id="btn-close-drawer"
-        >
-          <X className="w-4 h-4" />
-        </button>
+        <div className="flex items-center gap-1.5 ml-2 shrink-0">
+          <button
+            onClick={() => setEditingSchool(school)}
+            className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-brand-600 hover:bg-brand-700 text-white font-bold text-xs transition-colors cursor-pointer shadow-xs border border-brand-700"
+          >
+            <Pencil className="w-3 h-3" />
+            Modifier
+          </button>
+          <button
+            onClick={onClose}
+            className="p-1 px-2.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 font-bold text-xs transition-colors cursor-pointer shadow-xs border border-slate-200"
+            id="btn-close-drawer"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
       </div>
 
       {/* DRAWER SCROLLABLE CONTENT */}
@@ -218,16 +324,20 @@ export default function SchoolDrawer({ school, onClose, onUpdateSchool }: School
             <div className="p-3 bg-brand-50 rounded-lg border border-brand-100">
               <p className="text-[10px] text-brand-600 font-medium mb-1.5">Effectif Scolaire</p>
               <p className="text-xl font-extrabold text-slate-800 font-sans">
-                {school.studentsCount.total} <span className="text-xs font-normal text-brand-400">élèves</span>
+                {school.ashStudents?.length ?? 0} <span className="text-xs font-normal text-brand-400">élèves</span>
               </p>
             </div>
             <div className="p-3 bg-emerald-50 rounded-lg border border-emerald-100">
-              <p className="text-[10px] text-emerald-600 font-medium mb-1.5">Réussite Examens</p>
-              <p className="text-xl font-extrabold text-emerald-600 font-sans">{school.successRate !== undefined ? `${school.successRate}%` : "89.4%"}</p>
+              <p className="text-[10px] text-emerald-600 font-medium mb-1.5">Taux d'occupation</p>
+              <p className="text-xl font-extrabold text-emerald-600 font-sans">
+                {school.ashDevice.capacity > 0
+                  ? `${Math.round(((school.ashStudents?.length ?? 0) / school.ashDevice.capacity) * 100)}%`
+                  : '—'}
+              </p>
             </div>
           </div>
 
-          <div className="bg-slate-50 border border-slate-200 rounded-lg p-3.5">
+          <div className="w-full bg-slate-50 border border-slate-200 rounded-lg p-3.5">
             <span className="text-xs font-semibold text-slate-400 block mb-2">
               Dispositif ASH Actif
             </span>
@@ -241,7 +351,7 @@ export default function SchoolDrawer({ school, onClose, onUpdateSchool }: School
               </span>
               {school.ashDevice.type !== 'NONE' && (
                 <span className="text-xs font-bold text-slate-600 bg-white border border-slate-200 px-2 py-0.5 rounded">
-                  Inclusion: {school.ashDevice.assignedStudents} / {school.ashDevice.capacity} places
+                  Inclusion: {school.ashStudents?.length ?? 0} / {school.ashDevice.capacity} places
                 </span>
               )}
             </div>
@@ -255,133 +365,56 @@ export default function SchoolDrawer({ school, onClose, onUpdateSchool }: School
             Intervenants & Encadrement
           </h4>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 py-1">
-            {school.directorName && school.directorName !== 'nan' ? (
-              <a
-                href={school.email ? `mailto:${school.email}` : '#'}
-                onClick={e => {
-                  if (!school.email) e.preventDefault();
-                }}
-                title={school.email ? `Envoyer un e-mail au Directeur (${school.email})` : "E-mail non renseigné"}
-                className={`bg-slate-50 p-2 rounded border border-slate-200 block transition-all group ${
-                  school.email
-                    ? 'hover:bg-slate-100 hover:border-slate-200 cursor-pointer shadow-xs'
-                    : 'cursor-default'
-                }`}
-              >
-                <span className="text-[10px] text-slate-400 font-medium block flex items-center justify-between">
-                  <span>Direction</span>
-                  {school.email && (
-                    <Mail className="w-3.5 h-3.5 text-slate-400 group-hover:text-brand-500 transition-colors shrink-0" />
-                  )}
-                </span>
-                <span className="text-[11px] font-extrabold text-slate-800 break-words mt-0.5 block group-hover:text-brand-600 transition-colors">
-                  {school.directorName}
-                </span>
-                {school.email && (
-                  <span className="text-[8px] font-mono text-slate-400 block truncate mt-1">
-                    {school.email}
+            {/* Direction */}
+            <div className="bg-slate-50 p-2 rounded border border-slate-200">
+              <span className="text-[10px] text-slate-400 font-medium block">Direction</span>
+              {school.directorName && school.directorName !== 'nan' ? (
+                <>
+                  <span className="text-[11px] font-extrabold text-slate-800 break-words mt-0.5 block">
+                    {school.directorName}
                   </span>
-                )}
-              </a>
-            ) : (
-              <div className="bg-slate-50 p-2 rounded border border-slate-200">
-                <span className="text-[10px] text-slate-400 font-medium block">Direction</span>
+                  {school.email && (
+                    <span className="text-[8px] font-mono text-slate-400 block truncate mt-1 flex items-center gap-1">
+                      <Mail className="w-2.5 h-2.5 shrink-0" />{school.email}
+                    </span>
+                  )}
+                </>
+              ) : (
                 <span className="text-[11px] font-extrabold text-slate-400 italic mt-0.5 block">Non renseignée</span>
-              </div>
-            )}
+              )}
+            </div>
 
-            {school.referentName && school.referentName !== 'nan' ? (
-              (() => {
-                const referentEmail = school.referentEmail?.trim();
-                return referentEmail ? (
-                  <a
-                    href={`mailto:${referentEmail}`}
-                    title={`Envoyer un e-mail au Référent (${referentEmail})`}
-                    className="bg-slate-50 p-2 rounded border border-slate-200 block hover:bg-slate-100 hover:border-slate-200 shadow-xs transition-all cursor-pointer group"
-                  >
-                    <span className="text-[10px] text-slate-400 font-medium block flex items-center justify-between">
-                      <span>ERSEH Référent</span>
-                      <Mail className="w-3.5 h-3.5 text-slate-400 group-hover:text-brand-500 transition-colors shrink-0" />
-                    </span>
-                    <span className="text-[11px] font-extrabold text-brand-700 break-words mt-0.5 block group-hover:text-brand-800 transition-colors">
-                      {school.referentName}
-                    </span>
-                    <div className="text-[8px] font-mono text-slate-400 block truncate mt-1">
-                      <div>{referentEmail}</div>
+            {/* ERSEH Référent */}
+            <div className="bg-slate-50 p-2 rounded border border-slate-200">
+              <span className="text-[10px] text-slate-400 font-medium block">ERSEH Référent</span>
+              {school.referentName && school.referentName !== 'nan' ? (
+                <>
+                  <span className="text-[11px] font-extrabold text-brand-700 break-words mt-0.5 block">
+                    {school.referentName}
+                  </span>
+                  {(school.referentEmail || school.referentPhone) && (
+                    <div className="text-[8px] font-mono text-slate-400 mt-1 space-y-0.5">
+                      {school.referentEmail && <div className="flex items-center gap-1"><Mail className="w-2.5 h-2.5 shrink-0" />{school.referentEmail}</div>}
                       {school.referentPhone && <div>{school.referentPhone}</div>}
                     </div>
-                  </a>
-                ) : (
-                  <div className="bg-slate-50 p-2 rounded border border-slate-200">
-                    <span className="text-[10px] text-slate-400 font-medium block">ERSEH Référent</span>
-                    <span className="text-[11px] font-extrabold text-slate-800 break-words mt-0.5 block">
-                      {school.referentName}
-                    </span>
-                    {school.referentPhone && (
-                      <span className="text-[8px] font-mono text-slate-400 block truncate mt-1">
-                        {school.referentPhone}
-                      </span>
-                    )}
-                    <span className="text-[8px] text-slate-500 block mt-1">E-mail non renseigné</span>
-                  </div>
-                );
-              })()
-            ) : (
-              <div className="bg-slate-50 p-2 rounded border border-slate-200">
-                <span className="text-[10px] text-slate-400 font-medium block">ERSEH Référent</span>
+                  )}
+                </>
+              ) : (
                 <span className="text-[11px] font-extrabold text-slate-400 italic mt-0.5 block">Non renseigné</span>
-              </div>
-            )}
+              )}
+            </div>
 
-            {school.cpcName && school.cpcName !== 'nan' && school.cpcName.trim() !== '' ? (
-              <a
-                href={`mailto:${getReferentEmail(school.cpcName)}`}
-                title={`Envoyer un e-mail au Conseiller CPC (${getReferentEmail(school.cpcName)})`}
-                className="bg-slate-50 p-2 rounded border border-slate-200 block hover:bg-slate-100 hover:border-slate-200 shadow-xs transition-all cursor-pointer group"
-              >
-                <span className="text-[10px] text-slate-400 font-medium block flex items-center justify-between">
-                  <span>Conseiller CPC</span>
-                  <Mail className="w-3.5 h-3.5 text-slate-400 group-hover:text-brand-500 transition-colors shrink-0" />
-                </span>
-                <span className="text-[11px] font-extrabold text-slate-800 break-words mt-0.5 block group-hover:text-brand-600 transition-colors">
+            {/* CPC */}
+            <div className="bg-slate-50 p-2 rounded border border-slate-200">
+              <span className="text-[10px] text-slate-400 font-medium block">Conseiller CPC</span>
+              {school.cpcName && school.cpcName !== 'nan' && school.cpcName.trim() !== '' ? (
+                <span className="text-[11px] font-extrabold text-slate-800 break-words mt-0.5 block">
                   {school.cpcName}
                 </span>
-                <span className="text-[8px] font-mono text-slate-400 block truncate mt-1">
-                  {getReferentEmail(school.cpcName)}
-                </span>
-              </a>
-            ) : (
-              <div className="bg-slate-50 p-2 rounded border border-slate-200">
-                <span className="text-[10px] text-slate-400 font-medium block">Conseiller CPC</span>
+              ) : (
                 <span className="text-[11px] font-extrabold text-slate-400 italic mt-0.5 block">Non renseigné</span>
-              </div>
-            )}
-          </div>
-        </div>
-
-        {/* SECTION 3: CLASSROOM STATISTICS */}
-        <div className="space-y-3">
-          <h4 className="text-xs font-semibold text-slate-400 flex items-center">
-            <span className="w-1.5 h-1.5 bg-slate-300 rounded-full mr-2"></span>
-            Répartition par Niveau
-          </h4>
-
-          <div className="bg-slate-50 rounded-lg p-3 border border-slate-200 space-y-2 text-xs">
-            {Object.entries(school.studentsCount.byLevel).map(([lvl, qty]) => {
-              const maxLvlValue = Math.max(...Object.values(school.studentsCount.byLevel));
-              const progressPct = maxLvlValue > 0 ? (qty / maxLvlValue) * 100 : 0;
-              return (
-                <div key={lvl} className="text-xs">
-                  <div className="flex justify-between mb-0.5 font-bold text-slate-700">
-                    <span>{lvl}</span>
-                    <span>{qty}</span>
-                  </div>
-                  <div className="w-full bg-slate-200 h-1.5 rounded-full overflow-hidden">
-                    <div className="bg-brand-600 h-1.5 rounded-full transition-all duration-300" style={{ width: `${progressPct}%` }}></div>
-                  </div>
-                </div>
-              );
-            })}
+              )}
+            </div>
           </div>
         </div>
 
@@ -390,13 +423,28 @@ export default function SchoolDrawer({ school, onClose, onUpdateSchool }: School
           <div className="space-y-3">
             <h4 className="text-xs font-semibold text-slate-400 flex items-center">
               <span className="w-1.5 h-1.5 bg-slate-300 rounded-full mr-2"></span>
-              Parcours des Elèves Rattachés (Dispositif ASH)
+              Parcours des Élèves Rattachés (Dispositif ASH)
             </h4>
-            <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 text-center">
-              <p className="text-xs font-semibold text-slate-600 mb-1">Aucune donnée élève stockée</p>
-              <p className="text-[10px] text-slate-400 leading-relaxed">
-                Conformément au RGPD (protection des données personnelles), aucun dossier nominatif d'élève n'est conservé dans l'application.
-              </p>
+            <div className="w-full bg-slate-50 border border-slate-200 rounded-xl p-3.5">
+              {(!school.ashStudents || school.ashStudents.length === 0) ? (
+                <p className="text-xs text-slate-400 italic text-center py-2">Aucun élève enregistré</p>
+              ) : (
+                <div className="space-y-1.5">
+                  <p className="text-[10px] font-bold text-slate-500 mb-2">{school.ashStudents.length} élève{school.ashStudents.length > 1 ? 's' : ''}</p>
+                  {[...school.ashStudents].sort((a, b) => (a.nom ?? '').localeCompare(b.nom ?? '', 'fr')).map((s) => (
+                    <button key={s.id} onClick={() => setEditingEleve(s)} className="w-full flex items-center gap-2 text-xs hover:bg-brand-50 hover:border-brand-200 border border-transparent rounded-lg px-2 py-1 transition-colors cursor-pointer text-left">
+                      <span className="font-bold text-slate-800 shrink-0">
+                        {s.prenom || s.nom
+                          ? `${s.prenom ?? ''} ${s.nom ?? ''}`.trim()
+                          : <span className="text-slate-400 italic font-normal">Anonyme</span>}
+                      </span>
+                      <span className="font-bold text-brand-700 w-10 shrink-0">{s.level}</span>
+                      <span className="text-slate-500 flex-1 truncate">{s.aeshType}</span>
+                      <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${PPS_COLOR[s.ppsStatus]}`}>{s.ppsStatus}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         )}

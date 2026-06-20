@@ -1,13 +1,14 @@
 import { useState, useMemo, useRef } from 'react';
 import {
-  Building2, Users, User, GraduationCap, Landmark,
+  Building2, Users, User, Landmark, GraduationCap,
   Search, Pencil, Plus, X, Save, ChevronUp, ChevronDown, Trash2,
   Upload, FileDown, CheckCircle2, AlertCircle
 } from 'lucide-react';
-import { School } from '../data/schoolsData';
+import { School, AshStudent } from '../data/schoolsData';
 import { ErsehReferent, ersehData as initialErsehData } from '../data/ersehData';
+import { SchoolModal } from '../components/SchoolModal';
 
-type DbCategory = 'schools' | 'erseh' | 'directors' | 'cpc' | 'ien';
+type DbCategory = 'schools' | 'erseh' | 'directors' | 'cpc' | 'ien' | 'eleves';
 type SortDir = 'asc' | 'desc';
 
 interface DatabaseViewProps {
@@ -17,20 +18,17 @@ interface DatabaseViewProps {
   onDeleteSchool: (id: string) => void;
 }
 
-const SCHOOL_TYPES = ['maternelle', 'elementaire', 'college', 'lycee'] as const;
-const DEVICE_TYPES = ['NONE', 'TSA', 'TFC', 'TSLA', 'TFA', 'TFM', 'TED', 'SEGPA'] as const;
 const SCHOOL_TYPE_LABELS: Record<string, string> = {
-  maternelle: 'Maternelle',
-  elementaire: 'Élémentaire',
+  elementaire: 'Primaire',
   college: 'Collège',
   lycee: 'Lycée',
 };
 
 const CATEGORIES: { id: DbCategory; label: string; icon: React.ReactNode }[] = [
   { id: 'schools',   label: 'Établissements', icon: <Building2 className="w-4 h-4" /> },
+  { id: 'eleves',    label: 'Élèves',         icon: <GraduationCap className="w-4 h-4" /> },
   { id: 'erseh',     label: 'ERSEH',          icon: <Users className="w-4 h-4" /> },
   { id: 'directors', label: 'Directeurs',     icon: <User className="w-4 h-4" /> },
-  { id: 'cpc',       label: 'CPC',            icon: <GraduationCap className="w-4 h-4" /> },
   { id: 'ien',       label: 'IEN',            icon: <Landmark className="w-4 h-4" /> },
 ];
 
@@ -98,150 +96,6 @@ function blankErseh(): ErsehReferent {
 }
 
 // ─── School edit modal ────────────────────────────────────────────────────────
-
-function SchoolModal({ school, onSave, onClose }: {
-  school: School;
-  onSave: (s: School) => void;
-  onClose: () => void;
-}) {
-  const [form, setForm] = useState<School>({ ...school, ashDevice: { ...school.ashDevice } });
-  const set = (key: keyof School, value: unknown) => setForm(prev => ({ ...prev, [key]: value }));
-  const setDevice = (key: string, value: unknown) =>
-    setForm(prev => ({ ...prev, ashDevice: { ...prev.ashDevice, [key]: value } }));
-
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm" onClick={onClose}>
-      <div
-        className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl mx-4 overflow-hidden flex flex-col max-h-[90vh]"
-        onClick={e => e.stopPropagation()}
-      >
-        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 shrink-0">
-          <h2 className="text-sm font-bold text-slate-900 flex items-center gap-2">
-            <Building2 className="w-4 h-4 text-brand-600" />
-            {form.name || 'Nouvel établissement'}
-          </h2>
-          <button onClick={onClose} className="text-slate-400 hover:text-slate-700 cursor-pointer">
-            <X className="w-4 h-4" />
-          </button>
-        </div>
-
-        <div className="overflow-y-auto flex-1 px-6 py-5 space-y-6">
-          {/* Identité */}
-          <section>
-            <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 mb-3">Identité</p>
-            <div className="grid grid-cols-2 gap-3">
-              <Field label="Nom de l'établissement" span={2}>
-                <input value={form.name} onChange={e => set('name', e.target.value)} className={input} />
-              </Field>
-              <Field label="RNE">
-                <input value={form.rne} onChange={e => set('rne', e.target.value)} className={input} />
-              </Field>
-              <Field label="Type">
-                <select value={form.type} onChange={e => set('type', e.target.value as School['type'])} className={input}>
-                  {SCHOOL_TYPES.map(t => <option key={t} value={t}>{SCHOOL_TYPE_LABELS[t]}</option>)}
-                </select>
-              </Field>
-              <Field label="Ville">
-                <input value={form.city} onChange={e => set('city', e.target.value)} className={input} />
-              </Field>
-              <Field label="Code postal">
-                <input value={form.postalCode ?? ''} onChange={e => set('postalCode', e.target.value)} className={input} />
-              </Field>
-              <Field label="Adresse" span={2}>
-                <input value={form.address ?? ''} onChange={e => set('address', e.target.value)} className={input} />
-              </Field>
-              <Field label="Email">
-                <input value={form.email ?? ''} onChange={e => set('email', e.target.value)} className={input} />
-              </Field>
-              <Field label="Téléphone">
-                <input value={form.phone ?? ''} onChange={e => set('phone', e.target.value)} className={input} />
-              </Field>
-            </div>
-          </section>
-
-          {/* Encadrement */}
-          <section>
-            <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 mb-3">Encadrement</p>
-            <div className="grid grid-cols-2 gap-3">
-              <Field label="Directeur / Directrice" span={2}>
-                <input value={form.directorName} onChange={e => set('directorName', e.target.value)} className={input} />
-              </Field>
-              <Field label="CPC" span={2}>
-                <input value={form.cpcName} onChange={e => set('cpcName', e.target.value)} className={input} />
-              </Field>
-              <Field label="ERSEH (nom)" span={2}>
-                <input value={form.referentName} onChange={e => set('referentName', e.target.value)} className={input} />
-              </Field>
-              <Field label="Secteur ERSEH">
-                <input value={form.secteurERSEH ?? ''} onChange={e => set('secteurERSEH', e.target.value)} className={input} />
-              </Field>
-              <Field label="Tél. ERSEH">
-                <input value={form.referentPhone ?? ''} onChange={e => set('referentPhone', e.target.value)} className={input} />
-              </Field>
-              <Field label="Mail ERSEH" span={2}>
-                <input value={form.referentEmail ?? ''} onChange={e => set('referentEmail', e.target.value)} className={input} />
-              </Field>
-            </div>
-          </section>
-
-          {/* Dispositif ASH */}
-          <section>
-            <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 mb-3">Dispositif ASH</p>
-            <div className="grid grid-cols-3 gap-3">
-              <Field label="Type de dispositif">
-                <select
-                  value={form.ashDevice.type}
-                  onChange={e => setDevice('type', e.target.value)}
-                  className={input}
-                >
-                  {DEVICE_TYPES.map(t => (
-                    <option key={t} value={t}>{t === 'NONE' ? 'Aucun' : t}</option>
-                  ))}
-                </select>
-              </Field>
-              <Field label="Capacité">
-                <input
-                  type="number" min={0}
-                  value={form.ashDevice.capacity}
-                  onChange={e => setDevice('capacity', Number(e.target.value))}
-                  className={input}
-                />
-              </Field>
-              <Field label="Élèves assignés">
-                <input
-                  type="number" min={0}
-                  value={form.ashDevice.assignedStudents}
-                  onChange={e => setDevice('assignedStudents', Number(e.target.value))}
-                  className={input}
-                />
-              </Field>
-              <Field label="Commentaires" span={3}>
-                <textarea
-                  rows={2}
-                  value={form.ashDevice.comments}
-                  onChange={e => setDevice('comments', e.target.value)}
-                  className={`${input} resize-none`}
-                />
-              </Field>
-            </div>
-          </section>
-        </div>
-
-        <div className="px-6 py-4 border-t border-slate-100 flex justify-end gap-2 shrink-0">
-          <button onClick={onClose} className="px-4 py-2 text-xs font-bold text-slate-600 hover:bg-slate-100 rounded-lg cursor-pointer">
-            Annuler
-          </button>
-          <button
-            onClick={() => { onSave(form); onClose(); }}
-            className="px-4 py-2 text-xs font-bold bg-brand-600 hover:bg-brand-700 text-white rounded-lg flex items-center gap-1.5 cursor-pointer"
-          >
-            <Save className="w-3.5 h-3.5" /> Enregistrer
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 // ─── ERSEH edit modal ─────────────────────────────────────────────────────────
 
@@ -358,11 +212,128 @@ function Badge({ label, color }: { label: string; color: string }) {
 }
 
 const TYPE_BADGE: Record<string, string> = {
-  maternelle: 'bg-pink-50 text-pink-700 border-pink-200',
   elementaire: 'bg-blue-50 text-blue-700 border-blue-200',
   college: 'bg-amber-50 text-amber-700 border-amber-200',
   lycee: 'bg-green-50 text-green-700 border-green-200',
 };
+
+function AddEleveModal({ schools, onSave, onClose, initialSchoolId, initialStudent }: {
+  schools: School[];
+  onSave: (school: School, student: AshStudent) => void;
+  onClose: () => void;
+  initialSchoolId?: string;
+  initialStudent?: AshStudent;
+}) {
+  const [schoolId, setSchoolId] = useState(initialSchoolId ?? '');
+  const [nom, setNom] = useState(initialStudent?.nom ?? '');
+  const [prenom, setPrenom] = useState(initialStudent?.prenom ?? '');
+  const [dateNaissance, setDateNaissance] = useState(initialStudent?.dateNaissance ?? '');
+  const [level, setLevel] = useState(initialStudent?.level ?? '');
+  const [aeshType, setAeshType] = useState<AshStudent['aeshType']>(initialStudent?.aeshType ?? 'Aucune');
+  const [ppsStatus, setPpsStatus] = useState<AshStudent['ppsStatus']>(initialStudent?.ppsStatus ?? 'À jour');
+  const [notes, setNotes] = useState(initialStudent?.notes ?? '');
+
+  const ashSchools = schools.filter(s => s.ashDevice.type !== 'NONE');
+  const canSave = schoolId && level.trim();
+
+  const handleSave = () => {
+    const school = schools.find(s => s.id === schoolId);
+    if (!school || !level.trim()) return;
+    const student: AshStudent = {
+      id: initialStudent?.id ?? `${Date.now()}`,
+      nom: nom.trim() || undefined,
+      prenom: prenom.trim() || undefined,
+      dateNaissance: dateNaissance || undefined,
+      level: level.trim(),
+      aeshType,
+      ppsStatus,
+      notes,
+    };
+    onSave(school, student);
+    onClose();
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm" onClick={onClose}>
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md mx-4 overflow-hidden flex flex-col" onClick={e => e.stopPropagation()}>
+        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 shrink-0">
+          <h2 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <GraduationCap className="w-4 h-4 text-brand-600" />
+            {initialStudent ? 'Modifier l\'élève' : 'Ajouter un élève'}
+          </h2>
+          <button onClick={onClose} className="text-slate-400 hover:text-slate-700 cursor-pointer"><X className="w-4 h-4" /></button>
+        </div>
+
+        <div className="px-6 py-5 space-y-4">
+          <Field label="Établissement">
+            <select value={schoolId} onChange={e => setSchoolId(e.target.value)} className={input}>
+              <option value="">— Sélectionner un établissement —</option>
+              {ashSchools.map(s => (
+                <option key={s.id} value={s.id}>{s.name} ({s.city})</option>
+              ))}
+            </select>
+          </Field>
+
+          <div className="grid grid-cols-2 gap-3">
+            <Field label="Nom">
+              <input value={nom} onChange={e => setNom(e.target.value)} className={input} placeholder="Nom de famille" />
+            </Field>
+            <Field label="Prénom">
+              <input value={prenom} onChange={e => setPrenom(e.target.value)} className={input} placeholder="Prénom" />
+            </Field>
+            <Field label="Date de naissance" span={2}>
+              <input type="date" value={dateNaissance} onChange={e => setDateNaissance(e.target.value)} className={input} />
+            </Field>
+
+            <Field label="Niveau">
+              <input
+                value={level}
+                onChange={e => setLevel(e.target.value)}
+                className={input}
+                placeholder="Ex : CM2, 6e…"
+                list="add-eleve-levels"
+              />
+              <datalist id="add-eleve-levels">
+                {['PS','MS','GS','CP','CE1','CE2','CM1','CM2','6e','5e','4e','3e','2nde','1re','Tle'].map(l => <option key={l} value={l} />)}
+              </datalist>
+            </Field>
+
+            <Field label="Type AESH">
+              <select value={aeshType} onChange={e => setAeshType(e.target.value as AshStudent['aeshType'])} className={input}>
+                <option value="Aucune">Aucune</option>
+                <option value="Individuelle (AESH-I)">Individuelle (AESH-I)</option>
+                <option value="Mutualisée (AESH-M)">Mutualisée (AESH-M)</option>
+              </select>
+            </Field>
+
+            <Field label="Statut PPS" span={2}>
+              <select value={ppsStatus} onChange={e => setPpsStatus(e.target.value as AshStudent['ppsStatus'])} className={input}>
+                <option value="À jour">À jour</option>
+                <option value="Révision demandée">Révision demandée</option>
+                <option value="Ébauche en attente">Ébauche en attente</option>
+              </select>
+            </Field>
+
+            <Field label="Notes" span={2}>
+              <input value={notes} onChange={e => setNotes(e.target.value)} className={input} placeholder="Optionnel" />
+            </Field>
+          </div>
+        </div>
+
+        <div className="px-6 py-4 border-t border-slate-100 flex justify-end gap-2 shrink-0">
+          <button onClick={onClose} className="px-4 py-2 text-xs font-bold text-slate-600 hover:bg-slate-100 rounded-lg cursor-pointer">Annuler</button>
+          <button
+            onClick={handleSave}
+            disabled={!canSave}
+            className="px-4 py-2 text-xs font-bold bg-brand-600 hover:bg-brand-700 disabled:opacity-40 disabled:cursor-not-allowed text-white rounded-lg flex items-center gap-1.5 cursor-pointer"
+          >
+            <Save className="w-3.5 h-3.5" /> Enregistrer
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function sortData<T>(data: T[], field: string, dir: SortDir): T[] {
   return [...data].sort((a, b) => {
@@ -407,6 +378,10 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
 
   const [ersehList, setErsehList] = useState<ErsehReferent[]>(initialErsehData);
   const [editingErseh, setEditingErseh] = useState<ErsehReferent | null>(null);
+
+  const [addingEleve, setAddingEleve] = useState(false);
+  const [editingEleve, setEditingEleve] = useState<{ student: AshStudent; school: School } | null>(null);
+  const [deletingEleve, setDeletingEleve] = useState<{ student: AshStudent; school: School } | null>(null);
 
   const [importResult, setImportResult] = useState<{ ok: boolean; msg: string } | null>(null);
   const csvInputRef = useRef<HTMLInputElement>(null);
@@ -462,6 +437,8 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
         ...school,
         directorName: row['directeur'] !== undefined ? row['directeur'] : school.directorName,
         cpcName: row['cpc'] !== undefined ? row['cpc'] : school.cpcName,
+        email: row['email'] !== undefined ? row['email'] : school.email,
+        phone: row['telephone'] !== undefined ? row['telephone'] : school.phone,
       });
       count++;
     }
@@ -476,7 +453,7 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
     reader.onload = evt => {
       const text = evt.target?.result as string;
       if (category === 'erseh' || category === 'ien') importErsehCsv(text);
-      else importSchoolPersonnelCsv(text);
+      else importSchoolPersonnelCsv(text); // schools, directors, cpc, eleves → mapped by RNE
     };
     reader.readAsText(file, 'utf-8');
     e.target.value = '';
@@ -542,6 +519,25 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
     return entries;
   }, [schools, q, sortDir]);
 
+  // ── Élèves ──
+  type EleveRow = AshStudent & { school: School };
+  const filteredEleves = useMemo<EleveRow[]>(() => {
+    const all: EleveRow[] = schools.flatMap(s =>
+      (s.ashStudents ?? []).map(e => ({ ...e, school: s }))
+    );
+    return all.filter(e =>
+      !q ||
+      (e.nom ?? '').toLowerCase().includes(q) ||
+      (e.prenom ?? '').toLowerCase().includes(q) ||
+      e.level.toLowerCase().includes(q) ||
+      e.school.name.toLowerCase().includes(q) ||
+      e.school.city.toLowerCase().includes(q) ||
+      e.ppsStatus.toLowerCase().includes(q) ||
+      e.aeshType.toLowerCase().includes(q) ||
+      e.notes.toLowerCase().includes(q)
+    );
+  }, [schools, q]);
+
   // ── IEN ──
   const ienGroups = useMemo(() => {
     const map = new Map<string, ErsehReferent[]>();
@@ -556,8 +552,11 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
     return entries;
   }, [ersehList, q, sortDir]);
 
+  const totalEleveCount = schools.reduce((n, s) => n + (s.ashStudents?.length ?? 0), 0);
+
   const totalCount = {
     schools: schools.length,
+    eleves: totalEleveCount,
     erseh: ersehList.length,
     directors: schools.length,
     cpc: new Set(schools.map(s => s.cpcName)).size,
@@ -566,6 +565,7 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
 
   const filteredCount = {
     schools: filteredSchools.length,
+    eleves: filteredEleves.length,
     erseh: filteredErseh.length,
     directors: filteredDirectors.length,
     cpc: cpcGroups.length,
@@ -625,59 +625,58 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
           </span>
           <div className="flex-1" />
 
-          {/* CSV import controls — shown for all personal-data categories */}
-          {(category === 'erseh' || category === 'ien' || category === 'directors' || category === 'cpc') && (
-            <>
-              <input
-                type="file"
-                accept=".csv,.txt"
-                ref={csvInputRef}
-                className="hidden"
-                onChange={handleCsvFile}
-              />
-              <button
-                onClick={() => {
-                  const isErseh = category === 'erseh' || category === 'ien';
-                  if (isErseh) {
-                    downloadCsv('modele_erseh.csv',
-                      ['secteurCode', 'nom', 'prenom', 'telephone', 'mail'],
-                      ['AIX_1', 'DUPONT', 'Jean', '06 12 34 56 78', 'ce.erseh13-aix1@ac-aix-marseille.fr']
-                    );
-                  } else {
-                    downloadCsv('modele_ecoles_personnel.csv',
-                      ['rne', 'directeur', 'cpc'],
-                      ['0130248Z', 'MME MARTIN Sophie', 'LECLERC Paul']
-                    );
-                  }
-                }}
-                className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
-                title="Télécharger un modèle CSV vide"
-              >
-                <FileDown className="w-3.5 h-3.5" />
-                Modèle
-              </button>
-              <button
-                onClick={() => csvInputRef.current?.click()}
-                className="flex items-center gap-1.5 px-3 py-1.5 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-lg cursor-pointer"
-              >
-                <Upload className="w-3.5 h-3.5" />
-                Importer CSV
-              </button>
-            </>
-          )}
+          <input type="file" accept=".csv,.txt" ref={csvInputRef} className="hidden" onChange={handleCsvFile} />
 
-          {(category === 'schools' || category === 'erseh') && (
-            <button
-              onClick={() => {
-                if (category === 'schools') setEditingSchool(blankSchool());
-                else setEditingErseh(blankErseh());
-              }}
-              className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs font-bold rounded-lg cursor-pointer"
-            >
-              <Plus className="w-3.5 h-3.5" />
-              Ajouter
-            </button>
-          )}
+          <button
+            onClick={() => {
+              if (category === 'erseh' || category === 'ien') {
+                downloadCsv('modele_erseh.csv',
+                  ['secteurCode', 'nom', 'prenom', 'telephone', 'mail'],
+                  ['AIX_1', 'DUPONT', 'Jean', '06 12 34 56 78', 'ce.erseh13-aix1@ac-aix-marseille.fr']
+                );
+              } else if (category === 'schools') {
+                downloadCsv('modele_etablissements.csv',
+                  ['rne', 'nom', 'type', 'ville', 'adresse', 'codePostal'],
+                  ['0130248Z', 'ÉCOLE JULIEN', 'elementaire', 'MARSEILLE', '3 RUE JULIEN', '13006']
+                );
+              } else if (category === 'eleves') {
+                downloadCsv('modele_eleves.csv',
+                  ['rne', 'niveau', 'aesh', 'pps', 'notes'],
+                  ['0130248Z', 'CM2', 'Individuelle (AESH-I)', 'À jour', '']
+                );
+              } else {
+                downloadCsv('modele_ecoles_personnel.csv',
+                  ['rne', 'directeur', 'cpc', 'email', 'telephone'],
+                  ['0130248Z', 'MME MARTIN Sophie', 'LECLERC Paul', 'ce.0130248Z@ac-aix-marseille.fr', '0491234567']
+                );
+              }
+            }}
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
+            title="Télécharger un modèle CSV"
+          >
+            <FileDown className="w-3.5 h-3.5" />
+            Modèle
+          </button>
+
+          <button
+            onClick={() => csvInputRef.current?.click()}
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
+          >
+            <Upload className="w-3.5 h-3.5" />
+            Importer CSV
+          </button>
+
+          <button
+            onClick={() => {
+              if (category === 'erseh' || category === 'ien') setEditingErseh(blankErseh());
+              else if (category === 'eleves') setAddingEleve(true);
+              else setEditingSchool(blankSchool());
+            }}
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-lg cursor-pointer"
+          >
+            <Plus className="w-3.5 h-3.5" />
+            Ajouter
+          </button>
         </div>
 
         {/* Import result banner */}
@@ -932,10 +931,89 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
               )}
             </div>
           )}
+
+          {/* ── Élèves ── */}
+          {category === 'eleves' && (
+            <table className="w-full border-collapse text-xs">
+              <thead>
+                <tr className="border-b border-slate-200 bg-white sticky top-0">
+                  <Th label="Nom"           field="nom"    sortField={sortField} sortDir={sortDir} onSort={handleSort} />
+                  <Th label="Prénom"        field="prenom" sortField={sortField} sortDir={sortDir} onSort={handleSort} />
+                  <Th label="Naissance"     field="dateNaissance" sortField={sortField} sortDir={sortDir} onSort={handleSort} />
+                  <Th label="Établissement" field="school" sortField={sortField} sortDir={sortDir} onSort={handleSort} />
+                  <Th label="Niveau"        field="level"  sortField={sortField} sortDir={sortDir} onSort={handleSort} />
+                  <Th label="AESH"          field="aesh"   sortField={sortField} sortDir={sortDir} onSort={handleSort} />
+                  <Th label="PPS"           field="pps"    sortField={sortField} sortDir={sortDir} onSort={handleSort} />
+                  <th className="px-3 py-2 text-left text-[10px] font-bold uppercase tracking-wider text-slate-500">Notes</th>
+                  <th className="px-3 py-2" />
+                </tr>
+              </thead>
+              <tbody>
+                {filteredEleves.length === 0 && (
+                  <tr>
+                    <td colSpan={8} className="px-3 py-12 text-center text-xs text-slate-400">
+                      Aucun élève enregistré
+                    </td>
+                  </tr>
+                )}
+                {filteredEleves.map((e, i) => {
+                  const ppsColor =
+                    e.ppsStatus === 'À jour' ? 'bg-emerald-50 text-emerald-700 border-emerald-200' :
+                    e.ppsStatus === 'Révision demandée' ? 'bg-amber-50 text-amber-700 border-amber-200' :
+                    'bg-slate-100 text-slate-600 border-slate-200';
+                  return (
+                    <tr key={`${e.school.id}-${e.id}`} className={`border-b border-slate-100 hover:bg-white transition-colors ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/60'}`}>
+                      <td className="px-3 py-2 font-semibold text-slate-800">{e.nom || <span className="text-slate-300">—</span>}</td>
+                      <td className="px-3 py-2 text-slate-700">{e.prenom || <span className="text-slate-300">—</span>}</td>
+                      <td className="px-3 py-2 text-slate-500 font-mono text-[11px]">
+                        {e.dateNaissance ? new Date(e.dateNaissance).toLocaleDateString('fr-FR') : <span className="text-slate-300">—</span>}
+                      </td>
+                      <td className="px-3 py-2 text-slate-600 max-w-[160px] truncate">{e.school.name}</td>
+                      <td className="px-3 py-2 font-bold text-slate-700">{e.level}</td>
+                      <td className="px-3 py-2 text-slate-600 max-w-[140px] truncate">{e.aeshType}</td>
+                      <td className="px-3 py-2">
+                        <span className={`px-1.5 py-0.5 text-[10px] font-bold rounded border ${ppsColor}`}>{e.ppsStatus}</span>
+                      </td>
+                      <td className="px-3 py-2 text-slate-400 italic max-w-[160px] truncate">{e.notes || '—'}</td>
+                      <td className="px-3 py-2">
+                        <div className="flex items-center gap-1">
+                          <button
+                            onClick={() => setEditingEleve({ student: e, school: e.school })}
+                            className="p-1.5 text-slate-400 hover:text-brand-600 hover:bg-brand-50 rounded-md cursor-pointer"
+                            title="Modifier"
+                          >
+                            <Pencil className="w-3.5 h-3.5" />
+                          </button>
+                          <button
+                            onClick={() => setDeletingEleve({ student: e, school: e.school })}
+                            className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-md cursor-pointer"
+                            title="Supprimer"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          )}
         </div>
       </div>
 
       {/* ── Edit modals ── */}
+      {addingEleve && (
+        <AddEleveModal
+          schools={schools}
+          onSave={(school, student) => {
+            const newStudents = [...(school.ashStudents ?? []), student];
+            onUpdateSchool({ ...school, ashStudents: newStudents, studentsCount: { ...school.studentsCount, total: newStudents.length }, ashDevice: { ...school.ashDevice, assignedStudents: newStudents.length } });
+          }}
+          onClose={() => setAddingEleve(false)}
+        />
+      )}
+
       {editingSchool && (
         <SchoolModal
           school={editingSchool}
@@ -959,6 +1037,48 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
           }}
           onClose={() => setEditingErseh(null)}
         />
+      )}
+
+      {/* ── Élève edit ── */}
+      {editingEleve && (
+        <AddEleveModal
+          schools={schools}
+          initialSchoolId={editingEleve.school.id}
+          initialStudent={editingEleve.student}
+          onSave={(school, student) => {
+            const newStudents = (school.ashStudents ?? []).map(s => s.id === student.id ? student : s);
+            onUpdateSchool({ ...school, ashStudents: newStudents, studentsCount: { ...school.studentsCount, total: newStudents.length }, ashDevice: { ...school.ashDevice, assignedStudents: newStudents.length } });
+          }}
+          onClose={() => setEditingEleve(null)}
+        />
+      )}
+
+      {/* ── Élève delete confirm ── */}
+      {deletingEleve && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm" onClick={() => setDeletingEleve(null)}>
+          <div className="bg-white rounded-2xl shadow-2xl p-6 max-w-sm mx-4" onClick={e => e.stopPropagation()}>
+            <p className="text-sm font-bold text-slate-900 mb-2">Supprimer cet élève ?</p>
+            <p className="text-xs text-slate-500 mb-5">
+              <strong>{[deletingEleve.student.prenom, deletingEleve.student.nom].filter(Boolean).join(' ') || 'Cet élève'}</strong> sera retiré de <strong>{deletingEleve.school.name}</strong>. Cette action ne peut pas être annulée.
+            </p>
+            <div className="flex justify-end gap-2">
+              <button onClick={() => setDeletingEleve(null)} className="px-4 py-2 text-xs font-bold text-slate-600 hover:bg-slate-100 rounded-lg cursor-pointer">
+                Annuler
+              </button>
+              <button
+                onClick={() => {
+                  const school = deletingEleve.school;
+                  const newStudents = (school.ashStudents ?? []).filter(s => s.id !== deletingEleve.student.id);
+                  onUpdateSchool({ ...school, ashStudents: newStudents, studentsCount: { ...school.studentsCount, total: newStudents.length }, ashDevice: { ...school.ashDevice, assignedStudents: newStudents.length } });
+                  setDeletingEleve(null);
+                }}
+                className="px-4 py-2 text-xs font-bold bg-red-600 hover:bg-red-700 text-white rounded-lg cursor-pointer"
+              >
+                Supprimer
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       {/* ── Delete confirm ── */}

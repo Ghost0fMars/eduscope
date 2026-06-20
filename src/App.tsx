@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { schoolsData, School } from './data/schoolsData';
 // Recherche par élève retirée (données nominatives non stockées dans l'application)
 import AcademyMap from './components/AcademyMap';
@@ -11,8 +11,29 @@ import AgendaView from './agenda/AgendaView';
 import DatabaseView from './database/DatabaseView';
 import { Printer, LayoutDashboard, Kanban, CalendarDays, Database } from 'lucide-react';
 
+function syncSchoolCounts(schools: School[]): School[] {
+  return schools.map(s => {
+    const count = s.ashStudents?.length ?? 0;
+    return {
+      ...s,
+      studentsCount: { ...s.studentsCount, total: count },
+      ashDevice: { ...s.ashDevice, assignedStudents: count },
+    };
+  });
+}
+
 export default function App() {
-  const [schools, setSchools] = useState<School[]>(schoolsData);
+  const [schools, setSchools] = useState<School[]>(syncSchoolCounts(schoolsData));
+
+  // Charge les établissements depuis le serveur (données persistées)
+  useEffect(() => {
+    fetch('/api/schools')
+      .then(r => r.json())
+      .then(data => {
+        if (Array.isArray(data)) setSchools(syncSchoolCounts(data));
+      })
+      .catch(() => {});
+  }, []);
   const [selectedSchool, setSelectedSchool] = useState<School | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedType, setSelectedType] = useState('ALL');
@@ -34,17 +55,34 @@ export default function App() {
   };
 
   const handleUpdateSchool = (updatedSchool: School) => {
-    setSchools(prev => prev.map(s => s.id === updatedSchool.id ? updatedSchool : s));
-    setSelectedSchool(prev => prev && prev.id === updatedSchool.id ? updatedSchool : prev);
+    const count = updatedSchool.ashStudents?.length ?? 0;
+    const synced: School = {
+      ...updatedSchool,
+      studentsCount: { ...updatedSchool.studentsCount, total: count },
+      ashDevice: { ...updatedSchool.ashDevice, assignedStudents: count },
+    };
+    setSchools(prev => prev.map(s => s.id === synced.id ? synced : s));
+    setSelectedSchool(prev => prev && prev.id === synced.id ? synced : prev);
+    fetch(`/api/schools/${updatedSchool.id}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(synced),
+    }).catch(console.error);
   };
 
   const handleAddSchool = (newSchool: School) => {
     setSchools(prev => [...prev, newSchool]);
+    fetch('/api/schools', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(newSchool),
+    }).catch(console.error);
   };
 
   const handleDeleteSchool = (id: string) => {
     setSchools(prev => prev.filter(s => s.id !== id));
     setSelectedSchool(prev => prev?.id === id ? null : prev);
+    fetch(`/api/schools/${id}`, { method: 'DELETE' }).catch(console.error);
   };
 
   const filteredSchools = schools.filter(school => {

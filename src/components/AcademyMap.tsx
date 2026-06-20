@@ -519,12 +519,8 @@ export default function AcademyMap({ filteredSchools, selectedSchool, setSelecte
                         <span className="text-[11px] font-bold text-stone-800 leading-tight line-clamp-2">
                           {school.name}
                         </span>
-                        <span className={`px-1.5 py-0.5 text-[8px] font-bold rounded shrink-0 uppercase tracking-wide border ${
-                          school.type === 'maternelle'
-                            ? 'bg-amber-50 border-amber-200 text-amber-700'
-                            : 'bg-indigo-50 border-indigo-200 text-indigo-700'
-                        }`}>
-                          {school.type === 'maternelle' ? 'Mat' : 'Élém'}
+                        <span className="px-1.5 py-0.5 text-[8px] font-bold rounded shrink-0 uppercase tracking-wide border bg-indigo-50 border-indigo-200 text-indigo-700">
+                          {school.type === 'elementaire' ? 'Prim' : school.type === 'college' ? 'CLG' : 'LYC'}
                         </span>
                       </div>
 

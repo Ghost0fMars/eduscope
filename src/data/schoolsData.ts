@@ -1,3 +1,14 @@
+export interface AshStudent {
+  id: string;
+  nom?: string;
+  prenom?: string;
+  dateNaissance?: string;
+  level: string;
+  aeshType: 'Individuelle (AESH-I)' | 'Mutualisée (AESH-M)' | 'Aucune';
+  ppsStatus: 'À jour' | 'Révision demandée' | 'Ébauche en attente';
+  notes: string;
+}
+
 export interface AshDevice {
   type: 'TSA' | 'TFC' | 'TSLA' | 'TFA' | 'TFM' | 'TED' | 'SEGPA' | 'NONE';
   assignedStudents: number;
@@ -38,6 +49,7 @@ export interface School {
   cpcName: string;
   email?: string;
   phone?: string;
+  ashStudents?: AshStudent[];
 }
 
 export const DEVICE_LABELS: Record<string, string> = {

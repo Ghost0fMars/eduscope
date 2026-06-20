@@ -4,8 +4,7 @@ import { School, DEVICE_LABELS } from '../data/schoolsData';
 import { Search, Filter, RefreshCw, CheckCircle2, AlertTriangle } from 'lucide-react';
 
 const TYPE_LABELS: Record<string, string> = {
-  maternelle: 'Maternelle',
-  elementaire: 'Élémentaire',
+  elementaire: 'Primaire',
   college: 'Collège',
   lycee: 'Lycée',
 };
@@ -182,11 +181,10 @@ export default function Filters({
         </label>
         <div className="space-y-1">
           {[
-            { value: 'ALL',        label: 'Tous niveaux'       },
-            { value: 'maternelle', label: 'Écoles Maternelles' },
-            { value: 'elementaire',label: 'Écoles Élémentaires'},
-            { value: 'college',    label: 'Collèges'           },
-            { value: 'lycee',      label: 'Lycées'             },
+            { value: 'ALL',         label: 'Tous niveaux' },
+            { value: 'elementaire', label: 'Primaires'    },
+            { value: 'college',     label: 'Collèges'     },
+            { value: 'lycee',       label: 'Lycées'       },
           ].map(item => (
             <button
               key={item.value}

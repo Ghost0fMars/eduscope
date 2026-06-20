@@ -5,6 +5,7 @@ import { ImapFlow } from 'imapflow';
 import { getTasks, saveTasks, addTask, resetDatabase } from './src/kanban/dbStore';
 import { CollaborativeTask, TaskPriority, TaskStatus, SyncResult } from './src/kanban/types';
 import { getEvents, addEvent, deleteEvent, updateEvent } from './src/agenda/agendaStore';
+import { getSchools, updateSchool, addSchool, deleteSchool } from './src/data/schoolsStore';
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3005;
@@ -262,6 +263,27 @@ app.post('/api/email/reset', (req, res) => {
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });
   }
+});
+
+// ── Schools API ────────────────────────────────────────────────────────────────
+
+app.get('/api/schools', (_req, res) => {
+  res.json(getSchools());
+});
+
+app.put('/api/schools/:id', (req, res) => {
+  const ok = updateSchool({ ...req.body, id: req.params.id });
+  res.json({ success: ok });
+});
+
+app.post('/api/schools', (req, res) => {
+  addSchool(req.body);
+  res.json({ success: true });
+});
+
+app.delete('/api/schools/:id', (req, res) => {
+  const ok = deleteSchool(req.params.id);
+  res.json({ success: ok });
 });
 
 // Vite & Static file handler

@@ -29,8 +29,7 @@ const DEVICE_BG: Record<string, string> = {
 };
 
 const TYPE_LABEL: Record<string, string> = {
-  maternelle: 'Maternelle',
-  elementaire: 'Élémentaire',
+  elementaire: 'Primaire',
   college: 'Collège',
   lycee: 'Lycée',
 };
@@ -64,7 +63,7 @@ export default function KPICards({ filteredSchools, totalSchoolsCount, isSidebar
     (acc, school) => {
       const devices = school.ashDevices ?? [school.ashDevice];
       return {
-        totalPupils: acc.totalPupils + devices.reduce((s, d) => s + d.assignedStudents, 0),
+        totalPupils: acc.totalPupils + (school.ashStudents?.length ?? devices.reduce((s, d) => s + d.assignedStudents, 0)),
         totalCapacity: acc.totalCapacity + devices.reduce((s, d) => s + d.capacity, 0),
       };
     },
@@ -100,7 +99,7 @@ export default function KPICards({ filteredSchools, totalSchoolsCount, isSidebar
       <p className="text-xs text-slate-500 mb-4">
         <strong className="text-slate-800">{filteredSchools.length}</strong> établissements affichés sur <strong className="text-slate-800">{totalSchoolsCount}</strong> au total.
       </p>
-      {(['maternelle', 'elementaire', 'college', 'lycee'] as const).map(type => {
+      {(['elementaire', 'college', 'lycee'] as const).map(type => {
         const group = filteredSchools.filter(s => s.type === type);
         if (group.length === 0) return null;
         return (
@@ -159,13 +158,15 @@ export default function KPICards({ filteredSchools, totalSchoolsCount, isSidebar
         {filteredSchools
           .filter(s => (s.ashDevices ?? [s.ashDevice]).some(d => d.type !== 'NONE'))
           .sort((a, b) => {
-            const aFull = (a.ashDevices ?? [a.ashDevice]).reduce((s, d) => s + d.assignedStudents, 0) / Math.max(1, (a.ashDevices ?? [a.ashDevice]).reduce((s, d) => s + d.capacity, 0));
-            const bFull = (b.ashDevices ?? [b.ashDevice]).reduce((s, d) => s + d.assignedStudents, 0) / Math.max(1, (b.ashDevices ?? [b.ashDevice]).reduce((s, d) => s + d.capacity, 0));
-            return bFull - aFull;
+            const aAssigned = a.ashStudents?.length ?? (a.ashDevices ?? [a.ashDevice]).reduce((s, d) => s + d.assignedStudents, 0);
+            const bAssigned = b.ashStudents?.length ?? (b.ashDevices ?? [b.ashDevice]).reduce((s, d) => s + d.assignedStudents, 0);
+            const aCap = Math.max(1, (a.ashDevices ?? [a.ashDevice]).reduce((s, d) => s + d.capacity, 0));
+            const bCap = Math.max(1, (b.ashDevices ?? [b.ashDevice]).reduce((s, d) => s + d.capacity, 0));
+            return (bAssigned / bCap) - (aAssigned / aCap);
           })
           .map(s => {
             const devices = s.ashDevices ?? [s.ashDevice];
-            const assigned = devices.reduce((sum, d) => sum + d.assignedStudents, 0);
+            const assigned = s.ashStudents?.length ?? devices.reduce((sum, d) => sum + d.assignedStudents, 0);
             const capacity = devices.reduce((sum, d) => sum + d.capacity, 0);
             const pct = capacity > 0 ? Math.round((assigned / capacity) * 100) : 0;
             const isFull = assigned >= capacity;
