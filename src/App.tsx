@@ -8,7 +8,8 @@ import SchoolDrawer from './components/SchoolDrawer';
 import PDFReport from './components/PDFReport';
 import KanbanView from './kanban/KanbanView';
 import AgendaView from './agenda/AgendaView';
-import { Printer, LayoutDashboard, Kanban, CalendarDays } from 'lucide-react';
+import DatabaseView from './database/DatabaseView';
+import { Printer, LayoutDashboard, Kanban, CalendarDays, Database } from 'lucide-react';
 
 export default function App() {
   const [schools, setSchools] = useState<School[]>(schoolsData);
@@ -17,11 +18,11 @@ export default function App() {
   const [selectedType, setSelectedType] = useState('ALL');
   const [selectedDevice, setSelectedDevice] = useState('ALL');
   const [showReport, setShowReport] = useState(false);
-  const [activeView, setActiveView] = useState<'dashboard' | 'kanban' | 'agenda'>(
-    () => (localStorage.getItem('eduscope_activeView') as 'dashboard' | 'kanban' | 'agenda') || 'dashboard'
+  const [activeView, setActiveView] = useState<'dashboard' | 'kanban' | 'agenda' | 'database'>(
+    () => (localStorage.getItem('eduscope_activeView') as 'dashboard' | 'kanban' | 'agenda' | 'database') || 'dashboard'
   );
 
-  const handleSetActiveView = (view: 'dashboard' | 'kanban' | 'agenda') => {
+  const handleSetActiveView = (view: 'dashboard' | 'kanban' | 'agenda' | 'database') => {
     localStorage.setItem('eduscope_activeView', view);
     setActiveView(view);
   };
@@ -35,6 +36,15 @@ export default function App() {
   const handleUpdateSchool = (updatedSchool: School) => {
     setSchools(prev => prev.map(s => s.id === updatedSchool.id ? updatedSchool : s));
     setSelectedSchool(prev => prev && prev.id === updatedSchool.id ? updatedSchool : prev);
+  };
+
+  const handleAddSchool = (newSchool: School) => {
+    setSchools(prev => [...prev, newSchool]);
+  };
+
+  const handleDeleteSchool = (id: string) => {
+    setSchools(prev => prev.filter(s => s.id !== id));
+    setSelectedSchool(prev => prev?.id === id ? null : prev);
   };
 
   const filteredSchools = schools.filter(school => {
@@ -99,6 +109,17 @@ export default function App() {
           >
             <LayoutDashboard className="w-3.5 h-3.5" />
             <span>Tableau de bord</span>
+          </button>
+          <button
+            onClick={() => handleSetActiveView('database')}
+            className={`flex items-center gap-1.5 px-4 rounded-md text-xs font-bold transition-all cursor-pointer ${
+              activeView === 'database'
+                ? 'bg-white text-slate-900 shadow-sm border border-slate-200/50 font-black'
+                : 'text-slate-500 hover:text-slate-800'
+            }`}
+          >
+            <Database className="w-3.5 h-3.5" />
+            <span>Bases de données</span>
           </button>
           <button
             onClick={() => handleSetActiveView('kanban')}
@@ -194,6 +215,15 @@ export default function App() {
               />
             )}
           </div>
+        </div>
+      ) : activeView === 'database' ? (
+        <div className="flex-1 flex overflow-hidden">
+          <DatabaseView
+            schools={schools}
+            onUpdateSchool={handleUpdateSchool}
+            onAddSchool={handleAddSchool}
+            onDeleteSchool={handleDeleteSchool}
+          />
         </div>
       ) : activeView === 'kanban' ? (
         <div className="flex-1 flex flex-col overflow-y-auto bg-slate-50">
