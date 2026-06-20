@@ -27,14 +27,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE LE FRAPPER",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0130248Z@ac-aix-marseille.fr",
     "phone": "442230660",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131205p",
@@ -59,14 +59,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE OUADAH",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0131205P@ac-aix-marseille.fr",
     "phone": "442233032",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -101,14 +101,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FABIEN BRIDOUX",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0133390P@ac-aix-marseille.fr",
     "phone": "442392196",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133332b",
@@ -132,7 +132,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Jill DELACEY-GALIGANI",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -163,14 +163,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LOUIS-PHILIPPE RODRIGUES",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0131199H@ac-aix-marseille.fr",
     "phone": "442235111",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132898e",
@@ -194,14 +194,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LAURENT DAUMALIN",
-    "referentName": "SPITERI THIERRY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_3",
     "cpcName": "",
     "email": "ce.0132898E@ac-aix-marseille.fr",
     "phone": "442201882",
-    "referentPhone": "06 21 54 65 85",
-    "referentEmail": "ce.erseh13-aix3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130275d",
@@ -225,14 +225,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIEL RIFFARD",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0130275D@ac-aix-marseille.fr",
     "phone": "442921351",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131567h",
@@ -256,14 +256,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN PIERRE PERROUD",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0131567H@ac-aix-marseille.fr",
     "phone": "442260836",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -297,14 +297,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE LE BARAILLEC",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0132535K@ac-aix-marseille.fr",
     "phone": "442201992",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -338,14 +338,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PASCALE GALZIN",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0131206R@ac-aix-marseille.fr",
     "phone": "442240664",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134027g",
@@ -369,7 +369,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PATRICIA LAMAZOU",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -400,14 +400,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DOMINIQUE CHASSEBOEUF",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0133676A@ac-aix-marseille.fr",
     "phone": "442286178",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131201k",
@@ -432,14 +432,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AURELIE CLEMENT",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0131201K@ac-aix-marseille.fr",
     "phone": "442644842",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -474,14 +474,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VERONIQUE SARRAZIN",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0131203M@ac-aix-marseille.fr",
     "phone": "442262845",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132397k",
@@ -505,14 +505,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. J FRANCOIS LONGO",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0132397K@ac-aix-marseille.fr",
     "phone": "442591535",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131909e",
@@ -536,14 +536,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE ROMAIN",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0131909E@ac-aix-marseille.fr",
     "phone": "442591236",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131204n",
@@ -567,14 +567,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AURELIE BOCHET",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0131204N@ac-aix-marseille.fr",
     "phone": "442200080",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132759d",
@@ -598,14 +598,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DANIEL ROYO",
-    "referentName": "SPITERI THIERRY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_3",
     "cpcName": "",
     "email": "ce.0132759D@ac-aix-marseille.fr",
     "phone": "442201950",
-    "referentPhone": "06 21 54 65 85",
-    "referentEmail": "ce.erseh13-aix3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133975a",
@@ -629,7 +629,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JOEL TROTEBAS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -660,14 +660,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME GWENAELLE HUET",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0132285N@ac-aix-marseille.fr",
     "phone": "442590175",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130262p",
@@ -691,14 +691,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FREDERIQUE DADOIT",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0130262P@ac-aix-marseille.fr",
     "phone": "442233243",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132181a",
@@ -722,14 +722,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRA SUARD",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0132181A@ac-aix-marseille.fr",
     "phone": "442921169",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132012s",
@@ -753,7 +753,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Erwan VAN DEN BOOMGAERDE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -786,14 +786,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE MALFATTO",
-    "referentName": "SPITERI THIERRY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_3",
     "cpcName": "",
     "email": "ce.0132579H@ac-aix-marseille.fr",
     "phone": "442201742",
-    "referentPhone": "06 21 54 65 85",
-    "referentEmail": "ce.erseh13-aix3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -829,14 +829,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SARAH GIUSTI",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0131207S@ac-aix-marseille.fr",
     "phone": "442242185",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133948w",
@@ -860,7 +860,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME  ROSEIRA",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -893,14 +893,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE CROCE",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0130263R@ac-aix-marseille.fr",
     "phone": "442262829",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -937,14 +937,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CLAUDIA MONTASTIER",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0130252D@ac-aix-marseille.fr",
     "phone": "488717461",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -979,14 +979,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DAVID MASSAL",
-    "referentName": "SPITERI THIERRY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_3",
     "cpcName": "",
     "email": "ce.0132710A@ac-aix-marseille.fr",
     "phone": "442200061",
-    "referentPhone": "06 21 54 65 85",
-    "referentEmail": "ce.erseh13-aix3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -1020,14 +1020,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FLORIAN BOUSCARLE",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0131527P@ac-aix-marseille.fr",
     "phone": "465488730",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134341y",
@@ -1051,7 +1051,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAKI TAYA",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -1082,14 +1082,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE NEGRE",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0132166J@ac-aix-marseille.fr",
     "phone": "442266757",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -1123,14 +1123,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURE MASSE",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0132169M@ac-aix-marseille.fr",
     "phone": "442592477",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130265t",
@@ -1156,14 +1156,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENE SEILLAC",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0130265T@ac-aix-marseille.fr",
     "phone": "465488702",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -1199,7 +1199,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Agnès HOLTZHEYER",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -1230,7 +1230,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. MEWTON ROBERT",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -1261,14 +1261,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VINCIANE LAURIER",
-    "referentName": "SPITERI THIERRY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_3",
     "cpcName": "",
     "email": "ce.0131911G@ac-aix-marseille.fr",
     "phone": "442590587",
-    "referentPhone": "06 21 54 65 85",
-    "referentEmail": "ce.erseh13-aix3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -1302,14 +1302,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE PERROUD DOMENACH",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0133951Z@ac-aix-marseille.fr",
     "phone": "442392042",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130249a",
@@ -1333,14 +1333,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE BOYER",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0130249A@ac-aix-marseille.fr",
     "phone": "442230612",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130250b",
@@ -1364,14 +1364,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARGAUX MAGNAN",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0130250B@ac-aix-marseille.fr",
     "phone": "413912946",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFA",
@@ -1405,7 +1405,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Claudie LUCAS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -1436,14 +1436,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Laetitia PAOLINI",
-    "referentName": "CHABOT MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_4",
     "cpcName": "",
     "email": "ce.0132018Y@ac-aix-marseille.fr",
     "phone": "442240284",
-    "referentPhone": "06 28 58 88 97",
-    "referentEmail": "ce.erseh13-prive4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132013t",
@@ -1467,14 +1467,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Bérengère DUMEYNIOU",
-    "referentName": "CHABOT MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_4",
     "cpcName": "",
     "email": "ce.0132013T@ac-aix-marseille.fr",
     "phone": "442230219",
-    "referentPhone": "06 28 58 88 97",
-    "referentEmail": "ce.erseh13-prive4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134120h",
@@ -1498,7 +1498,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "nan",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -1529,7 +1529,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Corinne DINLAPORTAS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -1560,7 +1560,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Marie METRAS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -1591,7 +1591,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Isabelle CHAPELAND",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -1622,14 +1622,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTELLE CERVONI",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0130253E@ac-aix-marseille.fr",
     "phone": "442383074",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130271z",
@@ -1653,14 +1653,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE DEFENDINI",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0130271Z@ac-aix-marseille.fr",
     "phone": "442262021",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134232e",
@@ -1684,14 +1684,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE MORENO",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0134232E@ac-aix-marseille.fr",
     "phone": "442930830",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130254f",
@@ -1715,14 +1715,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AMELIE MARCILLOUX",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0130254F@ac-aix-marseille.fr",
     "phone": "465488717",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134030k",
@@ -1746,7 +1746,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JOELLE GUINDE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -1777,14 +1777,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FRANCK LE BOURSICOT",
-    "referentName": "BAYEUX CONSTANCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_1",
     "cpcName": "",
     "email": "ce.0130255G@ac-aix-marseille.fr",
     "phone": "442264680",
-    "referentPhone": "06 14 60 02 76",
-    "referentEmail": "ce.erseh13-aix1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130292x",
@@ -1808,14 +1808,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CHRISTOPHE COSENZA",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0130292X@ac-aix-marseille.fr",
     "phone": "486674691",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134133x",
@@ -1839,14 +1839,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE LAURENT",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0134133X@ac-aix-marseille.fr",
     "phone": "486674680",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130293y",
@@ -1872,14 +1872,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. GILLES GRUNWALD",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0130293Y@ac-aix-marseille.fr",
     "phone": "486674695",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -1915,14 +1915,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LISE SNIDARO",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0130294Z@ac-aix-marseille.fr",
     "phone": "486674685",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130295a",
@@ -1946,14 +1946,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EVELYNE LUCOR",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0130295A@ac-aix-marseille.fr",
     "phone": "486674675",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130291w",
@@ -1977,14 +1977,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME REGINE COCHINI",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0130291W@ac-aix-marseille.fr",
     "phone": "491687009",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130301g",
@@ -2008,14 +2008,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PHILIPINE D AUZAC DE LAMARTINI",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0130301G@ac-aix-marseille.fr",
     "phone": "490573813",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130329m",
@@ -2039,14 +2039,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "DELPHINE RICCI",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130329m@ac-aix-marseille.fr",
     "phone": "490971035",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131213y",
@@ -2070,14 +2070,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CHRISTOPHE VASSEROT",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0131213Y@ac-aix-marseille.fr",
     "phone": "490939727",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -2111,14 +2111,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SOPHIE PIET",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0130311T@ac-aix-marseille.fr",
     "phone": "490984095",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130303j",
@@ -2142,14 +2142,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE DURIEZ",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130303J@ac-aix-marseille.fr",
     "phone": "490968927",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130317z",
@@ -2173,14 +2173,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE CREPIER",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130317Z@ac-aix-marseille.fr",
     "phone": "490939729",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130315x",
@@ -2204,14 +2204,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SOIZIC NAVARRO",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130315X@ac-aix-marseille.fr",
     "phone": "490968894",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130310s",
@@ -2235,14 +2235,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CHRISTIAN HUGUES",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0130310S@ac-aix-marseille.fr",
     "phone": "490939731",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -2276,7 +2276,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "nan",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -2307,14 +2307,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIEL ATTACHE",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130304K@ac-aix-marseille.fr",
     "phone": "490968930",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130332r",
@@ -2338,14 +2338,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATALIE HEHNER",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130332R@ac-aix-marseille.fr",
     "phone": "490970026",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130333s",
@@ -2369,14 +2369,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DAVID GIOVANINI",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130333S@ac-aix-marseille.fr",
     "phone": "490493773",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132536l",
@@ -2400,14 +2400,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ANDRE BELPOMO",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0132536L@ac-aix-marseille.fr",
     "phone": "490968957",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -2441,14 +2441,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VIVIANE MARQUEZ",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0130323F@ac-aix-marseille.fr",
     "phone": "490939733",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -2482,14 +2482,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MANON ABRARD",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0132807F@ac-aix-marseille.fr",
     "phone": "490939697",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132436c",
@@ -2513,14 +2513,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "ROSINE ARANDA",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0132436C@ac-aix-marseille.fr",
     "phone": "490984661",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130319b",
@@ -2544,14 +2544,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. MATHIEU ROUX",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130319B@ac-aix-marseille.fr",
     "phone": "490939702",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130321d",
@@ -2577,14 +2577,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LUCIE GLYNATSIS",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130321D@ac-aix-marseille.fr",
     "phone": "490968938",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -2620,14 +2620,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTELLE CARCELES",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0130306M@ac-aix-marseille.fr",
     "phone": "490987161",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130307n",
@@ -2651,14 +2651,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE PERRIN",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130307N@ac-aix-marseille.fr",
     "phone": "490968937",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130309r",
@@ -2682,14 +2682,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ANDRE PILI",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0130309R@ac-aix-marseille.fr",
     "phone": "490968949",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132474u",
@@ -2713,14 +2713,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE RIVIERE",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0132474U@ac-aix-marseille.fr",
     "phone": "490939719",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132028j",
@@ -2744,14 +2744,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Caroline NOVI",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132028J@ac-aix-marseille.fr",
     "phone": "490968385",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132027h",
@@ -2775,14 +2775,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE MACCHI",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "e.saintvincent-arles@wanadoo.fr",
     "phone": "490960428",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130313v",
@@ -2806,14 +2806,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE JAMBEL",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0130313V@ac-aix-marseille.fr",
     "phone": "442868079",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130314w",
@@ -2837,14 +2837,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE MARTINEZ",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0130314W@ac-aix-marseille.fr",
     "phone": "490989034",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130308p",
@@ -2868,14 +2868,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "AUDREY ROCHE",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0130308P@ac-aix-marseille.fr",
     "phone": "490984441",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130344d",
@@ -2899,14 +2899,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELSA BOURGEOIS TROUYET",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0130344D@ac-aix-marseille.fr",
     "phone": "442181663",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130345e",
@@ -2930,14 +2930,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AUDREY MOLINA",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0130345E@ac-aix-marseille.fr",
     "phone": "442821356",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130346f",
@@ -2963,14 +2963,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JOELLE MICHELET",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0130346F@ac-aix-marseille.fr",
     "phone": "442030404",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -3008,14 +3008,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FLORIAN ORTUNO",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0130355R@ac-aix-marseille.fr",
     "phone": "442181743",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -3051,7 +3051,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORRADI-ALLÉGATIÔRE SANDRINE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -3082,14 +3082,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE BARTHELEMY",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0130349J@ac-aix-marseille.fr",
     "phone": "442700574",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -3123,14 +3123,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE GRAND",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0130356S@ac-aix-marseille.fr",
     "phone": "442821006",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132388a",
@@ -3154,14 +3154,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DENIS GRANDJEAN",
-    "referentName": "CART LAMY MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_1",
     "cpcName": "",
     "email": "ce.0132388A@ac-aix-marseille.fr",
     "phone": "442840608",
-    "referentPhone": "06 21 54 90 90",
-    "referentEmail": "ce.erseh13-aubagne@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -3195,14 +3195,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE RECH",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0131826P@ac-aix-marseille.fr",
     "phone": "442181677",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133181m",
@@ -3226,14 +3226,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME GISELE POTOCNIK",
-    "referentName": "CART LAMY MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_1",
     "cpcName": "",
     "email": "ce.0133181M@ac-aix-marseille.fr",
     "phone": "442181640",
-    "referentPhone": "06 21 54 90 90",
-    "referentEmail": "ce.erseh13-aubagne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130350k",
@@ -3257,14 +3257,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER CHAPELIERE",
-    "referentName": "CART LAMY MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_1",
     "cpcName": "",
     "email": "ce.0130350K@ac-aix-marseille.fr",
     "phone": "442031764",
-    "referentPhone": "06 21 54 90 90",
-    "referentEmail": "ce.erseh13-aubagne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130351l",
@@ -3290,14 +3290,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE SIGNORET",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0130351L@ac-aix-marseille.fr",
     "phone": "442034414",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -3333,14 +3333,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Joselyne BARTOLI",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0132094F@ac-aix-marseille.fr",
     "phone": "413921000",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131660j",
@@ -3364,14 +3364,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FLORENCE M GANGI MEZZELANI",
-    "referentName": "CART LAMY MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_1",
     "cpcName": "",
     "email": "ce.0131660J@ac-aix-marseille.fr",
     "phone": "442181636",
-    "referentPhone": "06 21 54 90 90",
-    "referentEmail": "ce.erseh13-aubagne@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -3405,14 +3405,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ROSELYNE BRUNDU",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0133179K@ac-aix-marseille.fr",
     "phone": "442849448",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130362y",
@@ -3436,14 +3436,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE BRESSIEUX",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0130362Y@ac-aix-marseille.fr",
     "phone": "490599713",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133950y",
@@ -3467,14 +3467,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE NIVOIT",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0133950Y@ac-aix-marseille.fr",
     "phone": "442328213",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130363z",
@@ -3500,14 +3500,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARLENE PORTAS",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0130363Z@ac-aix-marseille.fr",
     "phone": "442047097",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -3545,14 +3545,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FLORENCE BOYER",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0130365B@ac-aix-marseille.fr",
     "phone": "442047512",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -3588,14 +3588,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI DJENIZIAN",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0132760E@ac-aix-marseille.fr",
     "phone": "442047905",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130367d",
@@ -3619,14 +3619,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FABIEN CASCALES",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0130367D@ac-aix-marseille.fr",
     "phone": "490556220",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132180z",
@@ -3650,14 +3650,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIEL CHAY",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0132180Z@ac-aix-marseille.fr",
     "phone": "490900709",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132034r",
@@ -3681,14 +3681,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Hélène CARLETTI-FAUCHE",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "direction@ecolenotredamebarbentane.fr",
     "phone": "757127148",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130372j",
@@ -3712,14 +3712,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI ESPOSITO",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0130372J@ac-aix-marseille.fr",
     "phone": "442668650",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130373k",
@@ -3743,14 +3743,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CLARA BONNARD",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0130373K@ac-aix-marseille.fr",
     "phone": "442706603",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130374l",
@@ -3774,14 +3774,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE RABELLE",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0130374L@ac-aix-marseille.fr",
     "phone": "442853844",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -3815,14 +3815,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE BALZANO",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0130376N@ac-aix-marseille.fr",
     "phone": "442783485",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131216b",
@@ -3846,14 +3846,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURIANE MICHEL",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0131216B@ac-aix-marseille.fr",
     "phone": "442854030",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132099l",
@@ -3877,14 +3877,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME sophie VALETTE",
-    "referentName": "LEGRAND VERONIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_3",
     "cpcName": "",
     "email": "ce.0132099L@ac-aix-marseille.fr",
     "phone": "442854282",
-    "referentPhone": "06 28 58 88 80",
-    "referentEmail": "ce.erseh13-prive3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132355p",
@@ -3908,14 +3908,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE CAGNANO",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0132355P@ac-aix-marseille.fr",
     "phone": "442854563",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132990e",
@@ -3939,14 +3939,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIELLE MERCIER",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0132990E@ac-aix-marseille.fr",
     "phone": "442740212",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131630b",
@@ -3970,14 +3970,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NICOLE CHAZALMARTIN",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0131630B@ac-aix-marseille.fr",
     "phone": "442854805",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133040j",
@@ -4001,14 +4001,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIEL CARLES",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0133040J@ac-aix-marseille.fr",
     "phone": "442220050",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130382v",
@@ -4032,14 +4032,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE CURIEN",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0130382V@ac-aix-marseille.fr",
     "phone": "442221104",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134162d",
@@ -4063,7 +4063,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LARIVIERE DALPHINE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -4094,14 +4094,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MYRIAM BONNET",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0131998B@ac-aix-marseille.fr",
     "phone": "442220988",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130383w",
@@ -4125,14 +4125,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTEL ROSSIGNOL",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0130383W@ac-aix-marseille.fr",
     "phone": "442220893",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130388b",
@@ -4156,14 +4156,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE CARRERA",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0130388B@ac-aix-marseille.fr",
     "phone": "490439936",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130390d",
@@ -4189,7 +4189,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE ARENAS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -4232,14 +4232,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME  PETIT",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132107V@ac-aix-marseille.fr",
     "phone": "490952185",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130392f",
@@ -4263,14 +4263,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME HELENE EPRON",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0130392F@ac-aix-marseille.fr",
     "phone": "442222391",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130394h",
@@ -4294,14 +4294,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FREDERIC HERNANDEZ",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0130394H@ac-aix-marseille.fr",
     "phone": "442690210",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134282j",
@@ -4325,7 +4325,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KARCHER PAQUITA",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -4356,14 +4356,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VERONIQUE DE RAEDT",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0132511J@ac-aix-marseille.fr",
     "phone": "442690166",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130396k",
@@ -4387,14 +4387,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BRUNO RONDEAU",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0130396K@ac-aix-marseille.fr",
     "phone": "442046666",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131089n",
@@ -4418,14 +4418,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE ROBERT GUAZA",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0131089N@ac-aix-marseille.fr",
     "phone": "442734916",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -4459,14 +4459,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Sandrine POMARES",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0131795F@ac-aix-marseille.fr",
     "phone": "442737912",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130399n",
@@ -4490,14 +4490,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELODIE POMPEI",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0130399N@ac-aix-marseille.fr",
     "phone": "442447098",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130401r",
@@ -4521,14 +4521,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE PANTEL",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0130401R@ac-aix-marseille.fr",
     "phone": "442183562",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132096h",
@@ -4552,14 +4552,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE BERGMANN",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "contact@ecolesainteclaire.fr",
     "phone": "442017811",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130403t",
@@ -4583,14 +4583,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAETICIA FERAUD",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0130403T@ac-aix-marseille.fr",
     "phone": "442830038",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134229b",
@@ -4614,14 +4614,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PATRICIA CANOU",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0134229B@ac-aix-marseille.fr",
     "phone": "442705860",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130405v",
@@ -4647,14 +4647,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PATRICK MABILEAU",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0130405V@ac-aix-marseille.fr",
     "phone": "442284132",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -4690,14 +4690,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NADINE BARBAU",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0130408Y@ac-aix-marseille.fr",
     "phone": "442585381",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134169l",
@@ -4721,7 +4721,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BIAGI GÉRALDINE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -4752,14 +4752,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ALAIN VALERO",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0130409Z@ac-aix-marseille.fr",
     "phone": "442798784",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -4793,14 +4793,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE GIRONIE-GUILLEMIN",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0134043Z@ac-aix-marseille.fr",
     "phone": "442742020",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130410a",
@@ -4824,14 +4824,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CLOTILDE DOURLENS",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0130410A@ac-aix-marseille.fr",
     "phone": "442812957",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130411b",
@@ -4855,14 +4855,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE GOSSIAUX",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0130411B@ac-aix-marseille.fr",
     "phone": "442798701",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130414e",
@@ -4886,14 +4886,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PASCALE TISSOT",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0130414E@ac-aix-marseille.fr",
     "phone": "490900191",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130417h",
@@ -4919,7 +4919,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE AUTHIER",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -4964,7 +4964,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. YANN BOISSET",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -5007,14 +5007,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M.  DALVERNY",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132033P@ac-aix-marseille.fr",
     "phone": "49094605",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130433a",
@@ -5038,14 +5038,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BENEDICTE GALLINE",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0130433A@ac-aix-marseille.fr",
     "phone": "490504293",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130434b",
@@ -5069,14 +5069,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PRISCA LEZAUD STEFF",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0130434B@ac-aix-marseille.fr",
     "phone": "442528770",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132266t",
@@ -5100,14 +5100,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE-CLAI JEUNET",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0132266T@ac-aix-marseille.fr",
     "phone": "442727491",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133994w",
@@ -5131,7 +5131,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DE KEMPENEER Christel",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -5162,14 +5162,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CYRILLE BONNET",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0133325U@ac-aix-marseille.fr",
     "phone": "961624271",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130440h",
@@ -5193,14 +5193,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE MORATO",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0130440H@ac-aix-marseille.fr",
     "phone": "442665502",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130442k",
@@ -5224,14 +5224,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VERONIQUE DI NOLA",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0130442K@ac-aix-marseille.fr",
     "phone": "442448898",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130444m",
@@ -5255,7 +5255,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EMILIE CERESOLA",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -5286,14 +5286,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE CHAZAL",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0130447R@ac-aix-marseille.fr",
     "phone": "490578275",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130446p",
@@ -5319,14 +5319,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. HUGUES ZUNINO",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0130446P@ac-aix-marseille.fr",
     "phone": "490579082",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -5364,14 +5364,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN MICHEL AUBIN",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0130449T@ac-aix-marseille.fr",
     "phone": "490941384",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -5407,14 +5407,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME TAMARA CAPARROS",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0130453X@ac-aix-marseille.fr",
     "phone": "490473449",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132989d",
@@ -5438,14 +5438,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE RODRIGUEZ",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0132989D@ac-aix-marseille.fr",
     "phone": "442477096",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130456a",
@@ -5469,14 +5469,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LUCILE ROUSSEAUX",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0130456A@ac-aix-marseille.fr",
     "phone": "490588902",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132332p",
@@ -5502,14 +5502,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLE PEREZ",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0132332P@ac-aix-marseille.fr",
     "phone": "442477155",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -5545,14 +5545,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AMANDINE DI LORENZO",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0133183P@ac-aix-marseille.fr",
     "phone": "442477178",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131914k",
@@ -5576,14 +5576,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. GEOFFROY NORMAND",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0131914K@ac-aix-marseille.fr",
     "phone": "442477001",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133389n",
@@ -5607,14 +5607,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN FRANCOIS FA",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0133389N@ac-aix-marseille.fr",
     "phone": "442656529",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130461f",
@@ -5638,14 +5638,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE MATHERON",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0130461F@ac-aix-marseille.fr",
     "phone": "442586766",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134028h",
@@ -5669,14 +5669,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE COUTAYAR",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0134028H@ac-aix-marseille.fr",
     "phone": "442228037",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132265s",
@@ -5702,14 +5702,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AUDREY BARRALIS",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0132265S@ac-aix-marseille.fr",
     "phone": "442656561",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -5745,7 +5745,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Marie-Anne BEAUFILS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -5776,7 +5776,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. . MAFFI",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -5807,14 +5807,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LIONEL HAON",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0130466L@ac-aix-marseille.fr",
     "phone": "442659323",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133103c",
@@ -5838,14 +5838,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE LESEIGNEUR",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0133103C@ac-aix-marseille.fr",
     "phone": "442514586",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130465k",
@@ -5869,14 +5869,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MIRANDA CIRASARO",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0130465K@ac-aix-marseille.fr",
     "phone": "442511192",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -5910,14 +5910,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE ARNAUD",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0132900G@ac-aix-marseille.fr",
     "phone": "442511373",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130464j",
@@ -5941,14 +5941,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FABIEN FUSCIELLO",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0130464J@ac-aix-marseille.fr",
     "phone": "442583394",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -5984,14 +5984,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE GIORGI",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0131827R@ac-aix-marseille.fr",
     "phone": "442582858",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -6029,14 +6029,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JOHANNA SCHMITT",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0130463H@ac-aix-marseille.fr",
     "phone": "442582223",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -6072,7 +6072,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Sophie LEMBOURG",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "PRIVE_5 PAYS D AIX",
     "cpcName": "",
@@ -6103,14 +6103,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JOSIANE PRATALI",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0133022P@ac-aix-marseille.fr",
     "phone": "442321213",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130469p",
@@ -6134,14 +6134,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER CROUILLEBOIS",
-    "referentName": "PASSEREL AUDREY",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_2",
     "cpcName": "",
     "email": "ce.0130469P@ac-aix-marseille.fr",
     "phone": "442322191",
-    "referentPhone": "06 21 54 19 12",
-    "referentEmail": "ce.erseh13-aubagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133058d",
@@ -6165,14 +6165,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURE SIBOIS",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0133058D@ac-aix-marseille.fr",
     "phone": "442304441",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133185s",
@@ -6196,14 +6196,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNABEL MARROT",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0133185S@ac-aix-marseille.fr",
     "phone": "442305222",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": null,
@@ -6239,14 +6239,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PAULINE ZONZON",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0134270W@ac-aix-marseille.fr",
     "phone": "786393890",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -6282,14 +6282,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AUDREY TCHELEKIAN",
-    "referentName": "CHAPUS FABIENNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GIGNAC",
     "cpcName": "",
     "email": "ce.0134271X@ac-aix-marseille.fr",
     "phone": "442311327",
-    "referentPhone": "06 21 54 94 60",
-    "referentEmail": "ce.erseh13-gignac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132102p",
@@ -6313,14 +6313,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Franck VERMET",
-    "referentName": "LEGRAND VERONIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_3",
     "cpcName": "",
     "email": "ce.0132102P@ac-aix-marseille.fr",
     "phone": "442885122",
-    "referentPhone": "06 28 58 88 80",
-    "referentEmail": "ce.erseh13-prive3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132264r",
@@ -6344,14 +6344,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARAYAT PICARD",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0132264R@ac-aix-marseille.fr",
     "phone": "490564837",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130477y",
@@ -6375,14 +6375,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EMYLIE LE LOREC",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0130477Y@ac-aix-marseille.fr",
     "phone": "490957246",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132035s",
@@ -6406,14 +6406,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Christine GHIRALDO",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132035S@ac-aix-marseille.fr",
     "phone": "490957356",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132263p",
@@ -6437,14 +6437,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNE LISE HINCHLIFFE",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0132263P@ac-aix-marseille.fr",
     "phone": "442538141",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132590v",
@@ -6470,14 +6470,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME GERALDINE SERENO",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0132590V@ac-aix-marseille.fr",
     "phone": "413295060",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -6513,14 +6513,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE CHRISTINE FERULLO GIRAUD",
-    "referentName": "DUSSERRE CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_DE_BOUC",
     "cpcName": "",
     "email": "ce.0132766L@ac-aix-marseille.fr",
     "phone": "413295695",
-    "referentPhone": "06 14 60 10 30",
-    "referentEmail": "ce.erseh13-portdebouc@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132711b",
@@ -6544,14 +6544,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NADIA LUQUE",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0132711B@ac-aix-marseille.fr",
     "phone": "442555165",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132513l",
@@ -6575,14 +6575,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURIANNE DARRAS",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0132513L@ac-aix-marseille.fr",
     "phone": "442555162",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": null,
@@ -6618,14 +6618,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE COMBEL",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0133215Z@ac-aix-marseille.fr",
     "phone": "442555039",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -6661,14 +6661,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE RIEM",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0132806E@ac-aix-marseille.fr",
     "phone": "413295043",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130486h",
@@ -6694,14 +6694,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BRUNO GASTAL",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0130486H@ac-aix-marseille.fr",
     "phone": "442555186",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -6737,14 +6737,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BETTY GUILLAUME",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0134274A@ac-aix-marseille.fr",
     "phone": "413295693",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132762g",
@@ -6768,14 +6768,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER CLAUDE MARTIN",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0132762G@ac-aix-marseille.fr",
     "phone": "442555156",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133052x",
@@ -6799,14 +6799,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FABIENNE SIMON",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0133052X@ac-aix-marseille.fr",
     "phone": "413295137",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131593l",
@@ -6830,14 +6830,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELZA ROSTAN",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0131593L@ac-aix-marseille.fr",
     "phone": "413295176",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130482d",
@@ -6861,14 +6861,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI LONGUET",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0130482D@ac-aix-marseille.fr",
     "phone": "413295180",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132437d",
@@ -6892,14 +6892,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ANTOINE TRIGAUX PETIT",
-    "referentName": "BASTIEN LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ISTRES",
     "cpcName": "",
     "email": "ce.0132437D@ac-aix-marseille.fr",
     "phone": "413295191",
-    "referentPhone": "06 25 11 25 75",
-    "referentEmail": "ce.erseh13-istres@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130490m",
@@ -6923,14 +6923,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORINNE BARBIER",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0130490M@ac-aix-marseille.fr",
     "phone": "442676243",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130368e",
@@ -6954,14 +6954,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME M GABRIELLE NICOLAS",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0130368E@ac-aix-marseille.fr",
     "phone": "967332071",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133818e",
@@ -6985,14 +6985,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LAURENT VIALE",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0133818E@ac-aix-marseille.fr",
     "phone": "442628231",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130387a",
@@ -7016,14 +7016,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTELLE MAHE",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0130387A@ac-aix-marseille.fr",
     "phone": "442629840",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130420l",
@@ -7047,14 +7047,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELSA BONNENFANT",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0130420L@ac-aix-marseille.fr",
     "phone": "442084825",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130427u",
@@ -7078,14 +7078,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE GHOZLAN",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0130427U@ac-aix-marseille.fr",
     "phone": "442085381",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132261m",
@@ -7109,14 +7109,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEROME PINCHON",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0132261M@ac-aix-marseille.fr",
     "phone": "442085753",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132761f",
@@ -7140,14 +7140,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE COULON",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0132761F@ac-aix-marseille.fr",
     "phone": "442833883",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130421m",
@@ -7171,14 +7171,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FREDERIC BLANC",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0130421M@ac-aix-marseille.fr",
     "phone": "442084726",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132763h",
@@ -7202,14 +7202,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE PANFILOFF",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0132763H@ac-aix-marseille.fr",
     "phone": "442831251",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132161d",
@@ -7235,14 +7235,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE LIEBGOTT",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0132161D@ac-aix-marseille.fr",
     "phone": "442833101",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -7278,14 +7278,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE GAILLARD",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0131854V@ac-aix-marseille.fr",
     "phone": "442085130",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130419k",
@@ -7311,14 +7311,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE VERNAY",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0130419K@ac-aix-marseille.fr",
     "phone": "442831670",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -7356,14 +7356,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VERONIQUE GONNELLI",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0130423P@ac-aix-marseille.fr",
     "phone": "442831068",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -7401,14 +7401,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Mélissa BRUN",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0132097J@ac-aix-marseille.fr",
     "phone": "486336586",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -7444,14 +7444,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FLORENCE BOYER",
-    "referentName": "MAUNEAU LAURENT",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_CIOTAT",
     "cpcName": "",
     "email": "ce.0131217C@ac-aix-marseille.fr",
     "phone": "442717507",
-    "referentPhone": "06 21 54 28 09",
-    "referentEmail": "ce.erseh13-laciotat@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130438f",
@@ -7475,14 +7475,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE JOPEK",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0130438F@ac-aix-marseille.fr",
     "phone": "442048084",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130452w",
@@ -7506,14 +7506,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME INGRID WAGLER",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0130452W@ac-aix-marseille.fr",
     "phone": "490585808",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130451v",
@@ -7537,14 +7537,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE GRESSIER",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0130451V@ac-aix-marseille.fr",
     "phone": "490426035",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131234w",
@@ -7568,14 +7568,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE PAMPANELLI",
-    "referentName": "CART LAMY MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_1",
     "cpcName": "",
     "email": "ce.0131234W@ac-aix-marseille.fr",
     "phone": "491361370",
-    "referentPhone": "06 21 54 90 90",
-    "referentEmail": "ce.erseh13-aubagne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132585p",
@@ -7599,14 +7599,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. THOMAS MICHEL",
-    "referentName": "CART LAMY MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_1",
     "cpcName": "",
     "email": "ce.0132585P@ac-aix-marseille.fr",
     "phone": "491361766",
-    "referentPhone": "06 21 54 90 90",
-    "referentEmail": "ce.erseh13-aubagne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131029y",
@@ -7630,14 +7630,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SABRINA LEVENEUR",
-    "referentName": "CART LAMY MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_1",
     "cpcName": "",
     "email": "ce.0131029Y@ac-aix-marseille.fr",
     "phone": "491361317",
-    "referentPhone": "06 21 54 90 90",
-    "referentEmail": "ce.erseh13-aubagne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131083g",
@@ -7663,14 +7663,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FLORENCE HOLUIGUE",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131083G@ac-aix-marseille.fr",
     "phone": "442504022",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -7706,14 +7706,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLINE RUFFINI",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131082F@ac-aix-marseille.fr",
     "phone": "442504049",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130494s",
@@ -7737,14 +7737,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ADA TANGUY",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0130494S@ac-aix-marseille.fr",
     "phone": "490595130",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130496u",
@@ -7768,14 +7768,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE LAURENCE MARCHETTO",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0130496U@ac-aix-marseille.fr",
     "phone": "442579178",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132026g",
@@ -7799,14 +7799,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Marie-Françoise VIGNAL",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132026G@ac-aix-marseille.fr",
     "phone": "442571686",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133041k",
@@ -7830,14 +7830,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRA GUITON",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0133041K@ac-aix-marseille.fr",
     "phone": "442927834",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130501z",
@@ -7861,14 +7861,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SONIA DUBOIS",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0130501Z@ac-aix-marseille.fr",
     "phone": "490424118",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130499x",
@@ -7894,14 +7894,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE SOTTILE",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0130499X@ac-aix-marseille.fr",
     "phone": "490428522",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -7937,14 +7937,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AURELIE GAUTHIER",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0132444L@ac-aix-marseille.fr",
     "phone": "490427120",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133949x",
@@ -7968,14 +7968,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE LADAME",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0133949X@ac-aix-marseille.fr",
     "phone": "490455045",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133024s",
@@ -7999,14 +7999,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FABIENNE LHUILLERY",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0133024S@ac-aix-marseille.fr",
     "phone": "490576435",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131071u",
@@ -8030,14 +8030,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PIERRE MANUGUERRA",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131071U@ac-aix-marseille.fr",
     "phone": "442500803",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131073w",
@@ -8061,14 +8061,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE PAILLART",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131073W@ac-aix-marseille.fr",
     "phone": "442618675",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132262n",
@@ -8092,8 +8092,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIANE MEDINA",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0132262N@ac-aix-marseille.fr",
@@ -8123,14 +8123,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME HABARA LEPLAT",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0131172D@ac-aix-marseille.fr",
     "phone": "442668715",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133048t",
@@ -8154,14 +8154,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI NEGRI",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0133048T@ac-aix-marseille.fr",
     "phone": "491512509",
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131036f",
@@ -8185,14 +8185,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AMELIE FRIZET",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0131036F@ac-aix-marseille.fr",
     "phone": "491510918",
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131031a",
@@ -8216,14 +8216,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DIDIER PARIS",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0131031A@ac-aix-marseille.fr",
     "phone": "442028180",
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131034d",
@@ -8247,8 +8247,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLINE PELLEGRIN",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0131034D@ac-aix-marseille.fr",
@@ -8263,8 +8263,8 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132259k",
@@ -8288,14 +8288,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KATIA DE CAMARET",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0132259K@ac-aix-marseille.fr",
     "phone": "491519391",
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134040w",
@@ -8319,7 +8319,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BARRIÔRE BRIGITTE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -8350,14 +8350,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. THIERRY MICALLEF",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0131035E@ac-aix-marseille.fr",
     "phone": "442025730",
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132105t",
@@ -8381,14 +8381,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Muriel MALLIA",
-    "referentName": "LEGRAND VERONIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_3",
     "cpcName": "",
     "email": "ce.0132105T@ac-aix-marseille.fr",
     "phone": "491513089",
-    "referentPhone": "06 28 58 88 80",
-    "referentEmail": "ce.erseh13-prive3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134244t",
@@ -8412,7 +8412,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME GARCIA LUDIVINE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -8443,14 +8443,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SABRINA MOHAMED",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0132439F@ac-aix-marseille.fr",
     "phone": "442028663",
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130503b",
@@ -8474,14 +8474,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ERIC MAURIN",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0130503B@ac-aix-marseille.fr",
     "phone": "490957211",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132089a",
@@ -8505,14 +8505,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE GAUGAIN",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ogec.ndg@orange.fr",
     "phone": "490957420",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133631b",
@@ -8536,14 +8536,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLE HERIN MASSE",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0133631B@ac-aix-marseille.fr",
     "phone": "490591627",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130505d",
@@ -8567,14 +8567,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. SERGE MARINETTI",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0130505D@ac-aix-marseille.fr",
     "phone": "490574383",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132106u",
@@ -8598,14 +8598,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Marie Françoise VIGNAL",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132106U@ac-aix-marseille.fr",
     "phone": "966937082",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131219e",
@@ -8629,8 +8629,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURE GADDINI",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0131219E@ac-aix-marseille.fr",
@@ -8660,14 +8660,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLINE REY",
-    "referentName": "POT-DOMENECH HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARIGNANE",
     "cpcName": "",
     "email": "ce.0132712C@ac-aix-marseille.fr",
     "phone": "442885533",
-    "referentPhone": "06 21 54 11 62",
-    "referentEmail": "ce.erseh13-marignane@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -8701,8 +8701,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CARINE SOLOMONDOS",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0131631C@ac-aix-marseille.fr",
@@ -8732,14 +8732,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BEATRICE TORNAMBE",
-    "referentName": "POT-DOMENECH HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARIGNANE",
     "cpcName": "",
     "email": "ce.0132482C@ac-aix-marseille.fr",
     "phone": "442882734",
-    "referentPhone": "06 21 54 11 62",
-    "referentEmail": "ce.erseh13-marignane@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -8773,8 +8773,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLINE DIEZ",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0130509H@ac-aix-marseille.fr",
@@ -8814,8 +8814,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE GAILLARD",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0131220F@ac-aix-marseille.fr",
@@ -8845,8 +8845,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NICOLE SORRENTINO",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0133428F@ac-aix-marseille.fr",
@@ -8876,14 +8876,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LYSIANE VITTARI",
-    "referentName": "POT-DOMENECH HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARIGNANE",
     "cpcName": "",
     "email": "ce.0131855W@ac-aix-marseille.fr",
     "phone": "442772842",
-    "referentPhone": "06 21 54 11 62",
-    "referentEmail": "ce.erseh13-marignane@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -8917,14 +8917,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE MOMOT",
-    "referentName": "POT-DOMENECH HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARIGNANE",
     "cpcName": "",
     "email": "ce.0133326V@ac-aix-marseille.fr",
     "phone": "442887393",
-    "referentPhone": "06 21 54 11 62",
-    "referentEmail": "ce.erseh13-marignane@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132103r",
@@ -8948,14 +8948,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Franck VERMET",
-    "referentName": "LEGRAND VERONIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_3",
     "cpcName": "",
     "email": "ce.0132103R@ac-aix-marseille.fr",
     "phone": "442888990",
-    "referentPhone": "06 28 58 88 80",
-    "referentEmail": "ce.erseh13-prive3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130514n",
@@ -8979,14 +8979,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE DEGEMONT PORTE",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0130514N@ac-aix-marseille.fr",
     "phone": "491347270",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130672k",
@@ -9010,14 +9010,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE GUYOT",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130672K@ac-aix-marseille.fr",
     "phone": "491059025",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130515p",
@@ -9041,14 +9041,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MANNICK BUISSON",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0130515P@ac-aix-marseille.fr",
     "phone": "491430290",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130753y",
@@ -9072,14 +9072,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MANON SGOLUPPI",
-    "referentName": "GALAS FLORENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_1",
     "cpcName": "",
     "email": "ce.0130753Y@ac-aix-marseille.fr",
     "phone": "491906651",
-    "referentPhone": "06 14 60 65 74",
-    "referentEmail": "ce.erseh13-dsden1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134095f",
@@ -9105,14 +9105,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. YANNICK JOUVIN",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0134095F@ac-aix-marseille.fr",
     "phone": "491505284",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -9148,14 +9148,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ROMAIN DEGRANGES",
-    "referentName": "VINCENT ERIC",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_2",
     "cpcName": "",
     "email": "ce.0132428U@ac-aix-marseille.fr",
     "phone": "491352006",
-    "referentPhone": "06 21 54 00 32",
-    "referentEmail": "ce.erseh13-caillols2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130683x",
@@ -9179,14 +9179,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE LEBRUN",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0130683X@ac-aix-marseille.fr",
     "phone": "491476794",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130769r",
@@ -9210,14 +9210,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KATIA ASCIONE",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130769R@ac-aix-marseille.fr",
     "phone": "491413454",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130665c",
@@ -9241,14 +9241,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JEANNE VAYSSETTES",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130665C@ac-aix-marseille.fr",
     "phone": "491520593",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134225x",
@@ -9272,14 +9272,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. MARC BROUSSIER",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0134225X@ac-aix-marseille.fr",
     "phone": "413948001",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134320a",
@@ -9303,14 +9303,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. REDA GALOU",
-    "referentName": "GALAS FLORENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_1",
     "cpcName": "",
     "email": "ce.0134320A@ac-aix-marseille.fr",
     "phone": "413948011",
-    "referentPhone": "06 14 60 65 74",
-    "referentEmail": "ce.erseh13-dsden1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -9344,14 +9344,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE-PIERRE FRIGARA",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0133633D@ac-aix-marseille.fr",
     "phone": "491627577",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -9387,14 +9387,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE GARGANI",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0131238A@ac-aix-marseille.fr",
     "phone": "491601731",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -9430,14 +9430,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE FERRARI",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130521W@ac-aix-marseille.fr",
     "phone": "491360371",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132061v",
@@ -9461,14 +9461,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE BEVILACQUA",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "secretariat@coursbastide.fr",
     "phone": "491486796",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130522x",
@@ -9492,14 +9492,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHARLOTTE AMAT",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0130522X@ac-aix-marseille.fr",
     "phone": "491511596",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132601g",
@@ -9523,14 +9523,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ANTOINE ROULLET",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0132601G@ac-aix-marseille.fr",
     "phone": "491984380",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130523y",
@@ -9554,14 +9554,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CLAIRE BERAUD",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0130523Y@ac-aix-marseille.fr",
     "phone": "491400982",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130524z",
@@ -9585,14 +9585,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE GAINLET",
-    "referentName": "RAOUX GUILLAUME",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FRAISSINET",
     "cpcName": "",
     "email": "ce.0130524Z@ac-aix-marseille.fr",
     "phone": "491931632",
-    "referentPhone": "06 25 11 28 04",
-    "referentEmail": "ce.erseh13-fraissinet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130527c",
@@ -9616,14 +9616,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LAURENT PADOVANI",
-    "referentName": "BAUME CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MASSENET",
     "cpcName": "",
     "email": "ce.0130527C@ac-aix-marseille.fr",
     "phone": "491503738",
-    "referentPhone": "06 21 54 13 51",
-    "referentEmail": "ce.erseh13-massenet@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -9657,14 +9657,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE DRACOS",
-    "referentName": "RAOUX GUILLAUME",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FRAISSINET",
     "cpcName": "",
     "email": "ce.0132185E@ac-aix-marseille.fr",
     "phone": "491930626",
-    "referentPhone": "06 25 11 28 04",
-    "referentEmail": "ce.erseh13-fraissinet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130687b",
@@ -9688,14 +9688,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LIONEL CHEMOUNY",
-    "referentName": "RAOUX GUILLAUME",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FRAISSINET",
     "cpcName": "",
     "email": "ce.0130687B@ac-aix-marseille.fr",
     "phone": "491932127",
-    "referentPhone": "06 25 11 28 04",
-    "referentEmail": "ce.erseh13-fraissinet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130531g",
@@ -9719,14 +9719,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ALEXANDRA HORODECKI",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130531G@ac-aix-marseille.fr",
     "phone": "491347391",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130688c",
@@ -9750,14 +9750,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNE VENDASSI",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130688C@ac-aix-marseille.fr",
     "phone": "491526389",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130532h",
@@ -9783,14 +9783,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ALAIN DEL VECCHIO",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0130532H@ac-aix-marseille.fr",
     "phone": "491734741",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -9826,14 +9826,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE SWANNE FERRAT",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0133124A@ac-aix-marseille.fr",
     "phone": "491733145",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132758c",
@@ -9857,14 +9857,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIEL BORDA TERSO",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0132758C@ac-aix-marseille.fr",
     "phone": "491721724",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -9898,14 +9898,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNE CLAIRE BALDACCINI",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130533J@ac-aix-marseille.fr",
     "phone": "491609608",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130705w",
@@ -9929,14 +9929,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PAULINE ROUFFIA",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130705W@ac-aix-marseille.fr",
     "phone": "491494916",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131208t",
@@ -9962,14 +9962,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE FORGE",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0131208T@ac-aix-marseille.fr",
     "phone": "413948688",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10005,14 +10005,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE GRIEU",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0130691F@ac-aix-marseille.fr",
     "phone": "491371026",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132275c",
@@ -10036,14 +10036,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ARNAUD LE CORRE",
-    "referentName": "CARLIER CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "BARNIER",
     "cpcName": "",
     "email": "ce.0132275C@ac-aix-marseille.fr",
     "phone": "491512929",
-    "referentPhone": "06 14 60 77 59",
-    "referentEmail": "ce.erseh13-barnier@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10077,14 +10077,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLLIVIER DRACIUS",
-    "referentName": "GUIZIOU STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "WALLON",
     "cpcName": "",
     "email": "ce.0130534K@ac-aix-marseille.fr",
     "phone": "491983296",
-    "referentPhone": "06 25 11 50 07",
-    "referentEmail": "ce.erseh13-wallon@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10118,14 +10118,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE GERVAIS DELPECH",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130693H@ac-aix-marseille.fr",
     "phone": "491820454",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -10159,14 +10159,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE TRETOLA",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0130536M@ac-aix-marseille.fr",
     "phone": "491586415",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130537n",
@@ -10192,14 +10192,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE FONLUPT",
-    "referentName": "LA ROCCA MYRTILLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_1",
     "cpcName": "",
     "email": "ce.0130537N@ac-aix-marseille.fr",
     "phone": "491932345",
-    "referentPhone": "06 14 60 06 79",
-    "referentEmail": "ce.erseh13-caillols1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10235,14 +10235,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JEANNE CORAZE",
-    "referentName": "STELLA DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RIMBAUD",
     "cpcName": "",
     "email": "ce.0130538P@ac-aix-marseille.fr",
     "phone": "491605117",
-    "referentPhone": "06 21 54 20 36",
-    "referentEmail": "ce.erseh13-rimbaud@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10276,14 +10276,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE BOUKAIA",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0130545X@ac-aix-marseille.fr",
     "phone": "491726103",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130539r",
@@ -10307,14 +10307,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURE VENDOME",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0130539R@ac-aix-marseille.fr",
     "phone": "491431029",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130540s",
@@ -10338,14 +10338,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AMELIE SICHI",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130540S@ac-aix-marseille.fr",
     "phone": "491524479",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130541t",
@@ -10369,14 +10369,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. GILLES FAVIER",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0130541T@ac-aix-marseille.fr",
     "phone": "491673653",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130698n",
@@ -10400,14 +10400,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. SEBASTIEN PALPACUER",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0130698N@ac-aix-marseille.fr",
     "phone": "491673167",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132179y",
@@ -10433,14 +10433,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTELLE CABANE",
-    "referentName": "BAUME CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MASSENET",
     "cpcName": "",
     "email": "ce.0132179Y@ac-aix-marseille.fr",
     "phone": "491980069",
-    "referentPhone": "06 21 54 13 51",
-    "referentEmail": "ce.erseh13-massenet@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10476,14 +10476,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE BOUCHIC",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0130542U@ac-aix-marseille.fr",
     "phone": "491672155",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130543v",
@@ -10509,14 +10509,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MICHELE CARLIOZ",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130543V@ac-aix-marseille.fr",
     "phone": "491798224",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10552,14 +10552,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE NACCI",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0133896P@ac-aix-marseille.fr",
     "phone": "491167220",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130700r",
@@ -10583,14 +10583,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AXELLE BUSUTTIL",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130700R@ac-aix-marseille.fr",
     "phone": "491795337",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131285b",
@@ -10616,14 +10616,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE MOYNAULT",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0131285B@ac-aix-marseille.fr",
     "phone": "491606989",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -10659,14 +10659,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE INDELICATO",
-    "referentName": "PIQUOT DELPHINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LOUISE_MICHEL",
     "cpcName": "",
     "email": "ce.0131642P@ac-aix-marseille.fr",
     "phone": "491447701",
-    "referentPhone": "06 14 60 73 17",
-    "referentEmail": "ce.erseh13-louisemichel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134273z",
@@ -10692,14 +10692,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. NICOLAS CAMOIN",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0134273Z@ac-aix-marseille.fr",
     "phone": "413948003",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -10735,14 +10735,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. NICOLAS SPOSITO",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0130702T@ac-aix-marseille.fr",
     "phone": "491505765",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131529s",
@@ -10766,14 +10766,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CLARISSE WESTPHAL",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0131529S@ac-aix-marseille.fr",
     "phone": "491080706",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131530t",
@@ -10798,14 +10798,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FREDERIC BASTARD",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0131530T@ac-aix-marseille.fr",
     "phone": "491507558",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -10840,14 +10840,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EMILIE GUIGUES",
-    "referentName": "BREUX GOBIN LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_1",
     "cpcName": "",
     "email": "ce.0130549B@ac-aix-marseille.fr",
     "phone": "491680074",
-    "referentPhone": "06 25 11 49 38",
-    "referentEmail": "ce.erseh13-malraux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133821h",
@@ -10871,14 +10871,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. EMMANUEL BARLES",
-    "referentName": "BREUX GOBIN LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_1",
     "cpcName": "",
     "email": "ce.0133821H@ac-aix-marseille.fr",
     "phone": "491618160",
-    "referentPhone": "06 25 11 49 38",
-    "referentEmail": "ce.erseh13-malraux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131243f",
@@ -10902,14 +10902,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PASCALE ICARD",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0131243F@ac-aix-marseille.fr",
     "phone": "491445713",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFM",
@@ -10943,14 +10943,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHLOE NOLIN",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0131532V@ac-aix-marseille.fr",
     "phone": "491755092",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130548a",
@@ -10974,14 +10974,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE AMATE",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130548A@ac-aix-marseille.fr",
     "phone": "491520807",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130550c",
@@ -11005,14 +11005,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNE LAURE MAZZIA",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0130550C@ac-aix-marseille.fr",
     "phone": "491422060",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133998a",
@@ -11036,14 +11036,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DOMINIQUE SAURY",
-    "referentName": "GALAS FLORENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_1",
     "cpcName": "",
     "email": "ce.0133998A@ac-aix-marseille.fr",
     "phone": "491934751",
-    "referentPhone": "06 14 60 65 74",
-    "referentEmail": "ce.erseh13-dsden1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131796g",
@@ -11067,14 +11067,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Christine GIACOMOTTO",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0131796G@ac-aix-marseille.fr",
     "phone": "491491073",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132060u",
@@ -11098,14 +11098,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Eric FERRARI",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0132060U@ac-aix-marseille.fr",
     "phone": "496121200",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131535y",
@@ -11129,14 +11129,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAETITIA BARTHELEMY",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0131535Y@ac-aix-marseille.fr",
     "phone": "491778641",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -11170,7 +11170,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAETITIA MARCHESSOU",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -11201,14 +11201,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE REY",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130551D@ac-aix-marseille.fr",
     "phone": "491447329",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130706x",
@@ -11232,14 +11232,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE NICOLAI",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130706X@ac-aix-marseille.fr",
     "phone": "491447050",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130553f",
@@ -11263,14 +11263,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VIRGINIE SEVE",
-    "referentName": "BAUME CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MASSENET",
     "cpcName": "",
     "email": "ce.0130553F@ac-aix-marseille.fr",
     "phone": "491672709",
-    "referentPhone": "06 21 54 13 51",
-    "referentEmail": "ce.erseh13-massenet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130864u",
@@ -11294,14 +11294,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PASCAL GRAVIER",
-    "referentName": "BAUME CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MASSENET",
     "cpcName": "",
     "email": "ce.0130864U@ac-aix-marseille.fr",
     "phone": "491673774",
-    "referentPhone": "06 21 54 13 51",
-    "referentEmail": "ce.erseh13-massenet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130554g",
@@ -11327,14 +11327,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER HAENEL",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130554G@ac-aix-marseille.fr",
     "phone": "491755200",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -11370,7 +11370,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NAKACHE ODILE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -11401,14 +11401,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN LUIGI",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130555H@ac-aix-marseille.fr",
     "phone": "491910693",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130710b",
@@ -11432,14 +11432,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE COURTOT",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130710B@ac-aix-marseille.fr",
     "phone": "491337060",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134121j",
@@ -11463,7 +11463,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Valentin REIBEIX",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -11494,14 +11494,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FABRICE BURSI",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0132638X@ac-aix-marseille.fr",
     "phone": "491471918",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132530e",
@@ -11527,14 +11527,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VANESSA NINO",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0132530E@ac-aix-marseille.fr",
     "phone": "491686991",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -11570,14 +11570,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE TOUBON",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0130556J@ac-aix-marseille.fr",
     "phone": "491681232",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130557k",
@@ -11601,14 +11601,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BAIA DJAADI",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0130557K@ac-aix-marseille.fr",
     "phone": "491059000",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134163e",
@@ -11632,7 +11632,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ABDOU LATIF Imani",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -11663,14 +11663,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. SAMUEL KAMMER",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0134444K@ac-aix-marseille.fr",
     "phone": "413948017",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130559m",
@@ -11694,8 +11694,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIEL PEROTTI",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0130559M@ac-aix-marseille.fr",
@@ -11710,8 +11710,8 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134539n",
@@ -11735,7 +11735,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Mamadou GOUDIABY",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -11768,14 +11768,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ALEXANDRA DONGUY",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0131641N@ac-aix-marseille.fr",
     "phone": "486940582",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -11813,14 +11813,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AUDREY SALCEDO",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0132637W@ac-aix-marseille.fr",
     "phone": "491983917",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -11856,14 +11856,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FRANCK BOUCHEREAU",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ecendoume@wanadoo.fr",
     "phone": "491527412",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130560n",
@@ -11887,14 +11887,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE MORALIA",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0130560N@ac-aix-marseille.fr",
     "phone": "491430125",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130561p",
@@ -11918,14 +11918,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIELLE CANTILLON",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130561P@ac-aix-marseille.fr",
     "phone": "491036655",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130562r",
@@ -11951,14 +11951,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. SEBASTIEN MOSA",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130562R@ac-aix-marseille.fr",
     "phone": "491461266",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -11994,14 +11994,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELISABETH SCHIANO DI FERRUZZO",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0130563S@ac-aix-marseille.fr",
     "phone": "491763637",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -12035,14 +12035,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Jessica ESTORACH",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "secretariat.jeannedarc@gmail.com",
     "phone": "491642154",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130565u",
@@ -12066,14 +12066,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FRANCOIS MOLLARD",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0130565U@ac-aix-marseille.fr",
     "phone": "491485842",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130566v",
@@ -12097,14 +12097,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ZAWAD LAURE SAID MOHAMED",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0130566V@ac-aix-marseille.fr",
     "phone": "491501124",
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130567w",
@@ -12128,14 +12128,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AURELIE FLINOIS",
-    "referentName": "RAOUX GUILLAUME",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FRAISSINET",
     "cpcName": "",
     "email": "ce.0130567W@ac-aix-marseille.fr",
     "phone": "491496604",
-    "referentPhone": "06 25 11 28 04",
-    "referentEmail": "ce.erseh13-fraissinet@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -12169,14 +12169,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE LEPORATI",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0131272M@ac-aix-marseille.fr",
     "phone": "491772759",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131543g",
@@ -12200,14 +12200,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CHRISTOPHE OLIVIER",
-    "referentName": "BAUME CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MASSENET",
     "cpcName": "",
     "email": "ce.0131543G@ac-aix-marseille.fr",
     "phone": "491022289",
-    "referentPhone": "06 21 54 13 51",
-    "referentEmail": "ce.erseh13-massenet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130633t",
@@ -12231,14 +12231,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER PONZI",
-    "referentName": "LA ROCCA MYRTILLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_1",
     "cpcName": "",
     "email": "ce.0130633T@ac-aix-marseille.fr",
     "phone": "491930057",
-    "referentPhone": "06 14 60 06 79",
-    "referentEmail": "ce.erseh13-caillols1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130568x",
@@ -12262,14 +12262,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE FLOUCAT",
-    "referentName": "RAOUX GUILLAUME",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FRAISSINET",
     "cpcName": "",
     "email": "ce.0130568X@ac-aix-marseille.fr",
     "phone": "491480731",
-    "referentPhone": "06 25 11 28 04",
-    "referentEmail": "ce.erseh13-fraissinet@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -12303,14 +12303,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EMILIE GUAY",
-    "referentName": "GALAS FLORENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_1",
     "cpcName": "",
     "email": "ce.0130569Y@ac-aix-marseille.fr",
     "phone": "491910254",
-    "referentPhone": "06 14 60 65 74",
-    "referentEmail": "ce.erseh13-dsden1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -12344,14 +12344,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME GAELLE GOURVENNEC BRETON",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130659W@ac-aix-marseille.fr",
     "phone": "491472252",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -12385,14 +12385,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FABIENNE NICOLAI",
-    "referentName": "DANIEL CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_3",
     "cpcName": "",
     "email": "ce.0130725T@ac-aix-marseille.fr",
     "phone": "491786862",
-    "referentPhone": "06 03 12 82 61",
-    "referentEmail": "ce.erseh13-puget3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133202k",
@@ -12416,14 +12416,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Guil ZENOU",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0133202K@ac-aix-marseille.fr",
     "phone": "496100850",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133660h",
@@ -12447,14 +12447,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Dina Esther BITOUN",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0133660H@ac-aix-marseille.fr",
     "phone": "491060209",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132286p",
@@ -12478,14 +12478,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAMILLE JOUFFRE",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0132286P@ac-aix-marseille.fr",
     "phone": "491733651",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130571a",
@@ -12511,14 +12511,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE ZECCHINI",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0130571A@ac-aix-marseille.fr",
     "phone": "491762331",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -12556,14 +12556,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIEL THOMAS",
-    "referentName": "LA ROCCA MYRTILLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_1",
     "cpcName": "",
     "email": "ce.0130608R@ac-aix-marseille.fr",
     "phone": "491932542",
-    "referentPhone": "06 14 60 06 79",
-    "referentEmail": "ce.erseh13-caillols1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -12599,14 +12599,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE GODARD",
-    "referentName": "LA ROCCA MYRTILLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_1",
     "cpcName": "",
     "email": "ce.0131595N@ac-aix-marseille.fr",
     "phone": "491445244",
-    "referentPhone": "06 14 60 06 79",
-    "referentEmail": "ce.erseh13-caillols1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130572b",
@@ -12630,14 +12630,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MORGANE RIBOT",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0130572B@ac-aix-marseille.fr",
     "phone": "491733484",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133811x",
@@ -12661,14 +12661,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME StÂ‚phanie SCHEMBRI",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "administratif@bneielazar.fr",
     "phone": "491320520",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130729x",
@@ -12692,14 +12692,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME INGRID POTTIE-MARTRE",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0130729X@ac-aix-marseille.fr",
     "phone": "491372213",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133263b",
@@ -12723,7 +12723,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Hélène MARDIROSSIAN",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -12754,7 +12754,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME UZAN ANNIE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -12785,7 +12785,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHALEM ORLY",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -12816,14 +12816,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SÂ‚VERINE AZEMA",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "secretariat@margalhan.com",
     "phone": "491101840",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130574d",
@@ -12847,14 +12847,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNE VOLPI",
-    "referentName": "GALAS FLORENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_1",
     "cpcName": "",
     "email": "ce.0130574D@ac-aix-marseille.fr",
     "phone": "491905350",
-    "referentPhone": "06 14 60 65 74",
-    "referentEmail": "ce.erseh13-dsden1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132999p",
@@ -12878,14 +12878,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Ophelie PEREZ",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0132999P@ac-aix-marseille.fr",
     "phone": "491752098",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133829s",
@@ -12909,7 +12909,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JOEL TROTEBAS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -12940,7 +12940,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Géraldine CHABAUD",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -12972,14 +12972,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VIRGINIE GUAZZELLI",
-    "referentName": "DANIEL CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_3",
     "cpcName": "",
     "email": "ce.0130558L@ac-aix-marseille.fr",
     "phone": "491377802",
-    "referentPhone": "06 03 12 82 61",
-    "referentEmail": "ce.erseh13-puget3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -13014,14 +13014,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE BESSON LAURETTE",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0130576F@ac-aix-marseille.fr",
     "phone": "491761517",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132039w",
@@ -13045,14 +13045,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Eve LENEVEU",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0132039W@ac-aix-marseille.fr",
     "phone": "496101230",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130735d",
@@ -13078,8 +13078,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. HAKIM TRAIKIA",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0130735D@ac-aix-marseille.fr",
@@ -13096,8 +13096,8 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132079p",
@@ -13121,14 +13121,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNE SOPHIE GUILLE",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0132079P@ac-aix-marseille.fr",
     "phone": "491122080",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130736e",
@@ -13152,14 +13152,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE MEUNIER TREGLIA",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0130736E@ac-aix-marseille.fr",
     "phone": "491733286",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130577g",
@@ -13183,14 +13183,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE RYCHEN",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0130577G@ac-aix-marseille.fr",
     "phone": "491732750",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134545v",
@@ -13214,14 +13214,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AICHA HADJ-OTHMANE",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0134545V@ac-aix-marseille.fr",
     "phone": "488492019",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134238l",
@@ -13245,7 +13245,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DJEBASSI LIZA",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -13276,7 +13276,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Natacha SOLIHI",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -13307,14 +13307,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALIE OLLIVE",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130578H@ac-aix-marseille.fr",
     "phone": "491507926",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130579j",
@@ -13338,14 +13338,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME TANIA ARSENE",
-    "referentName": "DANIEL CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_3",
     "cpcName": "",
     "email": "ce.0130579J@ac-aix-marseille.fr",
     "phone": "491782161",
-    "referentPhone": "06 03 12 82 61",
-    "referentEmail": "ce.erseh13-puget3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133762u",
@@ -13369,7 +13369,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Sara HSIAOUI-AGGOUNE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -13400,14 +13400,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MATHILDE PEYSSON",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0130580K@ac-aix-marseille.fr",
     "phone": "491422137",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133223h",
@@ -13431,14 +13431,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Eric MARTELLI",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0133223H@ac-aix-marseille.fr",
     "phone": "491431293",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130739h",
@@ -13462,14 +13462,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MANON MORAND",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0130739H@ac-aix-marseille.fr",
     "phone": "491733923",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134231d",
@@ -13493,14 +13493,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN-LUC BERGE",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0134231D@ac-aix-marseille.fr",
     "phone": "491580071",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -13536,14 +13536,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BENJAMIN MERCADAL",
-    "referentName": "GALAS FLORENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_1",
     "cpcName": "",
     "email": "ce.0130741K@ac-aix-marseille.fr",
     "phone": "491912151",
-    "referentPhone": "06 14 60 65 74",
-    "referentEmail": "ce.erseh13-dsden1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -13579,14 +13579,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAMILLE LAVIGNON",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0130583N@ac-aix-marseille.fr",
     "phone": "491661018",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132274b",
@@ -13612,14 +13612,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ALEXANDRE BALAYN",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0132274B@ac-aix-marseille.fr",
     "phone": "491700247",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -13655,14 +13655,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LEA SAMIA LARIDHI",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0131856X@ac-aix-marseille.fr",
     "phone": "413948680",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -13696,14 +13696,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE FALK",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130743M@ac-aix-marseille.fr",
     "phone": "491520308",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130584p",
@@ -13727,14 +13727,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE ELBAZ",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0130584P@ac-aix-marseille.fr",
     "phone": "491664088",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131224k",
@@ -13758,14 +13758,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. GILLES RICHARD",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0131224K@ac-aix-marseille.fr",
     "phone": "491607562",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -13799,14 +13799,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KARINE BIANCO",
-    "referentName": "AGRESTI SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_3",
     "cpcName": "",
     "email": "ce.0130585R@ac-aix-marseille.fr",
     "phone": "491930646",
-    "referentPhone": "06 21 54 36 79",
-    "referentEmail": "ce.erseh13-malraux3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133655c",
@@ -13832,14 +13832,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME GENEVIEVE URBANI",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0133655C@ac-aix-marseille.fr",
     "phone": "491901576",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -13875,14 +13875,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARJORIE MATHIEU",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130747S@ac-aix-marseille.fr",
     "phone": "491400186",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130587t",
@@ -13906,7 +13906,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARION ROLLAND",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -13937,14 +13937,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ALAIN KRIER",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0131692U@ac-aix-marseille.fr",
     "phone": "491401513",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -13978,14 +13978,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AMANDINE CONESA",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0134097H@ac-aix-marseille.fr",
     "phone": "413948018",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130589v",
@@ -14009,14 +14009,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SABINE BACH PUGLISI",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130589V@ac-aix-marseille.fr",
     "phone": "491797951",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130751w",
@@ -14041,14 +14041,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORALIE GRAU",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0130751W@ac-aix-marseille.fr",
     "phone": "491982505",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -14083,14 +14083,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DIDIER DODERO",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0130590W@ac-aix-marseille.fr",
     "phone": "491982358",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134096g",
@@ -14114,14 +14114,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE MERLONGHI",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0134096G@ac-aix-marseille.fr",
     "phone": "491099628",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130591x",
@@ -14145,14 +14145,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME HELENE CARBLANC",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130591X@ac-aix-marseille.fr",
     "phone": "491361372",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134235h",
@@ -14176,7 +14176,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BEVALDI Véronique",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -14207,7 +14207,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "nan",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -14238,14 +14238,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PATRICIA DE JESUS",
-    "referentName": "RAOUX GUILLAUME",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FRAISSINET",
     "cpcName": "",
     "email": "ce.0132184D@ac-aix-marseille.fr",
     "phone": "491930627",
-    "referentPhone": "06 25 11 28 04",
-    "referentEmail": "ce.erseh13-fraissinet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130595b",
@@ -14271,8 +14271,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. GERMAIN COURTOT",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0130595B@ac-aix-marseille.fr",
@@ -14289,8 +14289,8 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132605l",
@@ -14314,14 +14314,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LUCIE IGLESIAS",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0132605L@ac-aix-marseille.fr",
     "phone": "491353801",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132063x",
@@ -14345,14 +14345,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Pascale ROCHE",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "secretariat@ecolendlp.com",
     "phone": "491377816",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131638k",
@@ -14376,14 +14376,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE FLOCHLAY",
-    "referentName": "STELLA DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RIMBAUD",
     "cpcName": "",
     "email": "ce.0131638K@ac-aix-marseille.fr",
     "phone": "491511184",
-    "referentPhone": "06 21 54 20 36",
-    "referentEmail": "ce.erseh13-rimbaud@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -14417,14 +14417,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JESSICA CRONENBERGER",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0131636H@ac-aix-marseille.fr",
     "phone": "491510382",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132068c",
@@ -14448,14 +14448,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Magalie MOURRE",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0132068C@ac-aix-marseille.fr",
     "phone": "491377560",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132055n",
@@ -14479,14 +14479,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. David GARCIA",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0132055N@ac-aix-marseille.fr",
     "phone": "491430332",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131812z",
@@ -14510,14 +14510,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Flore ANGELIER",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0131812Z@ac-aix-marseille.fr",
     "phone": "491902819",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132040x",
@@ -14541,14 +14541,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Audrey BENOIT",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0132040X@ac-aix-marseille.fr",
     "phone": "491779407",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131800l",
@@ -14572,14 +14572,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Estelle BRIVADIS",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ce.0131800L@ac-aix-marseille.fr",
     "phone": "491901090",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131797h",
@@ -14603,14 +14603,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Virginie BALEGE",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ce.0131797H@ac-aix-marseille.fr",
     "phone": "977690478",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130597d",
@@ -14634,14 +14634,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANGELIQUE MAROTTA",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0130597D@ac-aix-marseille.fr",
     "phone": "491580042",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130598e",
@@ -14665,14 +14665,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE GOMEZ",
-    "referentName": "BREUX GOBIN LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_1",
     "cpcName": "",
     "email": "ce.0130598E@ac-aix-marseille.fr",
     "phone": "491662760",
-    "referentPhone": "06 25 11 49 38",
-    "referentEmail": "ce.erseh13-malraux1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -14708,14 +14708,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FABIENNE PRONESTI",
-    "referentName": "GIRARD STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_4",
     "cpcName": "",
     "email": "ce.0130570Z@ac-aix-marseille.fr",
     "phone": "491422118",
-    "referentPhone": "06 14 60 78 10",
-    "referentEmail": "ce.erseh13-puget4@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -14751,14 +14751,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. MARC BURLAT",
-    "referentName": "RAOUX GUILLAUME",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FRAISSINET",
     "cpcName": "",
     "email": "ce.0130528D@ac-aix-marseille.fr",
     "phone": "491490848",
-    "referentPhone": "06 25 11 28 04",
-    "referentEmail": "ce.erseh13-fraissinet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130599f",
@@ -14782,14 +14782,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VIRGINIE MONTEBELLO",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130599F@ac-aix-marseille.fr",
     "phone": "491546918",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -14823,14 +14823,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE SARRAZIN",
-    "referentName": "BREUX GOBIN LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_1",
     "cpcName": "",
     "email": "ce.0132603J@ac-aix-marseille.fr",
     "phone": "491685000",
-    "referentPhone": "06 25 11 49 38",
-    "referentEmail": "ce.erseh13-malraux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130518t",
@@ -14854,14 +14854,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DAVID FORTIER",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0130518T@ac-aix-marseille.fr",
     "phone": "491582686",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130600g",
@@ -14885,14 +14885,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI BOURDET",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0130600g@ac-aix-marseille.fr",
     "phone": "413948007",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131637j",
@@ -14917,14 +14917,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN FRANCOIS BIENAIME",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0131637J@ac-aix-marseille.fr",
     "phone": "491511842",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -14961,14 +14961,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MURIELLE GAIARSA",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0130601H@ac-aix-marseille.fr",
     "phone": "491449891",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -15004,14 +15004,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MÂ‚lanie LE ROUVILLOIS",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0132044B@ac-aix-marseille.fr",
     "phone": "496190606",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130603k",
@@ -15035,14 +15035,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE ROQUE",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0130603K@ac-aix-marseille.fr",
     "phone": "491755255",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130604l",
@@ -15066,14 +15066,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SOLANGE PRADOURA",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0130604L@ac-aix-marseille.fr",
     "phone": "491663964",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131537a",
@@ -15099,8 +15099,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME RACHEL GERVASONI",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0131537A@ac-aix-marseille.fr",
@@ -15117,8 +15117,8 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131538b",
@@ -15142,14 +15142,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE VILLETE",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0131538B@ac-aix-marseille.fr",
     "phone": "491507623",
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130605m",
@@ -15173,14 +15173,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PASCALE PILA",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130605M@ac-aix-marseille.fr",
     "phone": "491523732",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132155x",
@@ -15204,14 +15204,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANNE COLLET",
-    "referentName": "CARLIER CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "BARNIER",
     "cpcName": "",
     "email": "ce.0132155X@ac-aix-marseille.fr",
     "phone": "491512737",
-    "referentPhone": "06 14 60 77 59",
-    "referentEmail": "ce.erseh13-barnier@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -15245,14 +15245,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EMMEANUELLE MARTIN-CASSAR",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0130606N@ac-aix-marseille.fr",
     "phone": "491733566",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130766m",
@@ -15276,14 +15276,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SOPHIE KERMOAL",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130766M@ac-aix-marseille.fr",
     "phone": "491351527",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132485f",
@@ -15307,14 +15307,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BERTRAND LACHAUD",
-    "referentName": "LA ROCCA MYRTILLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_1",
     "cpcName": "",
     "email": "ce.0132485F@ac-aix-marseille.fr",
     "phone": "491447960",
-    "referentPhone": "06 14 60 06 79",
-    "referentEmail": "ce.erseh13-caillols1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130914y",
@@ -15338,14 +15338,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EMMEANUELLE QUETTE",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0130914Y@ac-aix-marseille.fr",
     "phone": "491640358",
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130609s",
@@ -15369,14 +15369,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE LOMBARDO PAOLI",
-    "referentName": "PIQUOT DELPHINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LOUISE_MICHEL",
     "cpcName": "",
     "email": "ce.0130609S@ac-aix-marseille.fr",
     "phone": "491796659",
-    "referentPhone": "06 14 60 73 17",
-    "referentEmail": "ce.erseh13-louisemichel@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -15410,14 +15410,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. SYLVAIN ROSATI",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0133188V@ac-aix-marseille.fr",
     "phone": "491773797",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132074j",
@@ -15441,14 +15441,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME  SUMIAN",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0132074J@ac-aix-marseille.fr",
     "phone": "491526501",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132038v",
@@ -15472,14 +15472,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Eric MARTELLI",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0132038V@ac-aix-marseille.fr",
     "phone": "491772846",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131552s",
@@ -15503,14 +15503,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER LABARSOUQUE",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0131552S@ac-aix-marseille.fr",
     "phone": "491794306",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131640m",
@@ -15534,14 +15534,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DENIS SOTO",
-    "referentName": "CHAVANT MARION",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_2",
     "cpcName": "",
     "email": "ce.0131640M@ac-aix-marseille.fr",
     "phone": "491501792",
-    "referentPhone": "06 14 60 35 34",
-    "referentEmail": "ce.erseh13-dsden2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134240n",
@@ -15565,7 +15565,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. HEINS-XAVIER CRENER",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -15596,14 +15596,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Françoise MAZZONETTO",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0133936H@ac-aix-marseille.fr",
     "phone": "964449480",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130613w",
@@ -15627,14 +15627,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE JACQUIN",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0130613W@ac-aix-marseille.fr",
     "phone": "491663908",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130773v",
@@ -15658,14 +15658,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN MARC BIAGINI FABRE",
-    "referentName": "AGRESTI SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_3",
     "cpcName": "",
     "email": "ce.0130773V@ac-aix-marseille.fr",
     "phone": "491662716",
-    "referentPhone": "06 21 54 36 79",
-    "referentEmail": "ce.erseh13-malraux3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132183c",
@@ -15689,14 +15689,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE PAGNI",
-    "referentName": "AGRESTI SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_3",
     "cpcName": "",
     "email": "ce.0132183C@ac-aix-marseille.fr",
     "phone": "491661496",
-    "referentPhone": "06 21 54 36 79",
-    "referentEmail": "ce.erseh13-malraux3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132267u",
@@ -15722,14 +15722,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLINE VITALI",
-    "referentName": "AGRESTI SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_3",
     "cpcName": "",
     "email": "ce.0132267U@ac-aix-marseille.fr",
     "phone": "491661305",
-    "referentPhone": "06 21 54 36 79",
-    "referentEmail": "ce.erseh13-malraux3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -15767,14 +15767,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DAVID HEBERT",
-    "referentName": "AGRESTI SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_3",
     "cpcName": "",
     "email": "ce.0130616Z@ac-aix-marseille.fr",
     "phone": "491662171",
-    "referentPhone": "06 21 54 36 79",
-    "referentEmail": "ce.erseh13-malraux3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -15810,14 +15810,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELODIE POULET",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0130618B@ac-aix-marseille.fr",
     "phone": "491660087",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130617a",
@@ -15841,14 +15841,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTEL FERRY",
-    "referentName": "AGRESTI SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_3",
     "cpcName": "",
     "email": "ce.0130617A@ac-aix-marseille.fr",
     "phone": "491663832",
-    "referentPhone": "06 21 54 36 79",
-    "referentEmail": "ce.erseh13-malraux3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131227n",
@@ -15874,14 +15874,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DIDIER GRUT",
-    "referentName": "BREUX GOBIN LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_1",
     "cpcName": "",
     "email": "ce.0131227N@ac-aix-marseille.fr",
     "phone": "491664389",
-    "referentPhone": "06 25 11 49 38",
-    "referentEmail": "ce.erseh13-malraux1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -15917,14 +15917,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE BENZAIM",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130619C@ac-aix-marseille.fr",
     "phone": "491521216",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130620d",
@@ -15950,14 +15950,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORINNE DI STEFANO",
-    "referentName": "VINCENT ERIC",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_2",
     "cpcName": "",
     "email": "ce.0130620D@ac-aix-marseille.fr",
     "phone": "491930088",
-    "referentPhone": "06 21 54 00 32",
-    "referentEmail": "ce.erseh13-caillols2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -15995,14 +15995,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE PILA",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0130918C@ac-aix-marseille.fr",
     "phone": "491526926",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -16038,14 +16038,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PATRICK LEFRANCOIS",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130621E@ac-aix-marseille.fr",
     "phone": "491791641",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -16081,14 +16081,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRA ISOARD",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ce.0134167J@ac-aix-marseille.fr",
     "phone": "496190815",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -16124,14 +16124,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. SEBASTIEN FELIUS",
-    "referentName": "LA ROCCA MYRTILLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_1",
     "cpcName": "",
     "email": "ce.0130622F@ac-aix-marseille.fr",
     "phone": "491894683",
-    "referentPhone": "06 14 60 06 79",
-    "referentEmail": "ce.erseh13-caillols1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -16165,14 +16165,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE TROUILLET",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130623G@ac-aix-marseille.fr",
     "phone": "491413489",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -16206,14 +16206,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME TATIANA MATHIEUX",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0131209U@ac-aix-marseille.fr",
     "phone": "491732213",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132080r",
@@ -16237,14 +16237,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME  LEROMAN",
-    "referentName": "LEVY GHISLAINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_7",
     "cpcName": "",
     "email": "ce.0132080R@ac-aix-marseille.fr",
     "phone": "491480592",
-    "referentPhone": "06 12 97 29 60",
-    "referentEmail": "ce.erseh13-prive7@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132919c",
@@ -16268,14 +16268,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE CROCQUET",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "sacre.coeur.roucas@numericable.fr",
     "phone": "491526088",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132176v",
@@ -16299,14 +16299,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER MORIN",
-    "referentName": "CARLIER CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "BARNIER",
     "cpcName": "",
     "email": "ce.0132176V@ac-aix-marseille.fr",
     "phone": "491460583",
-    "referentPhone": "06 14 60 77 59",
-    "referentEmail": "ce.erseh13-barnier@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130783f",
@@ -16330,14 +16330,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN BAPTISTE JAMPY",
-    "referentName": "CARLIER CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "BARNIER",
     "cpcName": "",
     "email": "ce.0130783F@ac-aix-marseille.fr",
     "phone": "491460392",
-    "referentPhone": "06 14 60 77 59",
-    "referentEmail": "ce.erseh13-barnier@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131821j",
@@ -16361,14 +16361,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARJORIE FLOSI MELANCHON",
-    "referentName": "CARLIER CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "BARNIER",
     "cpcName": "",
     "email": "ce.0131821J@ac-aix-marseille.fr",
     "phone": "491460431",
-    "referentPhone": "06 14 60 77 59",
-    "referentEmail": "ce.erseh13-barnier@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -16402,14 +16402,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CARINE CAYRIER-JULES",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130626K@ac-aix-marseille.fr",
     "phone": "491656270",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132082t",
@@ -16435,14 +16435,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Isabelle MARTELLI",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0132082T@ac-aix-marseille.fr",
     "phone": "491496930",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -16480,14 +16480,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE DOMERGUE",
-    "referentName": "VINCENT ERIC",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_2",
     "cpcName": "",
     "email": "ce.0130627L@ac-aix-marseille.fr",
     "phone": "491490654",
-    "referentPhone": "06 21 54 00 32",
-    "referentEmail": "ce.erseh13-caillols2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -16523,14 +16523,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MYRIAM HILAIRE",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0132429V@ac-aix-marseille.fr",
     "phone": "491981184",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130629n",
@@ -16555,14 +16555,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LAURENT PERSINI",
-    "referentName": "GUIZIOU STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "WALLON",
     "cpcName": "",
     "email": "ce.0130629N@ac-aix-marseille.fr",
     "phone": "491981910",
-    "referentPhone": "06 25 11 50 07",
-    "referentEmail": "ce.erseh13-wallon@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -16597,14 +16597,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE LUCCHESI",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130630P@ac-aix-marseille.fr",
     "phone": "491502486",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130788l",
@@ -16628,14 +16628,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BRUNO GIRY FAVARD",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130788L@ac-aix-marseille.fr",
     "phone": "491503953",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132064y",
@@ -16659,14 +16659,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Muriel PRUVOT",
-    "referentName": "LEVY GHISLAINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_7",
     "cpcName": "",
     "email": "ce.0132064Y@ac-aix-marseille.fr",
     "phone": "495081240",
-    "referentPhone": "06 12 97 29 60",
-    "referentEmail": "ce.erseh13-prive7@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133208s",
@@ -16690,7 +16690,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Anne GOILLOT",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -16721,14 +16721,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE THIERS",
-    "referentName": "BAUME CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MASSENET",
     "cpcName": "",
     "email": "ce.0130631R@ac-aix-marseille.fr",
     "phone": "491672608",
-    "referentPhone": "06 21 54 13 51",
-    "referentEmail": "ce.erseh13-massenet@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132075k",
@@ -16752,14 +16752,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME  BACCI-LIGUORI",
-    "referentName": "THIVANT ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_2",
     "cpcName": "",
     "email": "ce.0132075K@ac-aix-marseille.fr",
     "phone": "491527834",
-    "referentPhone": "06 14 60 39 97",
-    "referentEmail": "ce.erseh13-puget2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130632s",
@@ -16783,14 +16783,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VIRGINIE KLAKIEWICZ",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130632S@ac-aix-marseille.fr",
     "phone": "491460103",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130790n",
@@ -16814,14 +16814,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DAVID GUEVARA",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130790N@ac-aix-marseille.fr",
     "phone": "491460922",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132042z",
@@ -16845,14 +16845,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Marine TOURNIERES",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0132042Z@ac-aix-marseille.fr",
     "phone": "491402857",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131652a",
@@ -16877,14 +16877,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MICHELE CANTIN",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0131652A@ac-aix-marseille.fr",
     "phone": "491981105",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -16919,14 +16919,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE BIACHE",
-    "referentName": "CARRERA JONATHAN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_2",
     "cpcName": "",
     "email": "ce.0130634U@ac-aix-marseille.fr",
     "phone": "491664212",
-    "referentPhone": "06 21 54 70 18",
-    "referentEmail": "ce.erseh13-malraux2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -16960,14 +16960,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CLAUDE BERAHIA",
-    "referentName": "CARRERA JONATHAN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_2",
     "cpcName": "",
     "email": "ce.0130792R@ac-aix-marseille.fr",
     "phone": "413948033",
-    "referentPhone": "06 21 54 70 18",
-    "referentEmail": "ce.erseh13-malraux2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -17001,14 +17001,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Céline HERZOG",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ce.0131818F@ac-aix-marseille.fr",
     "phone": "491586140",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132011r",
@@ -17032,14 +17032,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Estelle BRIVADIS",
-    "referentName": "LEVY GHISLAINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_7",
     "cpcName": "",
     "email": "ce.0132011R@ac-aix-marseille.fr",
     "phone": "491460355",
-    "referentPhone": "06 12 97 29 60",
-    "referentEmail": "ce.erseh13-prive7@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -17075,14 +17075,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRYSTELLE CLERE",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0132192M@ac-aix-marseille.fr",
     "phone": "491601564",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -17130,14 +17130,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SONIA MAURER",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130636W@ac-aix-marseille.fr",
     "phone": "491605335",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -17173,14 +17173,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAUD LIGNOT",
-    "referentName": "LA ROCCA MYRTILLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CAILLOLS_1",
     "cpcName": "",
     "email": "ce.0130637X@ac-aix-marseille.fr",
     "phone": "491933390",
-    "referentPhone": "06 14 60 06 79",
-    "referentEmail": "ce.erseh13-caillols1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130795u",
@@ -17204,14 +17204,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BRUNO GAINLET",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0130795U@ac-aix-marseille.fr",
     "phone": "491932381",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130638y",
@@ -17235,14 +17235,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FREDERIQUE MASSIANI",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0130638Y@ac-aix-marseille.fr",
     "phone": "491664311",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -17276,14 +17276,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE TIDU",
-    "referentName": "BEN HADJ OTHMAN ADEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_1",
     "cpcName": "",
     "email": "ce.0130796V@ac-aix-marseille.fr",
     "phone": "491663620",
-    "referentPhone": "06 25 11 53 02",
-    "referentEmail": "ce.erseh13-chartreux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130640a",
@@ -17308,14 +17308,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. RENAUD BERNARD",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0130640A@ac-aix-marseille.fr",
     "phone": "491663973",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -17350,14 +17350,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE BRACHET-COTA",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ecole.stlouismariani@wanadoo.fr",
     "phone": "491600001",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130643d",
@@ -17381,14 +17381,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE PARRA",
-    "referentName": "STELLA DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RIMBAUD",
     "cpcName": "",
     "email": "ce.0130643D@ac-aix-marseille.fr",
     "phone": "491606710",
-    "referentPhone": "06 21 54 20 36",
-    "referentEmail": "ce.erseh13-rimbaud@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130641b",
@@ -17412,14 +17412,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. EMMANUEL SUZANNA",
-    "referentName": "STELLA DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RIMBAUD",
     "cpcName": "",
     "email": "ce.0130641B@ac-aix-marseille.fr",
     "phone": "491600014",
-    "referentPhone": "06 21 54 20 36",
-    "referentEmail": "ce.erseh13-rimbaud@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -17453,14 +17453,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. NICOLAS LESEIGNEUR",
-    "referentName": "STELLA DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RIMBAUD",
     "cpcName": "",
     "email": "ce.0130642C@ac-aix-marseille.fr",
     "phone": "413948032",
-    "referentPhone": "06 21 54 20 36",
-    "referentEmail": "ce.erseh13-rimbaud@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131540d",
@@ -17484,14 +17484,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLINE AIT ABDELLOUHAB",
-    "referentName": "STELLA DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RIMBAUD",
     "cpcName": "",
     "email": "ce.0131540D@ac-aix-marseille.fr",
     "phone": "491609633",
-    "referentPhone": "06 21 54 20 36",
-    "referentEmail": "ce.erseh13-rimbaud@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -17525,14 +17525,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DANIELLE LESSI",
-    "referentName": "PIQUOT DELPHINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LOUISE_MICHEL",
     "cpcName": "",
     "email": "ce.0130801A@ac-aix-marseille.fr",
     "phone": "491448058",
-    "referentPhone": "06 14 60 73 17",
-    "referentEmail": "ce.erseh13-louisemichel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132175u",
@@ -17556,14 +17556,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. REGIS BUONSIGNORI",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0132175U@ac-aix-marseille.fr",
     "phone": "491447307",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130644e",
@@ -17587,14 +17587,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARION BAGUES",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130644E@ac-aix-marseille.fr",
     "phone": "491351227",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130645f",
@@ -17618,14 +17618,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MELISSA CORBANI",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130645F@ac-aix-marseille.fr",
     "phone": "491447053",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131799k",
@@ -17649,14 +17649,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Evelyne COLLOC",
-    "referentName": "BREUX GOBIN LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_1",
     "cpcName": "",
     "email": "ce.0131799K@ac-aix-marseille.fr",
     "phone": "491070718",
-    "referentPhone": "06 25 11 49 38",
-    "referentEmail": "ce.erseh13-malraux1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131810x",
@@ -17680,14 +17680,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Chantal MARCHAL",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0131810X@ac-aix-marseille.fr",
     "phone": "491625907",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131801m",
@@ -17711,14 +17711,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Stéphanie MOUTON",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ce.0131801M@ac-aix-marseille.fr",
     "phone": "491429223",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130647h",
@@ -17743,14 +17743,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE MIOLAN",
-    "referentName": "TURCAT CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_4",
     "cpcName": "",
     "email": "ce.0130647H@ac-aix-marseille.fr",
     "phone": "491661520",
-    "referentPhone": "06 21 54 55 44",
-    "referentEmail": "ce.erseh13-malraux4@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -17785,14 +17785,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME OLIVIA DESBIEF",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130648J@ac-aix-marseille.fr",
     "phone": "491476503",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132352l",
@@ -17817,14 +17817,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE DUQUESNOY",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0132352L@ac-aix-marseille.fr",
     "phone": "491756550",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -17859,7 +17859,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHANTAL CABRERA",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -17890,7 +17890,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHANTAL BICHY",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -17923,14 +17923,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KATIA KATIA BATBEDAT",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ecole.ste.anne.callelongue@wanadoo.fr",
     "phone": "491710806",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -17968,14 +17968,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FRANCOISE MAMELLI BERNARD",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0130651M@ac-aix-marseille.fr",
     "phone": "491761737",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -18011,14 +18011,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Michèle VANKEERBERGHEN",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "ce.0132041Y@ac-aix-marseille.fr",
     "phone": "491772385",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130652n",
@@ -18042,14 +18042,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRA PRINCIPATO",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130652N@ac-aix-marseille.fr",
     "phone": "491782067",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132045c",
@@ -18073,14 +18073,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Valérie DAM SEC PAU",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0132045C@ac-aix-marseille.fr",
     "phone": "491750479",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130653p",
@@ -18105,14 +18105,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI GOURY",
-    "referentName": "ATTEIA CAROLINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_2",
     "cpcName": "",
     "email": "ce.0130653P@ac-aix-marseille.fr",
     "phone": "491755184",
-    "referentPhone": "06 21 54 77 71",
-    "referentEmail": "ce.erseh13-gyptis2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -18147,14 +18147,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Emmanuelle RANGUIS",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ce.0131802N@ac-aix-marseille.fr",
     "phone": "491185020",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132046d",
@@ -18178,14 +18178,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE BOYER",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "directrice@ecolestemariestloup.fr",
     "phone": "491897403",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132111z",
@@ -18209,14 +18209,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME STEPHANIE URTASUN",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "m.madeleine13@wanadoo.fr",
     "phone": "491493292",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130654r",
@@ -18240,14 +18240,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN LUC SIMON",
-    "referentName": "GUIZIOU STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "WALLON",
     "cpcName": "",
     "email": "ce.0130654R@ac-aix-marseille.fr",
     "phone": "491982063",
-    "referentPhone": "06 25 11 50 07",
-    "referentEmail": "ce.erseh13-wallon@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134168k",
@@ -18271,14 +18271,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE-AUDE BONJOTIN",
-    "referentName": "CARRERA JONATHAN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_2",
     "cpcName": "",
     "email": "ce.0134168K@ac-aix-marseille.fr",
     "phone": "491561546",
-    "referentPhone": "06 21 54 70 18",
-    "referentEmail": "ce.erseh13-malraux2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130813n",
@@ -18302,14 +18302,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CELINE SALLABERRY",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130813N@ac-aix-marseille.fr",
     "phone": "491347303",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -18343,14 +18343,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Julie PERGANDI",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0131803P@ac-aix-marseille.fr",
     "phone": "491623579",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132047e",
@@ -18374,14 +18374,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Sophie GUEZ",
-    "referentName": "ADNOT LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_1",
     "cpcName": "",
     "email": "contact@sainte-trinite.fr",
     "phone": "491411198",
-    "referentPhone": "06 25 11 23 05",
-    "referentEmail": "ce.erseh13-roydespagne1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130806f",
@@ -18405,14 +18405,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLE MATIAS",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0130806F@ac-aix-marseille.fr",
     "phone": "491531060",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130655s",
@@ -18436,14 +18436,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE CLINET",
-    "referentName": "PIQUOT DELPHINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LOUISE_MICHEL",
     "cpcName": "",
     "email": "ce.0130655S@ac-aix-marseille.fr",
     "phone": "491752336",
-    "referentPhone": "06 14 60 73 17",
-    "referentEmail": "ce.erseh13-louisemichel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132483d",
@@ -18467,14 +18467,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME WARDA BEKRATTOU",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0132483D@ac-aix-marseille.fr",
     "phone": "491655027",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134531e",
@@ -18498,14 +18498,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FREDERIC BERTET",
-    "referentName": "FOISSET CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP",
     "cpcName": "",
     "email": "ce.0134531E@ac-aix-marseille.fr",
     "phone": "413948694",
-    "referentPhone": "06 21 54 57 10",
-    "referentEmail": "ce.erseh13-longchamp@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131229r",
@@ -18531,14 +18531,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CHRISTIAN GOUIN",
-    "referentName": "GUIZIOU STEPHANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "WALLON",
     "cpcName": "",
     "email": "ce.0131229R@ac-aix-marseille.fr",
     "phone": "491508832",
-    "referentPhone": "06 25 11 50 07",
-    "referentEmail": "ce.erseh13-wallon@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -18574,14 +18574,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DOROTHEE BERNARD",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0132610S@ac-aix-marseille.fr",
     "phone": "491514467",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132574c",
@@ -18605,14 +18605,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARJORIE CRILLON",
-    "referentName": "SAGET DOMINIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROY_D_ESPAGNE_2",
     "cpcName": "",
     "email": "ce.0132574C@ac-aix-marseille.fr",
     "phone": "491400323",
-    "referentPhone": "06 21 54 61 16",
-    "referentEmail": "ce.erseh13-roydespagne2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130656t",
@@ -18636,14 +18636,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAXENCE-EMILIE KAROUTCHI",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130656T@ac-aix-marseille.fr",
     "phone": "491715860",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131870m",
@@ -18667,14 +18667,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Sylvie VERILHAC",
-    "referentName": "LEVY GHISLAINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_7",
     "cpcName": "",
     "email": "ce.0131870M@ac-aix-marseille.fr",
     "phone": "491512571",
-    "referentPhone": "06 12 97 29 60",
-    "referentEmail": "ce.erseh13-prive7@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130658v",
@@ -18698,14 +18698,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE PFISTER",
-    "referentName": "PARDO ALAIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LONGCHAMP_2",
     "cpcName": "",
     "email": "ce.0130658V@ac-aix-marseille.fr",
     "phone": "491783419",
-    "referentPhone": "06 25 11 56 03",
-    "referentEmail": "ce.erseh13-longchamp2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131808v",
@@ -18729,14 +18729,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Christiane LAMOUROUX",
-    "referentName": "PENNETIER MANON",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_1",
     "cpcName": "",
     "email": "ce.0131808V@ac-aix-marseille.fr",
     "phone": "491215300",
-    "referentPhone": "06 28 58 88 63",
-    "referentEmail": "ce.erseh13-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130831h",
@@ -18760,14 +18760,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAIWENN ALLIO",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0130831H@ac-aix-marseille.fr",
     "phone": "491431051",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130660x",
@@ -18791,14 +18791,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE SANCHEZ",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0130660X@ac-aix-marseille.fr",
     "phone": "491932983",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130661y",
@@ -18822,14 +18822,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PATRICIA ZUCCHINI",
-    "referentName": "PIQUOT DELPHINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LOUISE_MICHEL",
     "cpcName": "",
     "email": "ce.0130661Y@ac-aix-marseille.fr",
     "phone": "491448954",
-    "referentPhone": "06 14 60 73 17",
-    "referentEmail": "ce.erseh13-louisemichel@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130821x",
@@ -18853,14 +18853,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PRESCILIA HANNOAH",
-    "referentName": "BEDJIDIAN LYDIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "FORBIN",
     "cpcName": "",
     "email": "ce.0130821X@ac-aix-marseille.fr",
     "phone": "491448323",
-    "referentPhone": "06 14 60 43 08",
-    "referentEmail": "ce.erseh13-forbin@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -18894,14 +18894,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ARNAUD VASSALLUCCI",
-    "referentName": "BLEUZE MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "RUISSATEL",
     "cpcName": "",
     "email": "ce.0130663A@ac-aix-marseille.fr",
     "phone": "491431011",
-    "referentPhone": "06 14 60 45 95",
-    "referentEmail": "ce.erseh13-ruissatel@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFA",
@@ -18935,14 +18935,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARION REVALOR",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0130666D@ac-aix-marseille.fr",
     "phone": "491655120",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130611u",
@@ -18966,14 +18966,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CARLA FRIZON--TROUILLET",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130611U@ac-aix-marseille.fr",
     "phone": "491411468",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130832j",
@@ -18997,14 +18997,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTELLE GRIFFOUL",
-    "referentName": "ICART CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GYPTIS_1",
     "cpcName": "",
     "email": "ce.0130832J@ac-aix-marseille.fr",
     "phone": "491411481",
-    "referentPhone": "06 25 11 81 66",
-    "referentEmail": "ce.erseh13-gyptis1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130669g",
@@ -19028,14 +19028,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRA FOUQUE",
-    "referentName": "CARLIER CECILE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "BARNIER",
     "cpcName": "",
     "email": "ce.0130669G@ac-aix-marseille.fr",
     "phone": "491513400",
-    "referentPhone": "06 14 60 77 59",
-    "referentEmail": "ce.erseh13-barnier@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130827d",
@@ -19059,14 +19059,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHANTAL PURIFICATO",
-    "referentName": "GALAS FLORENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "DSDEN_1",
     "cpcName": "",
     "email": "ce.0130827D@ac-aix-marseille.fr",
     "phone": "491912607",
-    "referentPhone": "06 14 60 65 74",
-    "referentEmail": "ce.erseh13-dsden1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131271l",
@@ -19090,14 +19090,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE MEGE",
-    "referentName": "BRUN SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_1",
     "cpcName": "",
     "email": "ce.0131271L@ac-aix-marseille.fr",
     "phone": "491982363",
-    "referentPhone": "06 10 90 10 36",
-    "referentEmail": "ce.erseh13-rosapark1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -19131,14 +19131,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. RIDHA HAMMAMI",
-    "referentName": "SOLEIL VIRGINIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROSA_PARKS_2",
     "cpcName": "",
     "email": "ce.0130670H@ac-aix-marseille.fr",
     "phone": "491600921",
-    "referentPhone": "06 10 90 30 81",
-    "referentEmail": "ce.erseh13-rosapark2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -19172,14 +19172,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AMANDINE SAMPOL",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "accueil.vitagliano@apprentis-auteuil.org",
     "phone": "495080140",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131805s",
@@ -19203,14 +19203,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Paul FITOUSSI",
-    "referentName": "CRESCIONE LAURENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CHARTREUX_2",
     "cpcName": "",
     "email": "ce.0131805S@ac-aix-marseille.fr",
     "phone": "491661477",
-    "referentPhone": "06 25 11 22 25",
-    "referentEmail": "ce.erseh13-chartreux2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131814b",
@@ -19234,14 +19234,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Christine POGGI",
-    "referentName": "LEVY GHISLAINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_7",
     "cpcName": "",
     "email": "ce.0131814B@ac-aix-marseille.fr",
     "phone": "491609057",
-    "referentPhone": "06 12 97 29 60",
-    "referentEmail": "ce.erseh13-prive7@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132081s",
@@ -19265,14 +19265,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Marie-Agnès PALLERANO",
-    "referentName": "CARRERA JONATHAN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MALRAUX_2",
     "cpcName": "",
     "email": "ce.0132081S@ac-aix-marseille.fr",
     "phone": "491662275",
-    "referentPhone": "06 21 54 70 18",
-    "referentEmail": "ce.erseh13-malraux2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131798j",
@@ -19296,14 +19296,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME  HEMOUR",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ce.0131798J@ac-aix-marseille.fr",
     "phone": "496122138",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132071f",
@@ -19327,14 +19327,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Alice ROMANET",
-    "referentName": "FINO HELENE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUGET_1",
     "cpcName": "",
     "email": "ecole@ndfrance.org",
     "phone": "491633578",
-    "referentPhone": "06 21 54 03 57",
-    "referentEmail": "ce.erseh13-puget1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131804r",
@@ -19358,14 +19358,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Laure FOUSSADIER",
-    "referentName": "PETIT FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_2",
     "cpcName": "",
     "email": "ce.0131804R@ac-aix-marseille.fr",
     "phone": "491543178",
-    "referentPhone": "06 28 58 88 72",
-    "referentEmail": "ce.erseh13-prive2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130974n",
@@ -19389,14 +19389,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ALICE BOUCHEIX",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0130974N@ac-aix-marseille.fr",
     "phone": "442814972",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130969h",
@@ -19420,14 +19420,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE MASSON RAGUSA",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0130969H@ac-aix-marseille.fr",
     "phone": "442070544",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130985a",
@@ -19451,14 +19451,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SUZANNE HUSS POGGI",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0130985A@ac-aix-marseille.fr",
     "phone": "442807309",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130986b",
@@ -19482,14 +19482,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRA MURAT",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0130986B@ac-aix-marseille.fr",
     "phone": "442807612",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130975p",
@@ -19513,14 +19513,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KAREN DOSSETTO",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0130975P@ac-aix-marseille.fr",
     "phone": "442062203",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130970j",
@@ -19544,14 +19544,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NICOLE BASTARD ALBERO",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0130970J@ac-aix-marseille.fr",
     "phone": "442805616",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -19593,14 +19593,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FLORENCE MENEGALLI",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0130972L@ac-aix-marseille.fr",
     "phone": "442804563",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132358t",
@@ -19624,14 +19624,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BEATRICE MASET",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0132358T@ac-aix-marseille.fr",
     "phone": "442804034",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132359u",
@@ -19655,14 +19655,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORALIE RIVET",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0132359U@ac-aix-marseille.fr",
     "phone": "442804058",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133042l",
@@ -19687,14 +19687,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE PAUL",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0133042L@ac-aix-marseille.fr",
     "phone": "442421100",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "SEGPA",
@@ -19729,14 +19729,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANA GALLAIS",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0132438E@ac-aix-marseille.fr",
     "phone": "442805133",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132257h",
@@ -19760,14 +19760,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE BAQUE",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0132257H@ac-aix-marseille.fr",
     "phone": "442805447",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132559l",
@@ -19791,14 +19791,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ANTOINE RODRIGUEZ",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0132559L@ac-aix-marseille.fr",
     "phone": "442805162",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132764j",
@@ -19822,14 +19822,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE BELLINO",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0132764J@ac-aix-marseille.fr",
     "phone": "442808257",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130987c",
@@ -19853,14 +19853,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIE LAURE SUBI",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0130987C@ac-aix-marseille.fr",
     "phone": "442814943",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130976r",
@@ -19884,14 +19884,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE BOUISSON",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0130976R@ac-aix-marseille.fr",
     "phone": "442814942",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130971k",
@@ -19915,14 +19915,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BERTRAND VIPREY",
-    "referentName": "CARNAZZA ANNE-MARIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MARTIGUES",
     "cpcName": "",
     "email": "ce.0130971K@ac-aix-marseille.fr",
     "phone": "442070476",
-    "referentPhone": "06 14 60 56 21",
-    "referentEmail": "ce.erseh13-martigues@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -19958,14 +19958,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE RISTORCELLI",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0130992H@ac-aix-marseille.fr",
     "phone": "490490157",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -20001,14 +20001,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN LUC MARGUET",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0130993J@ac-aix-marseille.fr",
     "phone": "490543006",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130995l",
@@ -20034,14 +20034,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. BRUNO BONNET",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0130995L@ac-aix-marseille.fr",
     "phone": "442575156",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -20077,14 +20077,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ALEXIA BOLZER GUARESE",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0130999R@ac-aix-marseille.fr",
     "phone": "442581575",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134404s",
@@ -20108,14 +20108,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE DEBARD",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0134404S@ac-aix-marseille.fr",
     "phone": "465261099",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130997n",
@@ -20139,14 +20139,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PASCALE FILIPPINI",
-    "referentName": "MARIGLIANO SYLVIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_3",
     "cpcName": "",
     "email": "ce.0130997N@ac-aix-marseille.fr",
     "phone": "442583625",
-    "referentPhone": "06 21 54 16 75",
-    "referentEmail": "ce.erseh13-aixsud3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131005x",
@@ -20170,14 +20170,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE CRAUCHET CUNY",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0131005X@ac-aix-marseille.fr",
     "phone": "442589587",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131003v",
@@ -20201,14 +20201,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CARINE BIGOT",
-    "referentName": "BOUQUET SANDRINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "GARDANNE",
     "cpcName": "",
     "email": "ce.0131003V@ac-aix-marseille.fr",
     "phone": "442513769",
-    "referentPhone": "06 21 54 84 62",
-    "referentEmail": "ce.erseh13-gardanne@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132546x",
@@ -20232,14 +20232,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEROME RICARD",
-    "referentName": "SANTINI",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC 2",
     "cpcName": "",
     "email": "ce.0132546X@ac-aix-marseille.fr",
     "phone": "490581245",
-    "referentPhone": "06 18 32 41 00",
-    "referentEmail": "ce.erseh13-rognac2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -20273,14 +20273,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE DEQUIDT",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0132696K@ac-aix-marseille.fr",
     "phone": "490582557",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132486g",
@@ -20304,14 +20304,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIANNE BARTOLI-FOURNERON",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0132486G@ac-aix-marseille.fr",
     "phone": "490580671",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131010c",
@@ -20335,14 +20335,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE NOLOT",
-    "referentName": "SANTINI",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC 2",
     "cpcName": "",
     "email": "ce.0131010C@ac-aix-marseille.fr",
     "phone": "490580552",
-    "referentPhone": "06 18 32 41 00",
-    "referentEmail": "ce.erseh13-rognac2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131008a",
@@ -20366,14 +20366,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PERRINE FIEU",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0131008A@ac-aix-marseille.fr",
     "phone": "490580929",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132093e",
@@ -20397,14 +20397,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARTINE GRIGNARD",
-    "referentName": "LEGRAND VERONIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_3",
     "cpcName": "",
     "email": "jeannedarc.miramas@orange.fr",
     "phone": "971531595",
-    "referentPhone": "06 28 58 88 80",
-    "referentEmail": "ce.erseh13-prive3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131006y",
@@ -20430,14 +20430,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SABINE DEFRANCE RIGALLE",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0131006Y@ac-aix-marseille.fr",
     "phone": "490582000",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -20473,14 +20473,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CYNTHIA CHARLES",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0132901H@ac-aix-marseille.fr",
     "phone": "490501356",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133043m",
@@ -20504,14 +20504,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LAURENT GOUINEAU",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0133043M@ac-aix-marseille.fr",
     "phone": "490580662",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132260l",
@@ -20535,14 +20535,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. THIERRY VITANI",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0132260L@ac-aix-marseille.fr",
     "phone": "490580626",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131012e",
@@ -20566,14 +20566,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE FOURES",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0131012E@ac-aix-marseille.fr",
     "phone": "490580979",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132765k",
@@ -20597,14 +20597,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SOPHIE LLOBET",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0132765K@ac-aix-marseille.fr",
     "phone": "490582406",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132713d",
@@ -20630,14 +20630,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EDITH SUIRE",
-    "referentName": "KOUFI SAMIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "MIRAMAS",
     "cpcName": "",
     "email": "ce.0132713D@ac-aix-marseille.fr",
     "phone": "490580556",
-    "referentPhone": "06 21 54 01 52",
-    "referentEmail": "ce.erseh13-miramas@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -20673,7 +20673,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE AUVRE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -20704,14 +20704,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELISE ESNAULT",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0131017K@ac-aix-marseille.fr",
     "phone": "490475239",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131019m",
@@ -20737,7 +20737,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JULIE CAPARROS",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -20781,7 +20781,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURE AMBROGINI",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -20823,14 +20823,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Bénédicte MOUTARDE",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132085W@ac-aix-marseille.fr",
     "phone": "490943897",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131024t",
@@ -20854,14 +20854,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE MATHIEU",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0131024T@ac-aix-marseille.fr",
     "phone": "490730063",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -20895,14 +20895,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTELLE CHARMOILLAUX",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0131026V@ac-aix-marseille.fr",
     "phone": "490544203",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131027w",
@@ -20928,14 +20928,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FREDERIC BICHERON",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0131027W@ac-aix-marseille.fr",
     "phone": "442112025",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -20971,14 +20971,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE FERRAND",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0132717H@ac-aix-marseille.fr",
     "phone": "490550360",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132110y",
@@ -21002,14 +21002,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MÂ‚LANIE DELVART",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "jeanne.darc13330@orange.fr",
     "phone": "490551579",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133430h",
@@ -21033,14 +21033,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PEGGY COQUET",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0133430H@ac-aix-marseille.fr",
     "phone": "490551790",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131041l",
@@ -21064,14 +21064,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAETITIA EFFANTIN",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0131041L@ac-aix-marseille.fr",
     "phone": "442530656",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131044p",
@@ -21095,14 +21095,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CATHERINE BATTINI",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0131044P@ac-aix-marseille.fr",
     "phone": "442046560",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131043n",
@@ -21126,14 +21126,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTINE ROUBAUD",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0131043N@ac-aix-marseille.fr",
     "phone": "442620745",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131047t",
@@ -21157,14 +21157,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CLAUDE BASSANI",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131047T@ac-aix-marseille.fr",
     "phone": "442671158",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -21198,7 +21198,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ALEXANDRA FADIF",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -21229,14 +21229,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE TESTA",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0131049V@ac-aix-marseille.fr",
     "phone": "491050703",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131051x",
@@ -21260,14 +21260,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI TROSSEVIN",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0131051X@ac-aix-marseille.fr",
     "phone": "491050690",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131050w",
@@ -21291,14 +21291,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEAN CHRISTOPHE SAVINO",
-    "referentName": "FINO PATRICIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PLAN_DE_CUQUES",
     "cpcName": "",
     "email": "ce.0131050W@ac-aix-marseille.fr",
     "phone": "491687658",
-    "referentPhone": "06 21 54 11 31",
-    "referentEmail": "ce.erseh13-pdecuques@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131634f",
@@ -21324,14 +21324,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORINNE VINCENZI",
-    "referentName": "DUSSERRE CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_DE_BOUC",
     "cpcName": "",
     "email": "ce.0131634F@ac-aix-marseille.fr",
     "phone": "442062394",
-    "referentPhone": "06 14 60 10 30",
-    "referentEmail": "ce.erseh13-portdebouc@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -21367,14 +21367,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CARINE MOUGHANIM",
-    "referentName": "DUSSERRE CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_DE_BOUC",
     "cpcName": "",
     "email": "ce.0131058E@ac-aix-marseille.fr",
     "phone": "442062154",
-    "referentPhone": "06 14 60 10 30",
-    "referentEmail": "ce.erseh13-portdebouc@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131056c",
@@ -21398,14 +21398,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NASSIMA DJENNEH",
-    "referentName": "DUSSERRE CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_DE_BOUC",
     "cpcName": "",
     "email": "ce.0131056C@ac-aix-marseille.fr",
     "phone": "442064160",
-    "referentPhone": "06 14 60 10 30",
-    "referentEmail": "ce.erseh13-portdebouc@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132441h",
@@ -21429,14 +21429,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. THIERRY CAMPILLO",
-    "referentName": "DUSSERRE CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_DE_BOUC",
     "cpcName": "",
     "email": "ce.0132441H@ac-aix-marseille.fr",
     "phone": "442063414",
-    "referentPhone": "06 14 60 10 30",
-    "referentEmail": "ce.erseh13-portdebouc@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131057d",
@@ -21460,14 +21460,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NATHALIE BONNAVENT",
-    "referentName": "DUSSERRE CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_DE_BOUC",
     "cpcName": "",
     "email": "ce.0131057D@ac-aix-marseille.fr",
     "phone": "442457078",
-    "referentPhone": "06 14 60 10 30",
-    "referentEmail": "ce.erseh13-portdebouc@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132291v",
@@ -21491,14 +21491,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. GREGORY RICHEDA",
-    "referentName": "DUSSERRE CLEMENCE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_DE_BOUC",
     "cpcName": "",
     "email": "ce.0132291V@ac-aix-marseille.fr",
     "phone": "442066297",
-    "referentPhone": "06 14 60 10 30",
-    "referentEmail": "ce.erseh13-portdebouc@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131068r",
@@ -21524,14 +21524,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRA SIMONELLI",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0131068R@ac-aix-marseille.fr",
     "phone": "442860214",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -21567,14 +21567,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORINNE ARDON",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0131069S@ac-aix-marseille.fr",
     "phone": "442860179",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132442j",
@@ -21598,14 +21598,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ALEXANDRA MINAUDO",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0132442J@ac-aix-marseille.fr",
     "phone": "442863596",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131070t",
@@ -21629,14 +21629,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FLORIANE MALIGNER",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0131070T@ac-aix-marseille.fr",
     "phone": "442663804",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133254s",
@@ -21660,14 +21660,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTEL BACAVE",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0133254S@ac-aix-marseille.fr",
     "phone": "442786349",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132986a",
@@ -21691,14 +21691,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIA GUILLAND",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0132986A@ac-aix-marseille.fr",
     "phone": "442786177",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131075y",
@@ -21722,14 +21722,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME PASCALE RAVEL",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0131075Y@ac-aix-marseille.fr",
     "phone": "442786207",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132802a",
@@ -21753,14 +21753,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ALEXANDRINE BEAUBOIS",
-    "referentName": "KIRCHER CORINNE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC",
     "cpcName": "",
     "email": "ce.0132802A@ac-aix-marseille.fr",
     "phone": "442786297",
-    "referentPhone": "06 10 90 52 60",
-    "referentEmail": "ce.erseh13-rognac@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131078b",
@@ -21784,14 +21784,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EVA STEPKA",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131078B@ac-aix-marseille.fr",
     "phone": "442501494",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132086x",
@@ -21815,14 +21815,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME HÂ‚LENE CARLETTI-FAUCHE",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "direction.ecole@alpilles-durance.org",
     "phone": "490948806",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131080d",
@@ -21846,14 +21846,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AGNES DURAND",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0131080D@ac-aix-marseille.fr",
     "phone": "490948128",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131086k",
@@ -21877,14 +21877,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME EMMEANUELLE FAURE MARON",
-    "referentName": "GERMOND VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CASSIS",
     "cpcName": "",
     "email": "ce.0131086K@ac-aix-marseille.fr",
     "phone": "442732100",
-    "referentPhone": "06 14 60 68 78",
-    "referentEmail": "ce.erseh13-cassis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131092s",
@@ -21908,14 +21908,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JEANNE CAVALLARO",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0131092S@ac-aix-marseille.fr",
     "phone": "442042218",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -21949,14 +21949,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CECILE DELZANT",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0131096W@ac-aix-marseille.fr",
     "phone": "442040059",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131095v",
@@ -21980,14 +21980,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AGNES PIETRI",
-    "referentName": "BIANCHINI EDITH",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AUBAGNE_3",
     "cpcName": "",
     "email": "ce.0131095V@ac-aix-marseille.fr",
     "phone": "442042344",
-    "referentPhone": "06 46 35 40 06",
-    "referentEmail": "ce.erseh13-aubagne3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131098y",
@@ -22013,14 +22013,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PHILIPPE COMBES",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0131098Y@ac-aix-marseille.fr",
     "phone": "442290219",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -22056,14 +22056,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. LAURENT SARLAT",
-    "referentName": "ROBERT MELANIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_2",
     "cpcName": "",
     "email": "ce.0131133L@ac-aix-marseille.fr",
     "phone": "490978947",
-    "referentPhone": "06 14 60 31 27",
-    "referentEmail": "ce.erseh13-arles2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134272y",
@@ -22087,14 +22087,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LOUBNA TLILI",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0134272Y@ac-aix-marseille.fr",
     "phone": "490568272",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132443k",
@@ -22118,14 +22118,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI FAURE",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0132443K@ac-aix-marseille.fr",
     "phone": "490535276",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131138s",
@@ -22149,14 +22149,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FABIENNE DULAU",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0131138S@ac-aix-marseille.fr",
     "phone": "490561337",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131565f",
@@ -22180,14 +22180,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE CORVELLEC",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0131565F@ac-aix-marseille.fr",
     "phone": "490535257",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -22221,14 +22221,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. GEORGES GROS",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0131145Z@ac-aix-marseille.fr",
     "phone": "490533386",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -22262,14 +22262,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VIRGINIE FOUARD",
-    "referentName": "SANTINI",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC 2",
     "cpcName": "",
     "email": "ce.0131140U@ac-aix-marseille.fr",
     "phone": "490451174",
-    "referentPhone": "06 18 32 41 00",
-    "referentEmail": "ce.erseh13-rognac2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -22303,14 +22303,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LYDIE LAMI",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0131139T@ac-aix-marseille.fr",
     "phone": "490560781",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131142w",
@@ -22334,14 +22334,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLE WEBER JENET",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0131142W@ac-aix-marseille.fr",
     "phone": "490532732",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132109x",
@@ -22365,14 +22365,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Yann MINSON",
-    "referentName": "LEGRAND VERONIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_3",
     "cpcName": "",
     "email": "ce.0132109X@ac-aix-marseille.fr",
     "phone": "490560816",
-    "referentPhone": "06 28 58 88 80",
-    "referentEmail": "ce.erseh13-prive3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131143x",
@@ -22396,14 +22396,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SABINE TARDIF",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0131143X@ac-aix-marseille.fr",
     "phone": "490531334",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -22439,14 +22439,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE BADIH",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0131148C@ac-aix-marseille.fr",
     "phone": "490531290",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -22482,14 +22482,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHARLOTTE MARNAS",
-    "referentName": "PLANTIER MYRIAM",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_1",
     "cpcName": "",
     "email": "ce.0131141V@ac-aix-marseille.fr",
     "phone": "490560530",
-    "referentPhone": "06 14 60 18 89",
-    "referentEmail": "ce.erseh13-salon1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134388z",
@@ -22513,7 +22513,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. Emeline DUPONT",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -22544,14 +22544,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ANA-CRISTINA GONCALVES CERDEIRA",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0132152U@ac-aix-marseille.fr",
     "phone": "490534878",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132108w",
@@ -22575,14 +22575,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Delphine DEGUILLEN",
-    "referentName": "LEGRAND VERONIQUE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PRIVE_3",
     "cpcName": "",
     "email": "ce.0132108W@ac-aix-marseille.fr",
     "phone": "490566234",
-    "referentPhone": "06 28 58 88 80",
-    "referentEmail": "ce.erseh13-prive3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133099y",
@@ -22606,14 +22606,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARIELLE MASSEI",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0133099Y@ac-aix-marseille.fr",
     "phone": "442445806",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131160r",
@@ -22637,14 +22637,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SABRINA CAILLE",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0131160R@ac-aix-marseille.fr",
     "phone": "490577938",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131161s",
@@ -22668,14 +22668,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MARINE DESBORDES",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0131161S@ac-aix-marseille.fr",
     "phone": "490577940",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134394f",
@@ -22699,14 +22699,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AURELIE ZUMSTEG",
-    "referentName": "VALANSOT CHRISTELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_2",
     "cpcName": "",
     "email": "ce.0134394F@ac-aix-marseille.fr",
     "phone": "490590846",
-    "referentPhone": "06 14 60 63 95",
-    "referentEmail": "ce.erseh13-salon2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132000d",
@@ -22730,14 +22730,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORALIE SERVAJEAN",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0132000D@ac-aix-marseille.fr",
     "phone": "491961910",
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132399m",
@@ -22761,14 +22761,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SYLVIE VARONE",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0132399M@ac-aix-marseille.fr",
     "phone": "491962535",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131163u",
@@ -22794,14 +22794,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NADIA LAHYANI",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0131163U@ac-aix-marseille.fr",
     "phone": "491465697",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -22837,14 +22837,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHLOE PROFILI",
-    "referentName": "MEURANT OLIVIER",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VALLON_DES_PINS",
     "cpcName": "",
     "email": "ce.0132164G@ac-aix-marseille.fr",
     "phone": "491517006",
-    "referentPhone": "06 21 54 79 68",
-    "referentEmail": "ce.erseh13-vallondespins@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131162t",
@@ -22869,8 +22869,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME BERTILLE GOCHARD",
-    "referentName": "BEAUME CLAUDINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "CADENAUX",
     "cpcName": "",
     "email": "ce.0131162T@ac-aix-marseille.fr",
@@ -22886,8 +22886,8 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "referentPhone": "06 25 11 01 00",
-    "referentEmail": "ce.erseh13-cadenaux@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131166x",
@@ -22911,14 +22911,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. NICOLAS BOULLENGER",
-    "referentName": "GOESSAERT NATHALIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_2",
     "cpcName": "",
     "email": "ce.0131166X@ac-aix-marseille.fr",
     "phone": "442224677",
-    "referentPhone": "06 14 60 69 55",
-    "referentEmail": "ce.erseh13-aixsud2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131102c",
@@ -22942,7 +22942,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CEDRIC PERRIERE",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -22973,14 +22973,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LAURENCE NIGHTINGALE",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0133255T@ac-aix-marseille.fr",
     "phone": "442506214",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131109k",
@@ -23006,14 +23006,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. XAVIER GINAS",
-    "referentName": "SANTINI",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC 2",
     "cpcName": "",
     "email": "ce.0131109K@ac-aix-marseille.fr",
     "phone": "490445243",
-    "referentPhone": "06 18 32 41 00",
-    "referentEmail": "ce.erseh13-rognac2@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -23049,14 +23049,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KARINE PONDI MBELECK",
-    "referentName": "SANTINI",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ROGNAC 2",
     "cpcName": "",
     "email": "ce.0131108J@ac-aix-marseille.fr",
     "phone": "490445403",
-    "referentPhone": "06 18 32 41 00",
-    "referentEmail": "ce.erseh13-rognac2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131113p",
@@ -23080,14 +23080,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME FLORENCE SIGOT",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0131113P@ac-aix-marseille.fr",
     "phone": "490491963",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131115s",
@@ -23111,14 +23111,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. EMMANUEL FARGES",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0131115S@ac-aix-marseille.fr",
     "phone": "442249995",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131118v",
@@ -23142,14 +23142,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME M DOMINIQUE MAUREL",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0131118V@ac-aix-marseille.fr",
     "phone": "490471370",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132516p",
@@ -23173,14 +23173,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MELANIE TEZZA",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0132516P@ac-aix-marseille.fr",
     "phone": "490471160",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131116t",
@@ -23204,14 +23204,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. JEROME LLAHI",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0131116T@ac-aix-marseille.fr",
     "phone": "490471255",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132593y",
@@ -23235,14 +23235,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ERIC COSENZA",
-    "referentName": "DEMAEREL ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_MARTIN_DE_CRAU",
     "cpcName": "",
     "email": "ce.0132593Y@ac-aix-marseille.fr",
     "phone": "490471236",
-    "referentPhone": "06 14 60 01 45",
-    "referentEmail": "ce.erseh13-crau@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -23276,14 +23276,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Pascale DINI",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132031M@ac-aix-marseille.fr",
     "phone": "490472392",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131119w",
@@ -23307,14 +23307,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VANESSA TANTINI",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0131119W@ac-aix-marseille.fr",
     "phone": "442809875",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131120x",
@@ -23340,14 +23340,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. MANUEL SANTOS",
-    "referentName": "HUGUERRE LADISLAS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PORT_SAINT_LOUIS_DU_RHONE",
     "cpcName": "",
     "email": "ce.0131120X@ac-aix-marseille.fr",
     "phone": "442440201",
-    "referentPhone": "06 03 12 89 20",
-    "referentEmail": "ce.erseh13-portsaintlouis@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -23383,14 +23383,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SANDRINE POUGET",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131121Y@ac-aix-marseille.fr",
     "phone": "442574042",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131002u",
@@ -23414,14 +23414,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ELODIE DUPONT",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0131002U@ac-aix-marseille.fr",
     "phone": "490439445",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131124b",
@@ -23445,14 +23445,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. CHRISTIAN HASCOET",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0131124B@ac-aix-marseille.fr",
     "phone": "490924973",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -23486,14 +23486,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CAROLE FERLET",
-    "referentName": "PIRON FRANCOISE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAINT_REMY_DE_PROVENCE",
     "cpcName": "",
     "email": "ce.0131123A@ac-aix-marseille.fr",
     "phone": "490926310",
-    "referentPhone": "06 21 54 11 24",
-    "referentEmail": "ce.erseh13-stremy@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132087y",
@@ -23517,14 +23517,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Pascale DINI",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132087Y@ac-aix-marseille.fr",
     "phone": "490920802",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131126d",
@@ -23548,14 +23548,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VIRGINIE BLANC",
-    "referentName": "MEYRINNE-LAFORET JOSIANE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AURIOL",
     "cpcName": "",
     "email": "ce.0131126D@ac-aix-marseille.fr",
     "phone": "442046433",
-    "referentPhone": "06 14 60 14 34",
-    "referentEmail": "ce.erseh13-auriol@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131129g",
@@ -23579,8 +23579,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CORINNE BARNEOUD ARNOULET",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0131129G@ac-aix-marseille.fr",
@@ -23620,8 +23620,8 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KATELL POTIER",
-    "referentName": "RABIER Mathieu",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_2",
     "cpcName": "",
     "email": "ce.0133333C@ac-aix-marseille.fr",
@@ -23651,7 +23651,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. MARIE PITRAT",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -23682,14 +23682,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME GERALDINE FLAYOL",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0131569K@ac-aix-marseille.fr",
     "phone": "490910531",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -23725,14 +23725,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME LUCIE RIPOLL",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0131168Z@ac-aix-marseille.fr",
     "phone": "490911058",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -23768,14 +23768,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE LAUPIES DEBARNOT",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0132596B@ac-aix-marseille.fr",
     "phone": "490911336",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131566g",
@@ -23799,14 +23799,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MELISSA BENDALI",
-    "referentName": "COHUAU QUENTIN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ARLES_1",
     "cpcName": "",
     "email": "ce.0131566G@ac-aix-marseille.fr",
     "phone": "490911122",
-    "referentPhone": "06 14 60 59 94",
-    "referentEmail": "ce.erseh13-arles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132091c",
@@ -23830,14 +23830,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Martine HAGUENIN",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132091C@ac-aix-marseille.fr",
     "phone": "490910151",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132092d",
@@ -23861,14 +23861,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME  EMERY",
-    "referentName": "DE BRUYNE ISABELLE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "ASH_OUEST_PRIVE_1",
     "cpcName": "",
     "email": "ce.0132092D@ac-aix-marseille.fr",
     "phone": "490910348",
-    "referentPhone": "06 28 58 88 79",
-    "referentEmail": "ce.erseh13-ashouest-prive1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131174f",
@@ -23892,14 +23892,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DOMINIQUE BOUIX",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0131174F@ac-aix-marseille.fr",
     "phone": "442375511",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131175g",
@@ -23923,14 +23923,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME JEANNE ARTERO",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0131175G@ac-aix-marseille.fr",
     "phone": "442375517",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133021n",
@@ -23956,14 +23956,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. VINCENT GROFF",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0133021N@ac-aix-marseille.fr",
     "phone": "442205194",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -23999,14 +23999,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. STEPHANE VANZIELEGHEM",
-    "referentName": "REYNIER ELODIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_SUD_1",
     "cpcName": "",
     "email": "ce.0133296M@ac-aix-marseille.fr",
     "phone": "442375504",
-    "referentPhone": "06 14 60 39 01",
-    "referentEmail": "ce.erseh13-aixsud1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131177j",
@@ -24030,14 +24030,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. OLIVIER DUTEY",
-    "referentName": "MONNIER FRANCOIS",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "AIX_2",
     "cpcName": "",
     "email": "ce.0131177J@ac-aix-marseille.fr",
     "phone": "442660817",
-    "referentPhone": "06 21 54 53 00",
-    "referentEmail": "ce.erseh13-aix2@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131178k",
@@ -24061,14 +24061,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SOPHIE DU GARDIN",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0131178K@ac-aix-marseille.fr",
     "phone": "442879207",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132805d",
@@ -24092,14 +24092,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VALERIE FAURE",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0132805D@ac-aix-marseille.fr",
     "phone": "442879840",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132988c",
@@ -24123,14 +24123,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. MARC DOL",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0132988C@ac-aix-marseille.fr",
     "phone": "442541000",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131181n",
@@ -24154,14 +24154,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PASCAL HERBET",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131181N@ac-aix-marseille.fr",
     "phone": "442546649",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131180m",
@@ -24185,14 +24185,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NADINE LACOURTABLAISE",
-    "referentName": "BIANCO MARIE-CHRISTINE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "PUY_SAINTE_REPARADE",
     "cpcName": "",
     "email": "ce.0131180M@ac-aix-marseille.fr",
     "phone": "442200602",
-    "referentPhone": "06 14 60 71 43",
-    "referentEmail": "ce.erseh13-puystereparade@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0134283k",
@@ -24216,7 +24216,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME Laetitia ROGAR",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -24247,14 +24247,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME AUDREY PONSAILLE",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0134403R@ac-aix-marseille.fr",
     "phone": "442281500",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131182p",
@@ -24278,14 +24278,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. DOMINIQUE GIRAUD-CLAUDE",
-    "referentName": "BROC DAMIEN",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "LA_FARE_LES_OLIVIERS",
     "cpcName": "",
     "email": "ce.0131182P@ac-aix-marseille.fr",
     "phone": "442287043",
-    "referentPhone": "06 71 70 98 89",
-    "referentEmail": "ce.ersh13-lafare@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133090n",
@@ -24309,14 +24309,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME VERONIQUE JOUTEAU",
-    "referentName": "LANKAMER MURIEL",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SALON_3",
     "cpcName": "",
     "email": "ce.0133090N@ac-aix-marseille.fr",
     "phone": "490593366",
-    "referentPhone": "06 14 60 29 97",
-    "referentEmail": "ce.erseh13-salon3@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131185t",
@@ -24340,7 +24340,7 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. PIERRE OZIMEK",
+    "directorName": "",
     "referentName": "",
     "secteurERSEH": "",
     "cpcName": "",
@@ -24371,14 +24371,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CLAUDINE TERSO",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0131188W@ac-aix-marseille.fr",
     "phone": "442893277",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133216a",
@@ -24402,14 +24402,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE GALINDO",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0133216A@ac-aix-marseille.fr",
     "phone": "442890645",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133023r",
@@ -24433,14 +24433,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME CHRISTELLE BAPTISTE",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0133023R@ac-aix-marseille.fr",
     "phone": "442752804",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132445m",
@@ -24464,14 +24464,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE DELICATA",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0132445M@ac-aix-marseille.fr",
     "phone": "442891619",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132331n",
@@ -24495,14 +24495,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME ISABELLE COULAUD-SAINZ",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0132331N@ac-aix-marseille.fr",
     "phone": "442892510",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133327w",
@@ -24528,14 +24528,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. ERIC GARDES",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0133327W@ac-aix-marseille.fr",
     "phone": "442894133",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSA",
@@ -24573,14 +24573,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. FRANCK NICOLAS",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0132599E@ac-aix-marseille.fr",
     "phone": "442895576",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -24617,14 +24617,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME SABINE NERSESSIAN",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0133097W@ac-aix-marseille.fr",
     "phone": "442790764",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TFC",
@@ -24659,14 +24659,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME NEJIA GIRAUD-BEN HAMOUDA",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0132804C@ac-aix-marseille.fr",
     "phone": "442896110",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr",
+    "referentPhone": "",
+    "referentEmail": "",
     "ashDevices": [
       {
         "type": "TSLA",
@@ -24700,14 +24700,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME DELPHINE BRUN",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0133054Z@ac-aix-marseille.fr",
     "phone": "442891875",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0132782d",
@@ -24731,14 +24731,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI LIPRANDI",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0132782D@ac-aix-marseille.fr",
     "phone": "442894092",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0133358e",
@@ -24762,14 +24762,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME MAGALI GAYTE",
-    "referentName": "MOUISSON VIAL CELIA",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "SAUSSET",
     "cpcName": "",
     "email": "ce.0133358E@ac-aix-marseille.fr",
     "phone": "442792546",
-    "referentPhone": "06 10 05 00 97",
-    "referentEmail": "ce.erseh13-sausset@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131937k",
@@ -24793,14 +24793,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "M. THOMAS ROBERT",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0131937K@ac-aix-marseille.fr",
     "phone": "442892388",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0131186u",
@@ -24824,14 +24824,14 @@ export const schoolsData: School[] = [
       "valChecked": false,
       "comments": ""
     },
-    "directorName": "MME KRYSTEL CASANOVA",
-    "referentName": "POUPON-GUILLIN VALERIE",
+    "directorName": "",
+    "referentName": "",
     "secteurERSEH": "VITROLLES_1",
     "cpcName": "",
     "email": "ce.0131186U@ac-aix-marseille.fr",
     "phone": "442895203",
-    "referentPhone": "06 25 11 79 32",
-    "referentEmail": "ce.erseh13-vitrolles1@ac-aix-marseille.fr"
+    "referentPhone": "",
+    "referentEmail": ""
   },
   {
     "id": "0130001f",
@@ -28345,7 +28345,7 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "directorName": "Stéphanie BAILLIU",
+    "directorName": "",
     "referentName": "",
     "cpcName": "",
     "email": "directeur.segpa.arcdemeyran@ac-aix-marseille.fr",
@@ -28387,7 +28387,7 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "directorName": "Julie BORDA",
+    "directorName": "",
     "referentName": "",
     "cpcName": "",
     "email": "ce.0132401P@ac-aix-marseille.fr",
@@ -28429,7 +28429,7 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "directorName": "Wladimir RODRIGUEZ",
+    "directorName": "",
     "referentName": "",
     "cpcName": "",
     "email": "ce.0132217p@ac-aix-marseille.fr",
@@ -28469,7 +28469,7 @@ export const schoolsData: School[] = [
         "comments": ""
       }
     ],
-    "directorName": "Dorian ZAWADZKI",
+    "directorName": "",
     "referentName": "",
     "cpcName": "",
     "email": "directeur.segpa.jasdebouffan@ac-aix-marseille.fr",

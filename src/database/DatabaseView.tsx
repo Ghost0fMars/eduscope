@@ -1,7 +1,8 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import {
   Building2, Users, User, GraduationCap, Landmark,
-  Search, Pencil, Plus, X, Save, ChevronUp, ChevronDown, Trash2
+  Search, Pencil, Plus, X, Save, ChevronUp, ChevronDown, Trash2,
+  Upload, FileDown, CheckCircle2, AlertCircle
 } from 'lucide-react';
 import { School } from '../data/schoolsData';
 import { ErsehReferent, ersehData as initialErsehData } from '../data/ersehData';
@@ -371,6 +372,28 @@ function sortData<T>(data: T[], field: string, dir: SortDir): T[] {
   });
 }
 
+// ─── CSV utilities ────────────────────────────────────────────────────────────
+
+function parseCsv(text: string): Record<string, string>[] {
+  const lines = text.trim().split(/\r?\n/);
+  if (lines.length < 2) return [];
+  const delim = lines[0].includes(';') ? ';' : ',';
+  const headers = lines[0].split(delim).map(h => h.trim().replace(/^"|"$/g, '').toLowerCase());
+  return lines.slice(1).filter(l => l.trim()).map(line => {
+    const vals = line.split(delim).map(v => v.trim().replace(/^"|"$/g, ''));
+    return Object.fromEntries(headers.map((h, i) => [h, vals[i] ?? '']));
+  });
+}
+
+function downloadCsv(filename: string, headers: string[], sample: string[]) {
+  const content = [headers.join(';'), sample.join(';')].join('\n');
+  const blob = new Blob(['﻿' + content], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename; a.click();
+  URL.revokeObjectURL(url);
+}
+
 // ─── Main component ───────────────────────────────────────────────────────────
 
 export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onDeleteSchool }: DatabaseViewProps) {
@@ -384,6 +407,80 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
 
   const [ersehList, setErsehList] = useState<ErsehReferent[]>(initialErsehData);
   const [editingErseh, setEditingErseh] = useState<ErsehReferent | null>(null);
+
+  const [importResult, setImportResult] = useState<{ ok: boolean; msg: string } | null>(null);
+  const csvInputRef = useRef<HTMLInputElement>(null);
+
+  const importErsehCsv = (text: string) => {
+    const rows = parseCsv(text);
+    let count = 0;
+    const updated = [...ersehList];
+    const schoolUpdates: School[] = [];
+
+    for (const row of rows) {
+      const code = row['secteurcode'] || row['secteur_code'] || row['secteurcode'];
+      if (!code) continue;
+      const idx = updated.findIndex(e => e.secteurCode.toLowerCase() === code.toLowerCase());
+      if (idx < 0) continue;
+      updated[idx] = {
+        ...updated[idx],
+        nom: row['nom'] !== undefined ? row['nom'] : updated[idx].nom,
+        prenom: row['prenom'] !== undefined ? row['prenom'] : updated[idx].prenom,
+        telephone: row['telephone'] !== undefined ? row['telephone'] : updated[idx].telephone,
+        mail: row['mail'] !== undefined ? row['mail'] : updated[idx].mail,
+      };
+      count++;
+      // sync schools linked to this secteur
+      for (const s of schools) {
+        if (s.secteurERSEH?.toLowerCase() === code.toLowerCase()) {
+          const nom = row['nom'] || '';
+          const prenom = row['prenom'] || '';
+          schoolUpdates.push({
+            ...s,
+            referentName: prenom || nom ? `${prenom} ${nom}`.trim() : s.referentName,
+            referentPhone: row['telephone'] || s.referentPhone,
+            referentEmail: row['mail'] || s.referentEmail,
+          });
+        }
+      }
+    }
+    setErsehList(updated);
+    schoolUpdates.forEach(onUpdateSchool);
+    setImportResult({ ok: true, msg: `${count} ERSEH mis à jour${schoolUpdates.length ? `, ${schoolUpdates.length} établissement(s) synchronisé(s)` : ''}` });
+    setTimeout(() => setImportResult(null), 5000);
+  };
+
+  const importSchoolPersonnelCsv = (text: string) => {
+    const rows = parseCsv(text);
+    let count = 0;
+    for (const row of rows) {
+      const rne = (row['rne'] || '').toUpperCase().trim();
+      if (!rne) continue;
+      const school = schools.find(s => s.rne.toUpperCase() === rne);
+      if (!school) continue;
+      onUpdateSchool({
+        ...school,
+        directorName: row['directeur'] !== undefined ? row['directeur'] : school.directorName,
+        cpcName: row['cpc'] !== undefined ? row['cpc'] : school.cpcName,
+      });
+      count++;
+    }
+    setImportResult({ ok: count > 0, msg: count > 0 ? `${count} établissement(s) mis à jour` : 'Aucun RNE correspondant trouvé' });
+    setTimeout(() => setImportResult(null), 5000);
+  };
+
+  const handleCsvFile = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = evt => {
+      const text = evt.target?.result as string;
+      if (category === 'erseh' || category === 'ien') importErsehCsv(text);
+      else importSchoolPersonnelCsv(text);
+    };
+    reader.readAsText(file, 'utf-8');
+    e.target.value = '';
+  };
 
   const handleSort = (field: string) => {
     if (sortField === field) setSortDir(d => d === 'asc' ? 'desc' : 'asc');
@@ -527,19 +624,75 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
             {filteredCount[category]} / {totalCount[category]}
           </span>
           <div className="flex-1" />
+
+          {/* CSV import controls — shown for all personal-data categories */}
+          {(category === 'erseh' || category === 'ien' || category === 'directors' || category === 'cpc') && (
+            <>
+              <input
+                type="file"
+                accept=".csv,.txt"
+                ref={csvInputRef}
+                className="hidden"
+                onChange={handleCsvFile}
+              />
+              <button
+                onClick={() => {
+                  const isErseh = category === 'erseh' || category === 'ien';
+                  if (isErseh) {
+                    downloadCsv('modele_erseh.csv',
+                      ['secteurCode', 'nom', 'prenom', 'telephone', 'mail'],
+                      ['AIX_1', 'DUPONT', 'Jean', '06 12 34 56 78', 'ce.erseh13-aix1@ac-aix-marseille.fr']
+                    );
+                  } else {
+                    downloadCsv('modele_ecoles_personnel.csv',
+                      ['rne', 'directeur', 'cpc'],
+                      ['0130248Z', 'MME MARTIN Sophie', 'LECLERC Paul']
+                    );
+                  }
+                }}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
+                title="Télécharger un modèle CSV vide"
+              >
+                <FileDown className="w-3.5 h-3.5" />
+                Modèle
+              </button>
+              <button
+                onClick={() => csvInputRef.current?.click()}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-lg cursor-pointer"
+              >
+                <Upload className="w-3.5 h-3.5" />
+                Importer CSV
+              </button>
+            </>
+          )}
+
           {(category === 'schools' || category === 'erseh') && (
             <button
               onClick={() => {
                 if (category === 'schools') setEditingSchool(blankSchool());
                 else setEditingErseh(blankErseh());
               }}
-              className="flex items-center gap-1.5 px-3 py-1.5 bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold rounded-lg cursor-pointer"
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs font-bold rounded-lg cursor-pointer"
             >
               <Plus className="w-3.5 h-3.5" />
               Ajouter
             </button>
           )}
         </div>
+
+        {/* Import result banner */}
+        {importResult && (
+          <div className={`px-6 py-2 flex items-center gap-2 text-xs font-semibold border-b ${
+            importResult.ok
+              ? 'bg-green-50 text-green-700 border-green-200'
+              : 'bg-red-50 text-red-700 border-red-200'
+          }`}>
+            {importResult.ok
+              ? <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+              : <AlertCircle className="w-3.5 h-3.5 shrink-0" />}
+            {importResult.msg}
+          </div>
+        )}
 
         {/* Table area */}
         <div className="flex-1 overflow-auto px-6 py-4">
