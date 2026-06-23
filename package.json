@@ -20,7 +20,7 @@
     "appId": "com.dsden13.eduscope",
     "productName": "Eduscope",
     "directories": {
-      "output": "C:\\Temp\\eduscope-release"
+      "output": "release"
     },
     "files": [
       "dist/**/*",
