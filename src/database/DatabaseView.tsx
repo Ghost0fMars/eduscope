@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import {
   Building2, Users, User, Landmark, GraduationCap,
   Search, Pencil, Plus, X, Save, ChevronUp, ChevronDown, Trash2,
@@ -7,6 +7,7 @@ import {
 import { School, AshStudent } from '../data/schoolsData';
 import { ErsehReferent, ersehData as initialErsehData } from '../data/ersehData';
 import { SchoolModal } from '../components/SchoolModal';
+import { ImportPreviewModal, type ImportPreviewRow } from '../components/ImportPreviewModal';
 
 type DbCategory = 'schools' | 'erseh' | 'directors' | 'cpc' | 'ien' | 'eleves';
 type SortDir = 'asc' | 'desc';
@@ -343,22 +344,14 @@ function sortData<T>(data: T[], field: string, dir: SortDir): T[] {
   });
 }
 
-// ─── CSV utilities ────────────────────────────────────────────────────────────
 
-function parseCsv(text: string): Record<string, string>[] {
-  const lines = text.trim().split(/\r?\n/);
-  if (lines.length < 2) return [];
-  const delim = lines[0].includes(';') ? ';' : ',';
-  const headers = lines[0].split(delim).map(h => h.trim().replace(/^"|"$/g, '').toLowerCase());
-  return lines.slice(1).filter(l => l.trim()).map(line => {
-    const vals = line.split(delim).map(v => v.trim().replace(/^"|"$/g, ''));
-    return Object.fromEntries(headers.map((h, i) => [h, vals[i] ?? '']));
-  });
-}
 
-function downloadCsv(filename: string, headers: string[], sample: string[]) {
-  const content = [headers.join(';'), sample.join(';')].join('\n');
-  const blob = new Blob(['﻿' + content], { type: 'text/csv;charset=utf-8;' });
+function exportToCsv(filename: string, rows: Record<string, string>[]) {
+  if (rows.length === 0) return;
+  const headers = Object.keys(rows[0]);
+  const esc = (v: string) => (v.includes(';') || v.includes('"') || v.includes('\n')) ? `"${v.replace(/"/g, '""')}"` : v;
+  const lines = [headers.join(';'), ...rows.map(r => headers.map(h => esc(r[h] ?? '')).join(';'))];
+  const blob = new Blob(['﻿' + lines.join('\n')], { type: 'text/csv;charset=utf-8;' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url; a.download = filename; a.click();
@@ -379,6 +372,9 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
   const [ersehList, setErsehList] = useState<ErsehReferent[]>(initialErsehData);
   const [editingErseh, setEditingErseh] = useState<ErsehReferent | null>(null);
 
+  const [importPreview, setImportPreview] = useState<ImportPreviewRow[] | null>(null);
+  const [importLoading, setImportLoading] = useState(false);
+
   const [addingEleve, setAddingEleve] = useState(false);
   const [editingEleve, setEditingEleve] = useState<{ student: AshStudent; school: School } | null>(null);
   const [deletingEleve, setDeletingEleve] = useState<{ student: AshStudent; school: School } | null>(null);
@@ -387,77 +383,108 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
   const [showSidebar, setShowSidebar] = useState(false);
   const csvInputRef = useRef<HTMLInputElement>(null);
 
-  const importErsehCsv = (text: string) => {
-    const rows = parseCsv(text);
-    let count = 0;
-    const updated = [...ersehList];
-    const schoolUpdates: School[] = [];
-
-    for (const row of rows) {
-      const code = row['secteurcode'] || row['secteur_code'] || row['secteurcode'];
-      if (!code) continue;
-      const idx = updated.findIndex(e => e.secteurCode.toLowerCase() === code.toLowerCase());
-      if (idx < 0) continue;
-      updated[idx] = {
-        ...updated[idx],
-        nom: row['nom'] !== undefined ? row['nom'] : updated[idx].nom,
-        prenom: row['prenom'] !== undefined ? row['prenom'] : updated[idx].prenom,
-        telephone: row['telephone'] !== undefined ? row['telephone'] : updated[idx].telephone,
-        mail: row['mail'] !== undefined ? row['mail'] : updated[idx].mail,
-      };
-      count++;
-      // sync schools linked to this secteur
-      for (const s of schools) {
-        if (s.secteurERSEH?.toLowerCase() === code.toLowerCase()) {
-          const nom = row['nom'] || '';
-          const prenom = row['prenom'] || '';
-          schoolUpdates.push({
-            ...s,
-            referentName: prenom || nom ? `${prenom} ${nom}`.trim() : s.referentName,
-            referentPhone: row['telephone'] || s.referentPhone,
-            referentEmail: row['mail'] || s.referentEmail,
-          });
-        }
-      }
-    }
-    setErsehList(updated);
-    schoolUpdates.forEach(onUpdateSchool);
-    setImportResult({ ok: true, msg: `${count} ERSEH mis à jour${schoolUpdates.length ? `, ${schoolUpdates.length} établissement(s) synchronisé(s)` : ''}` });
-    setTimeout(() => setImportResult(null), 5000);
-  };
-
-  const importSchoolPersonnelCsv = (text: string) => {
-    const rows = parseCsv(text);
-    let count = 0;
-    for (const row of rows) {
-      const rne = (row['rne'] || '').toUpperCase().trim();
-      if (!rne) continue;
-      const school = schools.find(s => s.rne.toUpperCase() === rne);
-      if (!school) continue;
-      onUpdateSchool({
-        ...school,
-        directorName: row['directeur'] !== undefined ? row['directeur'] : school.directorName,
-        cpcName: row['cpc'] !== undefined ? row['cpc'] : school.cpcName,
-        email: row['email'] !== undefined ? row['email'] : school.email,
-        phone: row['telephone'] !== undefined ? row['telephone'] : school.phone,
-      });
-      count++;
-    }
-    setImportResult({ ok: count > 0, msg: count > 0 ? `${count} établissement(s) mis à jour` : 'Aucun RNE correspondant trouvé' });
-    setTimeout(() => setImportResult(null), 5000);
-  };
+  // Charger les ERSEH depuis le serveur au montage
+  useEffect(() => {
+    fetch('/api/erseh')
+      .then(r => r.json())
+      .then((data: ErsehReferent[]) => { if (Array.isArray(data)) setErsehList(data); })
+      .catch(() => {/* garde les données générées comme fallback */});
+  }, []);
 
   const handleCsvFile = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
+    e.target.value = '';
     const reader = new FileReader();
-    reader.onload = evt => {
-      const text = evt.target?.result as string;
-      if (category === 'erseh' || category === 'ien') importErsehCsv(text);
-      else importSchoolPersonnelCsv(text); // schools, directors, cpc, eleves → mapped by RNE
+    reader.onload = async (evt) => {
+      const csvText = evt.target?.result as string;
+      const endpoint = (category === 'erseh' || category === 'ien')
+        ? '/api/erseh/import-preview'
+        : '/api/schools/import-preview';
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ csvText }),
+        });
+        const data = await res.json();
+        if (data.success) setImportPreview(data.preview);
+        else setImportResult({ ok: false, msg: data.error ?? 'Erreur d\'analyse du fichier.' });
+      } catch {
+        setImportResult({ ok: false, msg: 'Erreur de connexion au serveur.' });
+      }
     };
     reader.readAsText(file, 'utf-8');
-    e.target.value = '';
+  };
+
+  const handleImportConfirm = async (selectedRows: Record<string, string>[]) => {
+    setImportLoading(true);
+    try {
+      if (category === 'erseh' || category === 'ien') {
+        const res = await fetch('/api/erseh/import-confirm', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ rows: selectedRows }),
+        });
+        const data = await res.json();
+        if (data.success) {
+          if (Array.isArray(data.erseh)) setErsehList(data.erseh);
+          const msg = data.schoolSync
+            ? `${data.ersehCount} ERSEH mis à jour, ${data.schoolSync} établissement(s) synchronisé(s)`
+            : `${data.ersehCount} ERSEH mis à jour`;
+          setImportResult({ ok: true, msg });
+        } else {
+          setImportResult({ ok: false, msg: data.error ?? 'Erreur lors de l\'import.' });
+        }
+      } else {
+        // Schools — applique via les callbacks existants (maj état parent + API)
+        const SCHOOL_CSV_MAP: Record<string, keyof School> = {
+          nom: 'name', type: 'type', ville: 'city', adresse: 'address',
+          codepostal: 'postalCode', directeur: 'directorName', cpc: 'cpcName',
+          referenterseh: 'referentName', email: 'email', telephone: 'phone',
+        };
+        let count = 0;
+        for (const row of selectedRows) {
+          const rne = (row['rne'] ?? '').toUpperCase().trim();
+          if (!rne) continue;
+          const existing = schools.find(s => s.rne.toUpperCase() === rne);
+          if (existing) {
+            const updated = { ...existing };
+            for (const [csvField, schoolField] of Object.entries(SCHOOL_CSV_MAP)) {
+              if (row[csvField] !== undefined)
+                (updated as unknown as Record<string, unknown>)[schoolField] = row[csvField];
+            }
+            onUpdateSchool(updated);
+          } else {
+            onAddSchool({
+              id: `new_${rne}_${Date.now()}`,
+              rne,
+              name: row['nom'] ?? rne,
+              type: (row['type'] as School['type']) ?? 'elementaire',
+              city: row['ville'] ?? '',
+              address: row['adresse'],
+              postalCode: row['codepostal'],
+              latitude: 43.3, longitude: 5.4,
+              studentsCount: { total: 0, byLevel: {} },
+              ashDevice: { type: 'NONE', assignedStudents: 0, capacity: 12, baseChecked: false, valChecked: false, comments: '' },
+              directorName: row['directeur'] ?? '',
+              referentName: row['referenterseh'] ?? '',
+              cpcName: row['cpc'] ?? '',
+              email: row['email'],
+              phone: row['telephone'],
+            });
+          }
+          count++;
+        }
+        setImportResult({ ok: true, msg: `${count} établissement(s) importé(s)` });
+      }
+    } catch {
+      setImportResult({ ok: false, msg: 'Erreur lors de l\'import.' });
+    } finally {
+      setImportLoading(false);
+      setImportPreview(null);
+      setTimeout(() => setImportResult(null), 5000);
+    }
   };
 
   const handleSort = (field: string) => {
@@ -668,33 +695,68 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
 
           <button
             onClick={() => {
-              if (category === 'erseh' || category === 'ien') {
-                downloadCsv('modele_erseh.csv',
-                  ['secteurCode', 'nom', 'prenom', 'telephone', 'mail'],
-                  ['AIX_1', 'DUPONT', 'Jean', '06 12 34 56 78', 'ce.erseh13-aix1@ac-aix-marseille.fr']
-                );
-              } else if (category === 'schools') {
-                downloadCsv('modele_etablissements.csv',
-                  ['rne', 'nom', 'type', 'ville', 'adresse', 'codePostal'],
-                  ['0130248Z', 'ÉCOLE JULIEN', 'elementaire', 'MARSEILLE', '3 RUE JULIEN', '13006']
-                );
+              if (category === 'schools') {
+                exportToCsv('etablissements.csv', filteredSchools.map(s => ({
+                  rne: s.rne,
+                  nom: s.name,
+                  type: s.type,
+                  ville: s.city,
+                  adresse: s.address ?? '',
+                  codePostal: s.postalCode ?? '',
+                  directeur: s.directorName ?? '',
+                  cpc: s.cpcName ?? '',
+                  referentERSEH: s.referentName ?? '',
+                  email: s.email ?? '',
+                  telephone: s.phone ?? '',
+                })));
+              } else if (category === 'erseh') {
+                exportToCsv('erseh.csv', filteredErseh.map(e => ({
+                  secteurCode: e.secteurCode,
+                  secteurLabel: e.secteurLabel ?? '',
+                  nom: e.nom,
+                  prenom: e.prenom,
+                  telephone: e.telephone ?? '',
+                  mail: e.mail ?? '',
+                  ville: e.ville ?? '',
+                  circonscription: e.circonscription ?? '',
+                })));
+              } else if (category === 'directors') {
+                exportToCsv('directeurs.csv', filteredDirectors.map(d => ({
+                  rne: d.school.rne,
+                  etablissement: d.school.name,
+                  ville: d.school.city,
+                  directeur: d.director,
+                  email: d.school.email ?? '',
+                  telephone: d.school.phone ?? '',
+                })));
               } else if (category === 'eleves') {
-                downloadCsv('modele_eleves.csv',
-                  ['rne', 'niveau', 'aesh', 'pps', 'notes'],
-                  ['0130248Z', 'CM2', 'Individuelle (AESH-I)', 'À jour', '']
-                );
-              } else {
-                downloadCsv('modele_ecoles_personnel.csv',
-                  ['rne', 'directeur', 'cpc', 'email', 'telephone'],
-                  ['0130248Z', 'MME MARTIN Sophie', 'LECLERC Paul', 'ce.0130248Z@ac-aix-marseille.fr', '0491234567']
-                );
+                exportToCsv('eleves.csv', filteredEleves.map(e => ({
+                  rne: e.school.rne,
+                  etablissement: e.school.name,
+                  nom: e.nom ?? '',
+                  prenom: e.prenom ?? '',
+                  dateNaissance: e.dateNaissance ?? '',
+                  niveau: e.level,
+                  aesh: e.aeshType,
+                  pps: e.ppsStatus,
+                  notes: e.notes,
+                })));
+              } else if (category === 'ien') {
+                exportToCsv('ien.csv', ersehList.map(e => ({
+                  circonscription: e.circonscription ?? '',
+                  secteurCode: e.secteurCode,
+                  nom: e.nom,
+                  prenom: e.prenom,
+                  telephone: e.telephone ?? '',
+                  mail: e.mail ?? '',
+                })));
               }
             }}
             className="flex items-center gap-1.5 px-2.5 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-bold rounded-lg cursor-pointer"
-            title="Télécharger un modèle CSV"
+            title="Exporter en CSV"
           >
             <FileDown className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">Modèle</span>
+            <span className="hidden sm:inline">Exporter</span>
           </button>
 
           <button
@@ -834,7 +896,10 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
                           <Pencil className="w-3.5 h-3.5" />
                         </button>
                         <button
-                          onClick={() => setErsehList(prev => prev.filter(r => r !== e))}
+                          onClick={() => {
+                            setErsehList(prev => prev.filter(r => r !== e));
+                            fetch(`/api/erseh/${e.secteurCode}`, { method: 'DELETE' }).catch(console.error);
+                          }}
                           className="p-1.5 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-md cursor-pointer"
                           title="Supprimer"
                         >
@@ -1069,11 +1134,16 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
         <ErsehModal
           erseh={editingErseh}
           onSave={updated => {
+            const isNew = !ersehList.some(e => e === editingErseh);
             setErsehList(prev =>
-              prev.some(e => e === editingErseh)
-                ? prev.map(e => e === editingErseh ? updated : e)
-                : [...prev, updated]
+              isNew
+                ? [...prev, updated]
+                : prev.map(e => e === editingErseh ? updated : e)
             );
+            const method = isNew ? 'POST' : 'PUT';
+            const url = isNew ? '/api/erseh' : `/api/erseh/${updated.secteurCode}`;
+            fetch(url, { method, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(updated) })
+              .catch(console.error);
           }}
           onClose={() => setEditingErseh(null)}
         />
@@ -1143,6 +1213,16 @@ export default function DatabaseView({ schools, onUpdateSchool, onAddSchool, onD
             </div>
           </div>
         </div>
+      )}
+
+      {/* ── Import preview modal ── */}
+      {importPreview && (
+        <ImportPreviewModal
+          preview={importPreview}
+          onConfirm={handleImportConfirm}
+          onCancel={() => setImportPreview(null)}
+          loading={importLoading}
+        />
       )}
     </div>
   );
