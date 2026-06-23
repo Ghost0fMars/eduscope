@@ -1,12 +1,9 @@
 import { getDb } from './database';
 import type { ErsehReferent } from './ersehData';
 
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { createRequire } = require('module');
-const _require = createRequire(import.meta.url ?? __filename);
-
 function loadGenerated(): ErsehReferent[] {
-  const { ersehData } = _require('./ersehData.generated');
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { ersehData } = require('./ersehData.generated');
   return ersehData as ErsehReferent[];
 }
 

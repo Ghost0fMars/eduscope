@@ -3,12 +3,9 @@ import path from 'path';
 import { getDb } from './database';
 import type { School } from './schoolsData';
 
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-const { createRequire } = require('module');
-const _require = createRequire(import.meta.url ?? __filename);
-
 function loadGenerated(): School[] {
-  const { schoolsData } = _require('./schoolsData.generated');
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { schoolsData } = require('./schoolsData.generated');
   return schoolsData as School[];
 }
 
